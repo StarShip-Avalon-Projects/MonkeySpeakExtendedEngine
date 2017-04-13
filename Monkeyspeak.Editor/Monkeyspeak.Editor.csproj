@@ -65,12 +65,6 @@
     </Compile>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Monkeyspeak\Monkeyspeak.csproj">
-      <Project>{925781e6-8b75-471b-887f-616495bbbfdd}</Project>
-      <Name>Monkeyspeak</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
