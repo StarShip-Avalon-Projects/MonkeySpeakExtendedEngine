@@ -3177,13 +3177,8 @@
     </member>
     <member name="T:Monkeyspeak.Libraries.Debug">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.Libraries.Debug</parameter>
-          </include>
-        </markup>
-      </summary>
+            Provides IDE Debug MonkeySpeak Lines
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.Debug.#ctor">
       <summary>
@@ -3250,13 +3245,8 @@
     </member>
     <member name="T:Monkeyspeak.Libraries.IO">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.Libraries.IO</parameter>
-          </include>
-        </markup>
-      </summary>
+            IO Monkey Speak Library
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.IO.#ctor">
       <summary>
@@ -3485,13 +3475,8 @@
     </member>
     <member name="T:Monkeyspeak.Libraries.Math">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.Libraries.Math</parameter>
-          </include>
-        </markup>
-      </summary>
+            Monkey Speak Math Library
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.Math.#ctor">
       <summary>
@@ -3720,13 +3705,8 @@
     </member>
     <member name="T:Monkeyspeak.Libraries.StringOperations">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.Libraries.StringOperations</parameter>
-          </include>
-        </markup>
-      </summary>
+            Monkey Speak String Operations Library
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.StringOperations.#ctor">
       <summary>
@@ -3901,13 +3881,8 @@
     </member>
     <member name="T:Monkeyspeak.Libraries.Sys">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.Libraries.Sys</parameter>
-          </include>
-        </markup>
-      </summary>
+            Monkey Speak Sys library
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.#ctor">
       <summary>
@@ -4325,7 +4300,8 @@
     </member>
     <member name="T:Monkeyspeak.Libraries.TimerInfo">
       <summary>
-            A TimerInfo object contains Timer and Page Owner. Timer is not started from a TimerInfo constructor.
+            A TimerInfo object contains Timer and Page Owner. Timer is not
+            started from a TimerInfo constructor.
             </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.TimerInfo.#ctor">
@@ -4339,39 +4315,17 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.TimerInfo.#ctor(Monkeyspeak.Page,System.Double,System.Double)">
       <summary>
-        <markup>
-          <include item="SMCAutoDocConstructor">
-            <parameter>Monkeyspeak.Libraries.TimerInfo</parameter>
-          </include>
-        </markup>
-      </summary>
+            T
+            </summary>
       <param name="owner">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>owner</parameter>
-            <parameter>M:Monkeyspeak.Libraries.TimerInfo.#ctor(Monkeyspeak.Page,System.Double,System.Double)</parameter>
-          </include>
-        </markup>
-      </param>
+            Page owner
+            </param>
       <param name="interval">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>interval</parameter>
-            <parameter>M:Monkeyspeak.Libraries.TimerInfo.#ctor(Monkeyspeak.Page,System.Double,System.Double)</parameter>
-          </include>
-        </markup>
-      </param>
+            Sycle time in seconds
+            </param>
       <param name="Id">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>Id</parameter>
-            <parameter>M:Monkeyspeak.Libraries.TimerInfo.#ctor(Monkeyspeak.Page,System.Double,System.Double)</parameter>
-          </include>
-        </markup>
-      </param>
+            MonkeySpeak ID if the timer
+            </param>
     </member>
     <member name="M:Monkeyspeak.Libraries.TimerInfo.#cctor">
       <summary>
@@ -4453,17 +4407,13 @@
     </member>
     <member name="T:Monkeyspeak.Libraries.Timers">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.Libraries.Timers</parameter>
-          </include>
-        </markup>
-      </summary>
+            Reciporcating Timers for Monkey Speak
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.#ctor">
       <summary>
-            Default Timer Library. Call static method Timers.DestroyTimers() when your application closes.
+            Default Timer Library. Call static method Timers.DestroyTimers()
+            when your application closes.
             </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.#cctor">
@@ -4626,57 +4576,25 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.WhenAnyTimerGoesOff(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.WhenAnyTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (0:301) When any timer goes off,
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.WhenAnyTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.WhenAnyTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </returns>
+            when any timer goes off
+            </returns>
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.WhenTimerGoesOff(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.WhenTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (0:300) When timer # goes off,
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.WhenTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.WhenTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </returns>
+            when timer # goes off
+            </returns>
     </member>
   </members>
 </doc>

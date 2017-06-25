@@ -14,7 +14,7 @@
       <!-- <autoOutline /> -->
       <para>
       Creating a Library starts with creating a class that inherits from
-      <see cref="T:Monkeyspeak.Libraries.AbstractBaseLibrary">AbstractBaseLibrary</see>
+      <codeEntityReference qualifyHint="false">T:Monkeyspeak.Libraries.AbstractBaseLibrary</codeEntityReference>
       </para>
            <code language="cs" numberLines="true">
 			public class TestLibrary : AbstractBaseLibrary{

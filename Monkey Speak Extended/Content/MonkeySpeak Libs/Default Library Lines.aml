@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="99d90299-2572-49c4-95b8-9b427aafe62d" revisionNumber="1">
+  <developerGlossaryDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <glossary>
+      <!-- <title>Optional title</title> -->
+      <!-- Glossary division.  You can use these to group entries.  If you only
+           have one group, you can omit it and list the glossaryEntry elements
+           directly.
+
+           If used, be sure to give each glossaryDiv a unique address attribute
+           and a title element.  These will be used to create an index at the
+           top of the glossary page.
+
+           Glossary divisions will appear in the order defined in the topic.
+           Glossary entries will be sorted by the first term for the entry.
+           Terms are sorted by their value. -->
+      <glossaryDiv address="Group1">
+        <title>Default Monkey Speak Lines</title>
+        <glossaryEntry>
+          <terms>
+            <term termId="TimerCause300">TimerCause (0:300)</term>
+          </terms>
+          <definition>
+            <para>(0:300) when timer # goes off,</para>
+            <para><codeEntityReference qualifyHint="false" autoUpgrade="true">M:Monkeyspeak.Libraries.Timers.WhenTimerGoesOff(Monkeyspeak.TriggerReader)</codeEntityReference></para>
+          </definition>
+             </glossaryEntry>
+             
+           <glossaryEntry>
+          <terms>
+            <term termId="TimerCause301">TimerCause (0:301)</term>
+          </terms>
+          <definition>
+            <para>(0:300) when timer # goes off,</para>
+            <para><codeEntityReference qualifyHint="false" autoUpgrade="true">M:Monkeyspeak.Libraries.Timers.WhenAnyTimerGoesOff(Monkeyspeak.TriggerReader)</codeEntityReference></para>
+          </definition>
+
+        </glossaryEntry>
+      </glossaryDiv>
+    </glossary>
+  </developerGlossaryDocument>
+</topic>
