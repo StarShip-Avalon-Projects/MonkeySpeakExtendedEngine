@@ -40,7 +40,15 @@
         class followed by the TriggerHandler method name and the Trigger identifier, always (#:#).
         </para>
             <code language="cs" title="C# TestLibrary sample" numberLines="true">
+            <![CDATA[
+            /// <summary>
+   			/// Test Library Example
+       		/// </summary>]]>
 			public class TestLibrary : AbstractBaseLibrary{
+				            
+            	<![CDATA[/// <summary>
+   				/// Add triggers through the constructor
+       			/// </summary>]]>
         		public TestLibrary(){
             		// (0:0) when someone does something,
             		Add(TriggerType.Cause, 0, WhenSomeoneDoesSomething,
