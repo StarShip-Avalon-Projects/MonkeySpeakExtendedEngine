@@ -164,13 +164,8 @@
     </member>
     <member name="M:Monkeyspeak.MonkeyspeakEngine.CompileToFile(Monkeyspeak.Page,System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.CompileToFile(Monkeyspeak.Page,System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Compiles a Page to a file
+            </summary>
       <param name="page">
         <markup>
           <include item="SMCMissingParamTag">
@@ -192,13 +187,8 @@
     </member>
     <member name="M:Monkeyspeak.MonkeyspeakEngine.CompileToStream(Monkeyspeak.Page,System.IO.Stream)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.CompileToStream(Monkeyspeak.Page,System.IO.Stream)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Compiles a Page to a stream
+            </summary>
       <param name="page">
         <markup>
           <include item="SMCMissingParamTag">
@@ -240,13 +230,8 @@
     </member>
     <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledFile(System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledFile(System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads compiled script from file
+            </summary>
       <param name="filePath">
         <markup>
           <include item="SMCMissingParamTag">
@@ -267,13 +252,8 @@
     </member>
     <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledStream(System.IO.Stream)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledStream(System.IO.Stream)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads a compiled script from stream
+            </summary>
       <param name="stream">
         <markup>
           <include item="SMCMissingParamTag">
@@ -294,31 +274,14 @@
     </member>
     <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(Monkeyspeak.Page@,System.IO.Stream)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(Monkeyspeak.Page@,System.IO.Stream)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads a Monkeyspeak script from a Stream into <paramref name="existingPage" />.
+            </summary>
       <param name="existingPage">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>existingPage</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(Monkeyspeak.Page@,System.IO.Stream)</parameter>
-          </include>
-        </markup>
-      </param>
+            Reference to an existing Page
+            </param>
       <param name="stream">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>stream</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(Monkeyspeak.Page@,System.IO.Stream)</parameter>
-          </include>
-        </markup>
-      </param>
+            Stream that contains the Monkeyspeak script. Closes the stream.
+            </param>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -330,58 +293,26 @@
     </member>
     <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(System.IO.Stream)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(System.IO.Stream)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads a Monkeyspeak script from a Stream into a <see cref="T:Monkeyspeak.Page" />.
+            </summary>
       <param name="stream">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>stream</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(System.IO.Stream)</parameter>
-          </include>
-        </markup>
-      </param>
+            Stream that contains the Monkeyspeak script. Closes the stream.
+            </param>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(System.IO.Stream)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.Page" />
       </returns>
     </member>
     <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(Monkeyspeak.Page@,System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(Monkeyspeak.Page@,System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads a Monkeyspeak script from a string into
+            <paramref name="existingPage" />. and clears the old page
+            </summary>
       <param name="existingPage">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>existingPage</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(Monkeyspeak.Page@,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            Reference to an existing Page
+            </param>
       <param name="chunk">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>chunk</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(Monkeyspeak.Page@,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            String that contains the Monkeyspeak script source.
+            </param>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -393,22 +324,11 @@
     </member>
     <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads a Monkeyspeak script from a string into a <see cref="T:Monkeyspeak.Page" />.
+            </summary>
       <param name="chunk">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>chunk</parameter>
-            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            String that contains the Monkeyspeak script source.
+            </param>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -577,103 +497,71 @@
     </member>
     <member name="P:Monkeyspeak.Options.CanOverrideTriggerHandlers">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Options.CanOverrideTriggerHandlers</parameter>
-          </include>
-        </markup>
-      </summary>
+            If set to TRUE then an existing TriggerHandler can be overridden by newer TriggerHandler
+            <para>
+            Default: false
+            </para></summary>
     </member>
     <member name="P:Monkeyspeak.Options.CommentSymbol">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Options.CommentSymbol</parameter>
-          </include>
-        </markup>
-      </summary>
+            Comment literal symbol
+            <para>
+            Default: *
+            </para></summary>
     </member>
     <member name="P:Monkeyspeak.Options.StringBeginSymbol">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Options.StringBeginSymbol</parameter>
-          </include>
-        </markup>
-      </summary>
+            Beginning string literal symbol
+            <para>
+            Default: {
+            </para></summary>
     </member>
     <member name="P:Monkeyspeak.Options.StringEndSymbol">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Options.StringEndSymbol</parameter>
-          </include>
-        </markup>
-      </summary>
+            Ending string literal symbol
+            <para>
+            Default: }
+            </para></summary>
     </member>
     <member name="P:Monkeyspeak.Options.StringLengthLimit">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Options.StringLengthLimit</parameter>
-          </include>
-        </markup>
-      </summary>
+            Used to limit the maximum length of a string
+            <para>
+            Default: Int32.MaxValue
+            </para></summary>
     </member>
     <member name="P:Monkeyspeak.Options.TimerLimit">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Options.TimerLimit</parameter>
-          </include>
-        </markup>
-      </summary>
+            Used to limit the maximum amount of timers per execution
+            <para>
+            Default: 100
+            </para></summary>
     </member>
     <member name="P:Monkeyspeak.Options.TriggerLimit">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Options.TriggerLimit</parameter>
-          </include>
-        </markup>
-      </summary>
+            Used to limit the maximum amount of triggers per page
+            <para>
+            Default: 6000
+            </para></summary>
     </member>
     <member name="P:Monkeyspeak.Options.VariableCountLimit">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Options.VariableCountLimit</parameter>
-          </include>
-        </markup>
-      </summary>
+            Used to limit the maximum amount of variables per page
+            <para>
+            Default: 1000
+            </para></summary>
     </member>
     <member name="P:Monkeyspeak.Options.VariableDeclarationSymbol">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Options.VariableDeclarationSymbol</parameter>
-          </include>
-        </markup>
-      </summary>
+            Variable literal symbol
+            <para>
+            Default: %
+            </para></summary>
     </member>
     <member name="P:Monkeyspeak.Options.Version">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Options.Version</parameter>
-          </include>
-        </markup>
-      </summary>
+            Current assembly version used internally by the compiler to handle versioning
+            </summary>
     </member>
     <member name="T:Monkeyspeak.Page">
       <summary>
@@ -705,23 +593,15 @@
     </member>
     <member name="E:Monkeyspeak.Page.AfterTriggerHandled">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>E:Monkeyspeak.Page.AfterTriggerHandled</parameter>
-          </include>
-        </markup>
-      </summary>
+            Called after the Trigger's TriggerHandler is called. If there is
+            no TriggerHandler for that Trigger then this event is not raised.
+            </summary>
     </member>
     <member name="E:Monkeyspeak.Page.BeforeTriggerHandled">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>E:Monkeyspeak.Page.BeforeTriggerHandled</parameter>
-          </include>
-        </markup>
-      </summary>
+            Called before the Trigger's TriggerHandler is called. If there
+            is no TriggerHandler for that Trigger then this event is not raised.
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Page.CheckType(System.Object)">
       <summary>
@@ -800,13 +680,8 @@
     </member>
     <member name="E:Monkeyspeak.Page.Error">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>E:Monkeyspeak.Page.Error</parameter>
-          </include>
-        </markup>
-      </summary>
+            Called when an Exception is raised during execution
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Page.Execute(Monkeyspeak.TriggerCategory,System.Int32)">
       <summary>
@@ -838,13 +713,8 @@
     </member>
     <member name="M:Monkeyspeak.Page.Execute(System.Int32[])">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.Execute(System.Int32[])</parameter>
-          </include>
-        </markup>
-      </summary>
+            Executes a trigger block containing TriggerCategory.Cause with
+            ID equal to <param name="id" /></summary>
       <param name="id">
         <markup>
           <include item="SMCMissingParamTag">
@@ -909,67 +779,32 @@
         </markup>
       </summary>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.Page.GetTriggerDescriptions</parameter>
-          </include>
-        </markup>
-      </returns>
+            IEnumerable of Triggers
+            </returns>
     </member>
     <member name="M:Monkeyspeak.Page.GetVariable(System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.GetVariable(System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Gets a Variable with Name set to
+            <paramref name="name" /><b>Throws Exception if Variable not found.</b></summary>
       <param name="name">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>name</parameter>
-            <parameter>M:Monkeyspeak.Page.GetVariable(System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            The name of the Variable to retrieve
+            </param>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.Page.GetVariable(System.String)</parameter>
-          </include>
-        </markup>
-      </returns>
+            The variable found with the specified <paramref name="name" /> or
+            throws Exception
+            </returns>
     </member>
     <member name="M:Monkeyspeak.Page.HasVariable(System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.HasVariable(System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Checks the scope for the Variable with Name set to <paramref name="name" /></summary>
       <param name="name">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>name</parameter>
-            <parameter>M:Monkeyspeak.Page.HasVariable(System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            The name of the Variable to retrieve
+            </param>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.Page.HasVariable(System.String)</parameter>
-          </include>
-        </markup>
-      </returns>
+            True on Variable found.
+            <para>
+            False if Variable not found.
+            </para></returns>
     </member>
     <member name="M:Monkeyspeak.Page.HasVariable(System.String,Monkeyspeak.Variable@)">
       <summary>
@@ -1009,101 +844,59 @@
     </member>
     <member name="M:Monkeyspeak.Page.LoadDebugLibrary">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.LoadDebugLibrary</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads Monkeyspeak Debug Library into this Page
+            <para>
+            Used for Debug breakpoint insertion. Won't work without Debugger attached.
+            </para></summary>
     </member>
     <member name="M:Monkeyspeak.Page.LoadIOLibrary">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.LoadIOLibrary</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads Monkeyspeak IO Library into this Page
+            <para>
+            Used for File Input/Output operations
+            </para></summary>
     </member>
     <member name="M:Monkeyspeak.Page.LoadLibrary(Monkeyspeak.Libraries.AbstractBaseLibrary)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.LoadLibrary(Monkeyspeak.Libraries.AbstractBaseLibrary)</parameter>
-          </include>
-        </markup>
-      </summary>
-      <param name="lib">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>lib</parameter>
-            <parameter>M:Monkeyspeak.Page.LoadLibrary(Monkeyspeak.Libraries.AbstractBaseLibrary)</parameter>
-          </include>
-        </markup>
-      </param>
+            Loads a <see cref="T:Monkeyspeak.Libraries.AbstractBaseLibrary" />
+            into this Page
+            </summary>
+      <param name="lib"></param>
     </member>
     <member name="M:Monkeyspeak.Page.LoadLibraryFromAssembly(System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.LoadLibraryFromAssembly(System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads trigger handlers from a assembly dll file
+            </summary>
       <param name="assemblyFile">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>assemblyFile</parameter>
-            <parameter>M:Monkeyspeak.Page.LoadLibraryFromAssembly(System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            The assembly in the local file system
+            </param>
     </member>
     <member name="M:Monkeyspeak.Page.LoadMathLibrary">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.LoadMathLibrary</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads Monkeyspeak Math Library into this Page
+            <para>
+            Used for Math operations (add, subtract, multiply, divide)
+            </para></summary>
     </member>
     <member name="M:Monkeyspeak.Page.LoadStringLibrary">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.LoadStringLibrary</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads Monkeyspeak String Library into this Page
+            <para>
+            Used for basic String operations
+            </para></summary>
     </member>
     <member name="M:Monkeyspeak.Page.LoadSysLibrary">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.LoadSysLibrary</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads Monkeyspeak Sys Library into this Page
+            <para>
+            Used for System operations involving the Environment or
+            Operating System
+            </para></summary>
     </member>
     <member name="M:Monkeyspeak.Page.LoadTimerLibrary">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.LoadTimerLibrary</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads Monkeyspeak Timer Library into this Page
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Page.OverWrite(System.Collections.Generic.List{Monkeyspeak.TriggerList})">
       <summary>
@@ -1173,13 +966,9 @@
     </member>
     <member name="M:Monkeyspeak.Page.Reset(System.Boolean)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.Reset(System.Boolean)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Clears all Variables and optionally clears all TriggerHandlers
+            from this Page.
+            </summary>
       <param name="resetTriggerHandlers">
         <markup>
           <include item="SMCMissingParamTag">
@@ -1202,86 +991,28 @@
     </member>
     <member name="M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Assigns the TriggerHandler to <paramref name="trigger" /></summary>
       <param name="trigger">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>trigger</parameter>
-            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.Trigger" />
       </param>
       <param name="handler">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>handler</parameter>
-            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerHandler" />
       </param>
       <param name="description">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>description</parameter>
-            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            optional description of the trigger, normally the human readable
+            form of the trigger
+            <para>
+            Example: "(0:1) when someone says something,"
+            </para></param>
     </member>
     <member name="M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
-      <param name="category">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>category</parameter>
-            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
-      <param name="id">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>id</parameter>
-            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
-      <param name="handler">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>handler</parameter>
-            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
-      <param name="description">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>description</parameter>
-            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            Assigns the TriggerHandler to a trigger with
+            <paramref name="category" /> and <paramref name="id" /></summary>
+      <param name="category"></param>
+      <param name="id"></param>
+      <param name="handler"></param>
+      <param name="description"></param>
     </member>
     <member name="M:Monkeyspeak.Page.SetVariable(System.String,System.Object,System.Boolean)">
       <summary>
@@ -1330,13 +1061,9 @@
     </member>
     <member name="P:Monkeyspeak.Page.Size">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Page.Size</parameter>
-          </include>
-        </markup>
-      </summary>
+            Returns the Trigger count on this Page.
+            </summary>
+      <returns></returns>
     </member>
     <member name="F:Monkeyspeak.Page.syncObj">
       <summary>
@@ -1350,13 +1077,8 @@
     </member>
     <member name="E:Monkeyspeak.Page.TriggerAdded">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>E:Monkeyspeak.Page.TriggerAdded</parameter>
-          </include>
-        </markup>
-      </summary>
+            Called when a Trigger and TriggerHandler is added to the Page
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Page.Write(System.Collections.Generic.List{Monkeyspeak.TriggerList})">
       <summary>
@@ -2120,6 +1842,33 @@
         </markup>
       </summary>
     </member>
+    <member name="F:Monkeyspeak.TriggerCategory.Cause">
+      <summary>
+            A trigger defined with a 0
+            <para>
+            Example: (0:1) when someone says something,
+            </para></summary>
+    </member>
+    <member name="F:Monkeyspeak.TriggerCategory.Condition">
+      <summary>
+            A trigger defined with a 1
+            <para>
+            Example: (1:2) and they moved # units left,
+            </para></summary>
+    </member>
+    <member name="F:Monkeyspeak.TriggerCategory.Effect">
+      <summary>
+            A trigger defined with a 5
+            <para>
+            Example: (5:1) print {Hello World} to the console.
+            </para></summary>
+    </member>
+    <member name="F:Monkeyspeak.TriggerCategory.Undefined">
+      <summary>
+            A trigger that was not defined. You should never encounter this if you do then something
+            isn't quite right.
+            </summary>
+    </member>
     <member name="T:Monkeyspeak.TriggerHandledEventHandler">
       <summary>
         <markup>
@@ -2132,13 +1881,12 @@
     </member>
     <member name="T:Monkeyspeak.TriggerHandler">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.TriggerHandler</parameter>
-          </include>
-        </markup>
-      </summary>
+            Used for handling triggers at runtime.
+            </summary>
+      <param name="reader"></param>
+      <returns>
+            True = Continue to the Next Trigger, False = Stop executing current TriggerList
+            </returns>
     </member>
     <member name="T:Monkeyspeak.TriggerHandlerAttribute">
       <summary>
@@ -2159,32 +1907,14 @@
         </markup>
       </summary>
       <param name="category">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>category</parameter>
-            <parameter>M:Monkeyspeak.TriggerHandlerAttribute.#ctor(Monkeyspeak.TriggerCategory,System.Int32,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            Trigger Category
+            </param>
       <param name="id">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>id</parameter>
-            <parameter>M:Monkeyspeak.TriggerHandlerAttribute.#ctor(Monkeyspeak.TriggerCategory,System.Int32,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            Trigger ID
+            </param>
       <param name="description">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>description</parameter>
-            <parameter>M:Monkeyspeak.TriggerHandlerAttribute.#ctor(Monkeyspeak.TriggerCategory,System.Int32,System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            Trigger Description
+            </param>
     </member>
     <member name="F:Monkeyspeak.TriggerHandlerAttribute.owner">
       <summary>
@@ -2217,13 +1947,11 @@
     </member>
     <member name="T:Monkeyspeak.TriggerHandlerErrorEvent">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.TriggerHandlerErrorEvent</parameter>
-          </include>
-        </markup>
-      </summary>
+            Event for any errors that occur during execution If not assigned
+            Exceptions will be thrown.
+            </summary>
+      <param name="trigger"></param>
+      <param name="ex"></param>
     </member>
     <member name="T:Monkeyspeak.TriggerList">
       <summary>
@@ -2318,13 +2046,8 @@
     </member>
     <member name="T:Monkeyspeak.TriggerReader">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.TriggerReader</parameter>
-          </include>
-        </markup>
-      </summary>
+            A Reader that is used to get Variables, Strings, and Numbers from Triggers
+            </summary>
     </member>
     <member name="M:Monkeyspeak.TriggerReader.#ctor(Monkeyspeak.Page)">
       <summary>
@@ -2346,12 +2069,8 @@
     </member>
     <member name="M:Monkeyspeak.TriggerReader.#ctor(Monkeyspeak.Page,Monkeyspeak.Trigger)">
       <summary>
-        <markup>
-          <include item="SMCAutoDocConstructor">
-            <parameter>Monkeyspeak.TriggerReader</parameter>
-          </include>
-        </markup>
-      </summary>
+            A Reader that is used to get Variables, Strings, and Numbers from Triggers
+            </summary>
       <param name="page">
         <markup>
           <include item="SMCMissingParamTag">
@@ -2383,13 +2102,8 @@
     </member>
     <member name="M:Monkeyspeak.TriggerReader.PeekNumber">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.PeekNumber</parameter>
-          </include>
-        </markup>
-      </summary>
+            Peeks at the next value
+            </summary>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -2401,13 +2115,8 @@
     </member>
     <member name="M:Monkeyspeak.TriggerReader.PeekString">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.PeekString</parameter>
-          </include>
-        </markup>
-      </summary>
+            Peeks at the next value
+            </summary>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -2419,13 +2128,8 @@
     </member>
     <member name="M:Monkeyspeak.TriggerReader.PeekVariable">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.PeekVariable</parameter>
-          </include>
-        </markup>
-      </summary>
+            Peeks at the next value
+            </summary>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -2437,31 +2141,16 @@
     </member>
     <member name="M:Monkeyspeak.TriggerReader.ReadNumber">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.ReadNumber</parameter>
-          </include>
-        </markup>
-      </summary>
+            Reads the next Double available, throws TriggerReaderException on failure
+            </summary>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.ReadNumber</parameter>
-          </include>
-        </markup>
-      </returns>
+            Double
+            </returns>
     </member>
     <member name="M:Monkeyspeak.TriggerReader.ReadString(System.Boolean)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.ReadString(System.Boolean)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Reads the next String, throws TriggerReaderException on failure
+            </summary>
       <param name="processVariables">
         <markup>
           <include item="SMCMissingParamTag">
@@ -2482,58 +2171,27 @@
     </member>
     <member name="M:Monkeyspeak.TriggerReader.ReadVariable">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.ReadVariable</parameter>
-          </include>
-        </markup>
-      </summary>
+            Reads the next Variable available, throws TriggerReaderException on failure
+            </summary>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.ReadVariable</parameter>
-          </include>
-        </markup>
-      </returns>
+            Variable
+            </returns>
     </member>
     <member name="M:Monkeyspeak.TriggerReader.ReadVariable(System.Boolean)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.ReadVariable(System.Boolean)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Reads the next Variable available, throws TriggerReaderException on failure
+            </summary>
       <param name="addIfNotExist">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>addIfNotExist</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.ReadVariable(System.Boolean)</parameter>
-          </include>
-        </markup>
-      </param>
+            Add the Variable if it doesn't exist and return that Variable with a Value equal to null.
+            </param>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.ReadVariable(System.Boolean)</parameter>
-          </include>
-        </markup>
-      </returns>
+            Variable
+            </returns>
     </member>
     <member name="M:Monkeyspeak.TriggerReader.Reset">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.Reset</parameter>
-          </include>
-        </markup>
-      </summary>
+            Resets the reader's indexes to 0
+            </summary>
     </member>
     <member name="P:Monkeyspeak.TriggerReader.Trigger">
       <summary>
@@ -2621,30 +2279,14 @@
     </member>
     <member name="M:Monkeyspeak.TriggerReader.TryReadVariable(Monkeyspeak.Variable@)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.TryReadVariable(Monkeyspeak.Variable@)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Trys to read the next Variable available
+            </summary>
       <param name="var">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>var</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.TryReadVariable(Monkeyspeak.Variable@)</parameter>
-          </include>
-        </markup>
-      </param>
+            Variable is assigned on success
+            </param>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.TryReadVariable(Monkeyspeak.Variable@)</parameter>
-          </include>
-        </markup>
-      </returns>
+            bool on success
+            </returns>
     </member>
     <member name="T:Monkeyspeak.TriggerReaderException">
       <summary>
@@ -2929,14 +2571,8 @@
         </markup>
       </summary>
       <param name="asConstant">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>asConstant</parameter>
-            <parameter>M:Monkeyspeak.Variable.Clone(System.Boolean)</parameter>
-          </include>
-        </markup>
-      </param>
+            Clone as Constant
+            </param>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -3114,13 +2750,11 @@
     </member>
     <member name="M:Monkeyspeak.Variable.ToString">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Variable.ToString</parameter>
-          </include>
-        </markup>
-      </summary>
+            Returns a const identifier if the variable is constant followed
+            by name,
+            <para>
+            otherwise just the name is returned.
+            </para></summary>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -3400,42 +3034,23 @@
     </member>
     <member name="P:Monkeyspeak.lexical.Compiler.Version">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.lexical.Compiler.Version</parameter>
-          </include>
-        </markup>
-      </summary>
+            Compiler version number
+            </summary>
     </member>
     <member name="T:Monkeyspeak.Libraries.AbstractBaseLibrary">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.Libraries.AbstractBaseLibrary</parameter>
-          </include>
-        </markup>
-      </summary>
+            Base Library to build Monkey Speak Libraries on
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.#ctor">
       <summary>
-        <markup>
-          <include item="SMCAutoDocConstructor">
-            <parameter>Monkeyspeak.Libraries.AbstractBaseLibrary</parameter>
-          </include>
-        </markup>
-      </summary>
+            Base abstract class for Monkeyspeak Libraries
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Registers a Trigger to the TriggerHandler with optional description
+            </summary>
       <param name="trigger">
         <markup>
           <include item="SMCMissingParamTag">
@@ -3466,13 +3081,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Registers a Trigger to the TriggerHandler with optional description
+            </summary>
       <param name="cat">
         <markup>
           <include item="SMCMissingParamTag">
@@ -3532,32 +3142,16 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.RaiseError(System.String)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.RaiseError(System.String)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Raises a MonkeyspeakException
+            </summary>
       <param name="reason">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reason</parameter>
-            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.RaiseError(System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+            Reason for the error
+            </param>
     </member>
     <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.Register(Monkeyspeak.Page)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Register(Monkeyspeak.Page)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Registers this library to a Page
+            </summary>
       <param name="page">
         <markup>
           <include item="SMCMissingParamTag">
@@ -3570,13 +3164,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.ToString">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.ToString</parameter>
-          </include>
-        </markup>
-      </summary>
+            Builds a string representation of the descriptions of each trigger.
+            </summary>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -4736,13 +4325,8 @@
     </member>
     <member name="T:Monkeyspeak.Libraries.TimerInfo">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.Libraries.TimerInfo</parameter>
-          </include>
-        </markup>
-      </summary>
+            A TimerInfo object contains Timer and Page Owner. Timer is not started from a TimerInfo constructor.
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.TimerInfo.#ctor">
       <summary>
@@ -4879,12 +4463,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.#ctor">
       <summary>
-        <markup>
-          <include item="SMCAutoDocConstructor">
-            <parameter>Monkeyspeak.Libraries.Timers</parameter>
-          </include>
-        </markup>
-      </summary>
+            Default Timer Library. Call static method Timers.DestroyTimers() when your application closes.
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.#cctor">
       <summary>
@@ -4978,13 +4558,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.DestroyTimers">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.DestroyTimers</parameter>
-          </include>
-        </markup>
-      </summary>
+            Closes and removes all Timers
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.StopTimer(Monkeyspeak.TriggerReader)">
       <summary>
