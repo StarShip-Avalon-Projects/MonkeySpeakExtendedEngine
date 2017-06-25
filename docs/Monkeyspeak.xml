@@ -1,0 +1,5107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Monkeyspeak</name>
+  </assembly>
+  <members>
+    <member name="T:Monkeyspeak.ILexer">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.ILexer</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.ILexer.AddDefinition(Monkeyspeak.TokenDefinition)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.ILexer.AddDefinition(Monkeyspeak.TokenDefinition)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="tokenDefinition">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>tokenDefinition</parameter>
+            <parameter>M:Monkeyspeak.ILexer.AddDefinition(Monkeyspeak.TokenDefinition)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.ILexer.Tokenize(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.ILexer.Tokenize(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="source">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>source</parameter>
+            <parameter>M:Monkeyspeak.ILexer.Tokenize(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.ILexer.Tokenize(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.Lexer">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Lexer</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Lexer.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Lexer</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Lexer.AddDefinition(Monkeyspeak.TokenDefinition)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Lexer.AddDefinition(Monkeyspeak.TokenDefinition)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="tokenDefinition">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>tokenDefinition</parameter>
+            <parameter>M:Monkeyspeak.Lexer.AddDefinition(Monkeyspeak.TokenDefinition)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Lexer.Tokenize(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Lexer.Tokenize(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="source">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>source</parameter>
+            <parameter>M:Monkeyspeak.Lexer.Tokenize(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Lexer.Tokenize(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.MonkeyspeakEngine">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.MonkeyspeakEngine</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.MonkeyspeakEngine</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.#ctor(Monkeyspeak.Options)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.MonkeyspeakEngine</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="options">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>options</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.#ctor(Monkeyspeak.Options)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.CompileToFile(Monkeyspeak.Page,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.CompileToFile(Monkeyspeak.Page,System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="page">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>page</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.CompileToFile(Monkeyspeak.Page,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="filePath">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>filePath</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.CompileToFile(Monkeyspeak.Page,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.CompileToStream(Monkeyspeak.Page,System.IO.Stream)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.CompileToStream(Monkeyspeak.Page,System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="page">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>page</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.CompileToStream(Monkeyspeak.Page,System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="stream">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>stream</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.CompileToStream(Monkeyspeak.Page,System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.CreateDefaultLexer">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.CreateDefaultLexer</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.CreateDefaultOptions">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.CreateDefaultOptions</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledFile(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledFile(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="filePath">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>filePath</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledFile(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledFile(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledStream(System.IO.Stream)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledStream(System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="stream">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>stream</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledStream(System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadCompiledStream(System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(Monkeyspeak.Page@,System.IO.Stream)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(Monkeyspeak.Page@,System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="existingPage">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>existingPage</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(Monkeyspeak.Page@,System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="stream">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>stream</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(Monkeyspeak.Page@,System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(Monkeyspeak.Page@,System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(System.IO.Stream)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="stream">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>stream</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromStream(System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(Monkeyspeak.Page@,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(Monkeyspeak.Page@,System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="existingPage">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>existingPage</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(Monkeyspeak.Page@,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="chunk">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>chunk</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(Monkeyspeak.Page@,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(Monkeyspeak.Page@,System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="chunk">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>chunk</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakEngine.LoadFromString(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="F:Monkeyspeak.MonkeyspeakEngine.options">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:Monkeyspeak.MonkeyspeakEngine.options</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.MonkeyspeakEngine.Options">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.MonkeyspeakEngine.Options</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.MonkeyspeakException">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.MonkeyspeakException</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakException.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.MonkeyspeakException</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.MonkeyspeakException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="info">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>info</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="context">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>context</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakException.#ctor(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.MonkeyspeakException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="message">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>message</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakException.#ctor(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakException.#ctor(System.String,System.Exception)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.MonkeyspeakException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="message">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>message</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakException.#ctor(System.String,System.Exception)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="inner">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>inner</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakException.#ctor(System.String,System.Exception)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.MonkeyspeakException.#ctor(System.String,System.Object[])">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.MonkeyspeakException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="format">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>format</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakException.#ctor(System.String,System.Object[])</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="message">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>message</parameter>
+            <parameter>M:Monkeyspeak.MonkeyspeakException.#ctor(System.String,System.Object[])</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="T:Monkeyspeak.Options">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Options</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Options.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Options</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Options.CanOverrideTriggerHandlers">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Options.CanOverrideTriggerHandlers</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Options.CommentSymbol">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Options.CommentSymbol</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Options.StringBeginSymbol">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Options.StringBeginSymbol</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Options.StringEndSymbol">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Options.StringEndSymbol</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Options.StringLengthLimit">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Options.StringLengthLimit</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Options.TimerLimit">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Options.TimerLimit</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Options.TriggerLimit">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Options.TriggerLimit</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Options.VariableCountLimit">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Options.VariableCountLimit</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Options.VariableDeclarationSymbol">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Options.VariableDeclarationSymbol</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Options.Version">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Options.Version</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.Page">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Page</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.#ctor(Monkeyspeak.MonkeyspeakEngine)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Page</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="engine">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>engine</parameter>
+            <parameter>M:Monkeyspeak.Page.#ctor(Monkeyspeak.MonkeyspeakEngine)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="E:Monkeyspeak.Page.AfterTriggerHandled">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>E:Monkeyspeak.Page.AfterTriggerHandled</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="E:Monkeyspeak.Page.BeforeTriggerHandled">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>E:Monkeyspeak.Page.BeforeTriggerHandled</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.CheckType(System.Object)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.CheckType(System.Object)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>value</parameter>
+            <parameter>M:Monkeyspeak.Page.CheckType(System.Object)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Page.CheckType(System.Object)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Page.CompileToFile(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.CompileToFile(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="filePath">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>filePath</parameter>
+            <parameter>M:Monkeyspeak.Page.CompileToFile(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Page.CompileToStream(System.IO.Stream)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.CompileToStream(System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="stream">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>stream</parameter>
+            <parameter>M:Monkeyspeak.Page.CompileToStream(System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="P:Monkeyspeak.Page.Engine">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Page.Engine</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="E:Monkeyspeak.Page.Error">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>E:Monkeyspeak.Page.Error</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.Execute(Monkeyspeak.TriggerCategory,System.Int32)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.Execute(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="cat">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>cat</parameter>
+            <parameter>M:Monkeyspeak.Page.Execute(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="id">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>id</parameter>
+            <parameter>M:Monkeyspeak.Page.Execute(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Page.Execute(System.Int32[])">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.Execute(System.Int32[])</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="id">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>id</parameter>
+            <parameter>M:Monkeyspeak.Page.Execute(System.Int32[])</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Page.Execute(System.Int32[])</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Page.ExecuteBlock(System.Int32[],Monkeyspeak.TriggerList)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.ExecuteBlock(System.Int32[],Monkeyspeak.TriggerList)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="id">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>id</parameter>
+            <parameter>M:Monkeyspeak.Page.ExecuteBlock(System.Int32[],Monkeyspeak.TriggerList)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="triggerBlock">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>triggerBlock</parameter>
+            <parameter>M:Monkeyspeak.Page.ExecuteBlock(System.Int32[],Monkeyspeak.TriggerList)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Page.ExecuteBlock(System.Int32[],Monkeyspeak.TriggerList)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Page.GetTriggerDescriptions">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.GetTriggerDescriptions</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Page.GetTriggerDescriptions</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Page.GetVariable(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.GetVariable(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="name">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>name</parameter>
+            <parameter>M:Monkeyspeak.Page.GetVariable(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Page.GetVariable(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Page.HasVariable(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.HasVariable(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="name">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>name</parameter>
+            <parameter>M:Monkeyspeak.Page.HasVariable(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Page.HasVariable(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Page.HasVariable(System.String,Monkeyspeak.Variable@)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.HasVariable(System.String,Monkeyspeak.Variable@)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="name">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>name</parameter>
+            <parameter>M:Monkeyspeak.Page.HasVariable(System.String,Monkeyspeak.Variable@)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="var">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>var</parameter>
+            <parameter>M:Monkeyspeak.Page.HasVariable(System.String,Monkeyspeak.Variable@)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Page.HasVariable(System.String,Monkeyspeak.Variable@)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Page.LoadDebugLibrary">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.LoadDebugLibrary</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.LoadIOLibrary">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.LoadIOLibrary</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.LoadLibrary(Monkeyspeak.Libraries.AbstractBaseLibrary)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.LoadLibrary(Monkeyspeak.Libraries.AbstractBaseLibrary)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="lib">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>lib</parameter>
+            <parameter>M:Monkeyspeak.Page.LoadLibrary(Monkeyspeak.Libraries.AbstractBaseLibrary)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Page.LoadLibraryFromAssembly(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.LoadLibraryFromAssembly(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="assemblyFile">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>assemblyFile</parameter>
+            <parameter>M:Monkeyspeak.Page.LoadLibraryFromAssembly(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Page.LoadMathLibrary">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.LoadMathLibrary</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.LoadStringLibrary">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.LoadStringLibrary</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.LoadSysLibrary">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.LoadSysLibrary</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.LoadTimerLibrary">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.LoadTimerLibrary</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.OverWrite(System.Collections.Generic.List{Monkeyspeak.TriggerList})">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.OverWrite(System.Collections.Generic.List{Monkeyspeak.TriggerList})</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="blocks">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>blocks</parameter>
+            <parameter>M:Monkeyspeak.Page.OverWrite(System.Collections.Generic.List{Monkeyspeak.TriggerList})</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Page.RemoveTriggerHandler(Monkeyspeak.Trigger)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.RemoveTriggerHandler(Monkeyspeak.Trigger)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="trigger">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>trigger</parameter>
+            <parameter>M:Monkeyspeak.Page.RemoveTriggerHandler(Monkeyspeak.Trigger)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Page.RemoveTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.RemoveTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="cat">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>cat</parameter>
+            <parameter>M:Monkeyspeak.Page.RemoveTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="id">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>id</parameter>
+            <parameter>M:Monkeyspeak.Page.RemoveTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Page.Reset(System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.Reset(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="resetTriggerHandlers">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>resetTriggerHandlers</parameter>
+            <parameter>M:Monkeyspeak.Page.Reset(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="P:Monkeyspeak.Page.Scope">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Page.Scope</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="trigger">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>trigger</parameter>
+            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="handler">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>handler</parameter>
+            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="description">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>description</parameter>
+            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="category">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>category</parameter>
+            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="id">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>id</parameter>
+            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="handler">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>handler</parameter>
+            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="description">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>description</parameter>
+            <parameter>M:Monkeyspeak.Page.SetTriggerHandler(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Page.SetVariable(System.String,System.Object,System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.SetVariable(System.String,System.Object,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="name">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>name</parameter>
+            <parameter>M:Monkeyspeak.Page.SetVariable(System.String,System.Object,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>value</parameter>
+            <parameter>M:Monkeyspeak.Page.SetVariable(System.String,System.Object,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="isConstant">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>isConstant</parameter>
+            <parameter>M:Monkeyspeak.Page.SetVariable(System.String,System.Object,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Page.SetVariable(System.String,System.Object,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="P:Monkeyspeak.Page.Size">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Page.Size</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:Monkeyspeak.Page.syncObj">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:Monkeyspeak.Page.syncObj</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="E:Monkeyspeak.Page.TriggerAdded">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>E:Monkeyspeak.Page.TriggerAdded</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.Write(System.Collections.Generic.List{Monkeyspeak.TriggerList})">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.Write(System.Collections.Generic.List{Monkeyspeak.TriggerList})</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="blocks">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>blocks</parameter>
+            <parameter>M:Monkeyspeak.Page.Write(System.Collections.Generic.List{Monkeyspeak.TriggerList})</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="T:Monkeyspeak.Parser">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Parser</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Parser.#ctor(Monkeyspeak.MonkeyspeakEngine,Monkeyspeak.ILexer)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Parser</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="engine">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>engine</parameter>
+            <parameter>M:Monkeyspeak.Parser.#ctor(Monkeyspeak.MonkeyspeakEngine,Monkeyspeak.ILexer)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="lexer">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>lexer</parameter>
+            <parameter>M:Monkeyspeak.Parser.#ctor(Monkeyspeak.MonkeyspeakEngine,Monkeyspeak.ILexer)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Parser.IntParse(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Parser.IntParse(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>value</parameter>
+            <parameter>M:Monkeyspeak.Parser.IntParse(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Parser.IntParse(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Parser.Parse(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Parser.Parse(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="source">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>source</parameter>
+            <parameter>M:Monkeyspeak.Parser.Parse(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Parser.Parse(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.ReflectionHelper">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.ReflectionHelper</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.ReflectionHelper.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.ReflectionHelper</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.ReflectionHelper.GetAllAttributesFromMethod``1(System.Reflection.MethodInfo)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.GetAllAttributesFromMethod``1(System.Reflection.MethodInfo)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="methodInfo">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>methodInfo</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.GetAllAttributesFromMethod``1(System.Reflection.MethodInfo)</parameter>
+          </include>
+        </markup>
+      </param>
+      <typeparam name="T">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>typeparam</parameter>
+            <parameter>T</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.GetAllAttributesFromMethod``1(System.Reflection.MethodInfo)</parameter>
+          </include>
+        </markup>
+      </typeparam>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.GetAllAttributesFromMethod``1(System.Reflection.MethodInfo)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.ReflectionHelper.GetAllMethods(System.Type[])">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.GetAllMethods(System.Type[])</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="types">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>types</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.GetAllMethods(System.Type[])</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.GetAllMethods(System.Type[])</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.ReflectionHelper.GetAllTypes(System.Reflection.Assembly)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.GetAllTypes(System.Reflection.Assembly)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="assembly">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>assembly</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.GetAllTypes(System.Reflection.Assembly)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.GetAllTypes(System.Reflection.Assembly)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.ReflectionHelper.TryLoad(System.String,System.Reflection.Assembly@)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.TryLoad(System.String,System.Reflection.Assembly@)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="assemblyFile">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>assemblyFile</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.TryLoad(System.String,System.Reflection.Assembly@)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="asm">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>asm</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.TryLoad(System.String,System.Reflection.Assembly@)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.ReflectionHelper.TryLoad(System.String,System.Reflection.Assembly@)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.Token">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Token</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Token.#ctor(Monkeyspeak.TokenType,System.String,Monkeyspeak.TokenPosition)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Token</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="type">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>type</parameter>
+            <parameter>M:Monkeyspeak.Token.#ctor(Monkeyspeak.TokenType,System.String,Monkeyspeak.TokenPosition)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>value</parameter>
+            <parameter>M:Monkeyspeak.Token.#ctor(Monkeyspeak.TokenType,System.String,Monkeyspeak.TokenPosition)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="position">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>position</parameter>
+            <parameter>M:Monkeyspeak.Token.#ctor(Monkeyspeak.TokenType,System.String,Monkeyspeak.TokenPosition)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="P:Monkeyspeak.Token.Position">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Token.Position</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Token.ToString">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Token.ToString</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Token.ToString</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="P:Monkeyspeak.Token.Type">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Token.Type</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Token.Value">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Token.Value</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.TokenDefinition">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TokenDefinition</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TokenDefinition.#ctor(Monkeyspeak.TokenType,System.Text.RegularExpressions.Regex)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TokenDefinition</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="type">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>type</parameter>
+            <parameter>M:Monkeyspeak.TokenDefinition.#ctor(Monkeyspeak.TokenType,System.Text.RegularExpressions.Regex)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="regex">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>regex</parameter>
+            <parameter>M:Monkeyspeak.TokenDefinition.#ctor(Monkeyspeak.TokenType,System.Text.RegularExpressions.Regex)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.TokenDefinition.#ctor(Monkeyspeak.TokenType,System.Text.RegularExpressions.Regex,System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TokenDefinition</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="type">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>type</parameter>
+            <parameter>M:Monkeyspeak.TokenDefinition.#ctor(Monkeyspeak.TokenType,System.Text.RegularExpressions.Regex,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="regex">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>regex</parameter>
+            <parameter>M:Monkeyspeak.TokenDefinition.#ctor(Monkeyspeak.TokenType,System.Text.RegularExpressions.Regex,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="isIgnored">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>isIgnored</parameter>
+            <parameter>M:Monkeyspeak.TokenDefinition.#ctor(Monkeyspeak.TokenType,System.Text.RegularExpressions.Regex,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="P:Monkeyspeak.TokenDefinition.IsIgnored">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.TokenDefinition.IsIgnored</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.TokenDefinition.Regex">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.TokenDefinition.Regex</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.TokenDefinition.Type">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.TokenDefinition.Type</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.TokenPosition">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TokenPosition</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TokenPosition.#ctor(System.Int32,System.Int32,System.Int32)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TokenPosition</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="index">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>index</parameter>
+            <parameter>M:Monkeyspeak.TokenPosition.#ctor(System.Int32,System.Int32,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="line">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>line</parameter>
+            <parameter>M:Monkeyspeak.TokenPosition.#ctor(System.Int32,System.Int32,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="column">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>column</parameter>
+            <parameter>M:Monkeyspeak.TokenPosition.#ctor(System.Int32,System.Int32,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="P:Monkeyspeak.TokenPosition.Column">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.TokenPosition.Column</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.TokenPosition.Index">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.TokenPosition.Index</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.TokenPosition.Line">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.TokenPosition.Line</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.TokenType">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TokenType</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.Trigger">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Trigger</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Trigger.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Trigger</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Trigger.#ctor(Monkeyspeak.TriggerCategory,System.Int32)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Trigger</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="cat">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>cat</parameter>
+            <parameter>M:Monkeyspeak.Trigger.#ctor(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="id">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>id</parameter>
+            <parameter>M:Monkeyspeak.Trigger.#ctor(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="P:Monkeyspeak.Trigger.Category">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Trigger.Category</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Trigger.Clone">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Trigger.Clone</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Trigger.Clone</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="F:Monkeyspeak.Trigger.contents">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:Monkeyspeak.Trigger.contents</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Trigger.Contents">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Trigger.Contents</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Trigger.Description">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Trigger.Description</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Trigger.Equals(Monkeyspeak.Trigger)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Trigger.Equals(Monkeyspeak.Trigger)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="other">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>other</parameter>
+            <parameter>M:Monkeyspeak.Trigger.Equals(Monkeyspeak.Trigger)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Trigger.Equals(Monkeyspeak.Trigger)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Trigger.Equals(System.Object)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Trigger.Equals(System.Object)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="obj">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>obj</parameter>
+            <parameter>M:Monkeyspeak.Trigger.Equals(System.Object)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Trigger.Equals(System.Object)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Trigger.GetHashCode">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Trigger.GetHashCode</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Trigger.GetHashCode</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="P:Monkeyspeak.Trigger.Id">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Trigger.Id</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Trigger.ToString">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Trigger.ToString</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Trigger.ToString</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.TriggerAddedEventHandler">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TriggerAddedEventHandler</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.TriggerCategory">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TriggerCategory</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.TriggerHandledEventHandler">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TriggerHandledEventHandler</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.TriggerHandler">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TriggerHandler</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.TriggerHandlerAttribute">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TriggerHandlerAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TriggerHandlerAttribute.#ctor(Monkeyspeak.TriggerCategory,System.Int32,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TriggerHandlerAttribute</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="category">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>category</parameter>
+            <parameter>M:Monkeyspeak.TriggerHandlerAttribute.#ctor(Monkeyspeak.TriggerCategory,System.Int32,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="id">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>id</parameter>
+            <parameter>M:Monkeyspeak.TriggerHandlerAttribute.#ctor(Monkeyspeak.TriggerCategory,System.Int32,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="description">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>description</parameter>
+            <parameter>M:Monkeyspeak.TriggerHandlerAttribute.#ctor(Monkeyspeak.TriggerCategory,System.Int32,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="F:Monkeyspeak.TriggerHandlerAttribute.owner">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:Monkeyspeak.TriggerHandlerAttribute.owner</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TriggerHandlerAttribute.Register(Monkeyspeak.Page)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerHandlerAttribute.Register(Monkeyspeak.Page)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="page">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>page</parameter>
+            <parameter>M:Monkeyspeak.TriggerHandlerAttribute.Register(Monkeyspeak.Page)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="T:Monkeyspeak.TriggerHandlerErrorEvent">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TriggerHandlerErrorEvent</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.TriggerList">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TriggerList</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TriggerList.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TriggerList</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TriggerList.#ctor(Monkeyspeak.Trigger[])">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TriggerList</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="triggers">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>triggers</parameter>
+            <parameter>M:Monkeyspeak.TriggerList.#ctor(Monkeyspeak.Trigger[])</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.TriggerList.#ctor(System.Int32)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TriggerList</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="initialCapacity">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>initialCapacity</parameter>
+            <parameter>M:Monkeyspeak.TriggerList.#ctor(System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.TriggerList.HasTrigger(Monkeyspeak.TriggerCategory,System.Int32)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerList.HasTrigger(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="cat">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>cat</parameter>
+            <parameter>M:Monkeyspeak.TriggerList.HasTrigger(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="id">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>id</parameter>
+            <parameter>M:Monkeyspeak.TriggerList.HasTrigger(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.TriggerList.HasTrigger(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.TriggerReader">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TriggerReader</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.#ctor(Monkeyspeak.Page)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TriggerReader</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="page">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>page</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.#ctor(Monkeyspeak.Page)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.#ctor(Monkeyspeak.Page,Monkeyspeak.Trigger)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TriggerReader</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="page">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>page</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.#ctor(Monkeyspeak.Page,Monkeyspeak.Trigger)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="trigger">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>trigger</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.#ctor(Monkeyspeak.Page,Monkeyspeak.Trigger)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="P:Monkeyspeak.TriggerReader.Page">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.TriggerReader.Page</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.PeekNumber">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.PeekNumber</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.PeekNumber</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.PeekString">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.PeekString</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.PeekString</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.PeekVariable">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.PeekVariable</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.PeekVariable</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.ReadNumber">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.ReadNumber</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.ReadNumber</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.ReadString(System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.ReadString(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="processVariables">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>processVariables</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.ReadString(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.ReadString(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.ReadVariable">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.ReadVariable</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.ReadVariable</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.ReadVariable(System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.ReadVariable(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="addIfNotExist">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>addIfNotExist</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.ReadVariable(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.ReadVariable(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.Reset">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.Reset</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.TriggerReader.Trigger">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.TriggerReader.Trigger</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.TriggerReader.TriggerCategory">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.TriggerReader.TriggerCategory</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.TriggerReader.TriggerId">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.TriggerReader.TriggerId</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.TryReadNumber(System.Double@)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.TryReadNumber(System.Double@)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="number">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>number</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.TryReadNumber(System.Double@)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.TryReadNumber(System.Double@)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.TryReadString(System.String@)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.TryReadString(System.String@)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="str">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>str</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.TryReadString(System.String@)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.TryReadString(System.String@)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReader.TryReadVariable(Monkeyspeak.Variable@)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.TryReadVariable(Monkeyspeak.Variable@)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="var">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>var</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.TryReadVariable(Monkeyspeak.Variable@)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.TriggerReader.TryReadVariable(Monkeyspeak.Variable@)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.TriggerReaderException">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TriggerReaderException</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReaderException.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TriggerReaderException</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReaderException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TriggerReaderException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="info">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>info</parameter>
+            <parameter>M:Monkeyspeak.TriggerReaderException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="context">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>context</parameter>
+            <parameter>M:Monkeyspeak.TriggerReaderException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReaderException.#ctor(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TriggerReaderException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="message">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>message</parameter>
+            <parameter>M:Monkeyspeak.TriggerReaderException.#ctor(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.TriggerReaderException.#ctor(System.String,System.Exception)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TriggerReaderException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="message">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>message</parameter>
+            <parameter>M:Monkeyspeak.TriggerReaderException.#ctor(System.String,System.Exception)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="inner">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>inner</parameter>
+            <parameter>M:Monkeyspeak.TriggerReaderException.#ctor(System.String,System.Exception)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="T:Monkeyspeak.TypeNotSupportedException">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.TypeNotSupportedException</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TypeNotSupportedException.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TypeNotSupportedException</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.TypeNotSupportedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TypeNotSupportedException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="info">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>info</parameter>
+            <parameter>M:Monkeyspeak.TypeNotSupportedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="context">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>context</parameter>
+            <parameter>M:Monkeyspeak.TypeNotSupportedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.TypeNotSupportedException.#ctor(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TypeNotSupportedException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="message">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>message</parameter>
+            <parameter>M:Monkeyspeak.TypeNotSupportedException.#ctor(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.TypeNotSupportedException.#ctor(System.String,System.Exception)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.TypeNotSupportedException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="message">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>message</parameter>
+            <parameter>M:Monkeyspeak.TypeNotSupportedException.#ctor(System.String,System.Exception)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="inner">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>inner</parameter>
+            <parameter>M:Monkeyspeak.TypeNotSupportedException.#ctor(System.String,System.Exception)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="T:Monkeyspeak.Variable">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Variable</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Variable.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Variable</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Variable.#ctor(System.String,System.Object,System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Variable</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="Name">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>Name</parameter>
+            <parameter>M:Monkeyspeak.Variable.#ctor(System.String,System.Object,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>value</parameter>
+            <parameter>M:Monkeyspeak.Variable.#ctor(System.String,System.Object,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="constant">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>constant</parameter>
+            <parameter>M:Monkeyspeak.Variable.#ctor(System.String,System.Object,System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Variable.#cctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocStaticConstructor">
+            <parameter>Monkeyspeak.Variable</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Variable.CheckType(System.Object)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Variable.CheckType(System.Object)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="_value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>_value</parameter>
+            <parameter>M:Monkeyspeak.Variable.CheckType(System.Object)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Variable.CheckType(System.Object)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Variable.Clone(System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Variable.Clone(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="asConstant">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>asConstant</parameter>
+            <parameter>M:Monkeyspeak.Variable.Clone(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Variable.Clone(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Variable.Equals(System.Object)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Variable.Equals(System.Object)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="obj">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>obj</parameter>
+            <parameter>M:Monkeyspeak.Variable.Equals(System.Object)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Variable.Equals(System.Object)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Variable.ForceAssignValue(System.Object)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Variable.ForceAssignValue(System.Object)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="_value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>_value</parameter>
+            <parameter>M:Monkeyspeak.Variable.ForceAssignValue(System.Object)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Variable.GetHashCode">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Variable.GetHashCode</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Variable.GetHashCode</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="P:Monkeyspeak.Variable.IsConstant">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Variable.IsConstant</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Variable.Name">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Variable.Name</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:Monkeyspeak.Variable.NoValue">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:Monkeyspeak.Variable.NoValue</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Variable.op_Equality(Monkeyspeak.Variable,Monkeyspeak.Variable)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Variable.op_Equality(Monkeyspeak.Variable,Monkeyspeak.Variable)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="varA">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>varA</parameter>
+            <parameter>M:Monkeyspeak.Variable.op_Equality(Monkeyspeak.Variable,Monkeyspeak.Variable)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="varB">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>varB</parameter>
+            <parameter>M:Monkeyspeak.Variable.op_Equality(Monkeyspeak.Variable,Monkeyspeak.Variable)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Variable.op_Equality(Monkeyspeak.Variable,Monkeyspeak.Variable)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Variable.op_Inequality(Monkeyspeak.Variable,Monkeyspeak.Variable)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Variable.op_Inequality(Monkeyspeak.Variable,Monkeyspeak.Variable)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="varA">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>varA</parameter>
+            <parameter>M:Monkeyspeak.Variable.op_Inequality(Monkeyspeak.Variable,Monkeyspeak.Variable)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="varB">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>varB</parameter>
+            <parameter>M:Monkeyspeak.Variable.op_Inequality(Monkeyspeak.Variable,Monkeyspeak.Variable)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Variable.op_Inequality(Monkeyspeak.Variable,Monkeyspeak.Variable)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Variable.ToString">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Variable.ToString</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Variable.ToString</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="P:Monkeyspeak.Variable.Value">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Variable.Value</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.VariableIsConstantException">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.VariableIsConstantException</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.VariableIsConstantException.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.VariableIsConstantException</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.VariableIsConstantException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.VariableIsConstantException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="info">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>info</parameter>
+            <parameter>M:Monkeyspeak.VariableIsConstantException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="context">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>context</parameter>
+            <parameter>M:Monkeyspeak.VariableIsConstantException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.VariableIsConstantException.#ctor(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.VariableIsConstantException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="message">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>message</parameter>
+            <parameter>M:Monkeyspeak.VariableIsConstantException.#ctor(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.VariableIsConstantException.#ctor(System.String,System.Exception)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.VariableIsConstantException</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="message">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>message</parameter>
+            <parameter>M:Monkeyspeak.VariableIsConstantException.#ctor(System.String,System.Exception)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="inner">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>inner</parameter>
+            <parameter>M:Monkeyspeak.VariableIsConstantException.#ctor(System.String,System.Exception)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="T:Monkeyspeak.lexical.AbstractParser">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.lexical.AbstractParser</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.lexical.AbstractParser.#ctor(Monkeyspeak.MonkeyspeakEngine,Monkeyspeak.ILexer)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.lexical.AbstractParser</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="engine">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>engine</parameter>
+            <parameter>M:Monkeyspeak.lexical.AbstractParser.#ctor(Monkeyspeak.MonkeyspeakEngine,Monkeyspeak.ILexer)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="lexer">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>lexer</parameter>
+            <parameter>M:Monkeyspeak.lexical.AbstractParser.#ctor(Monkeyspeak.MonkeyspeakEngine,Monkeyspeak.ILexer)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="F:Monkeyspeak.lexical.AbstractParser.Engine">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:Monkeyspeak.lexical.AbstractParser.Engine</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:Monkeyspeak.lexical.AbstractParser.Lexer">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:Monkeyspeak.lexical.AbstractParser.Lexer</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.lexical.AbstractParser.Parse(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.lexical.AbstractParser.Parse(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="source">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>source</parameter>
+            <parameter>M:Monkeyspeak.lexical.AbstractParser.Parse(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.lexical.AbstractParser.Parse(System.String)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.lexical.Compiler">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.lexical.Compiler</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.lexical.Compiler.#ctor(Monkeyspeak.MonkeyspeakEngine)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.lexical.Compiler</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="engine">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>engine</parameter>
+            <parameter>M:Monkeyspeak.lexical.Compiler.#ctor(Monkeyspeak.MonkeyspeakEngine)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.lexical.Compiler.CompileToStream(System.Collections.Generic.List{Monkeyspeak.TriggerList},System.IO.Stream)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.lexical.Compiler.CompileToStream(System.Collections.Generic.List{Monkeyspeak.TriggerList},System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="triggers">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>triggers</parameter>
+            <parameter>M:Monkeyspeak.lexical.Compiler.CompileToStream(System.Collections.Generic.List{Monkeyspeak.TriggerList},System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="stream">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>stream</parameter>
+            <parameter>M:Monkeyspeak.lexical.Compiler.CompileToStream(System.Collections.Generic.List{Monkeyspeak.TriggerList},System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.lexical.Compiler.DecompileFromStream(System.IO.Stream)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.lexical.Compiler.DecompileFromStream(System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="stream">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>stream</parameter>
+            <parameter>M:Monkeyspeak.lexical.Compiler.DecompileFromStream(System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.lexical.Compiler.DecompileFromStream(System.IO.Stream)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="P:Monkeyspeak.lexical.Compiler.Version">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.lexical.Compiler.Version</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="T:Monkeyspeak.Libraries.AbstractBaseLibrary">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Libraries.AbstractBaseLibrary</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Libraries.AbstractBaseLibrary</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="trigger">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>trigger</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="handler">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>handler</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="description">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>description</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.Trigger,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="cat">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>cat</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="id">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>id</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="handler">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>handler</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="description">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>description</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Add(Monkeyspeak.TriggerCategory,System.Int32,Monkeyspeak.TriggerHandler,System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="F:Monkeyspeak.Libraries.AbstractBaseLibrary.descriptions">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:Monkeyspeak.Libraries.AbstractBaseLibrary.descriptions</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:Monkeyspeak.Libraries.AbstractBaseLibrary.handlers">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:Monkeyspeak.Libraries.AbstractBaseLibrary.handlers</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.RaiseError(System.String)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.RaiseError(System.String)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reason">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reason</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.RaiseError(System.String)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.Register(Monkeyspeak.Page)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Register(Monkeyspeak.Page)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="page">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>page</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.Register(Monkeyspeak.Page)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.AbstractBaseLibrary.ToString">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.ToString</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.AbstractBaseLibrary.ToString</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.Libraries.Debug">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Libraries.Debug</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Debug.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Libraries.Debug</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Debug.CreateBreakPoint(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Debug.CreateBreakPoint(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Debug.CreateBreakPoint(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Debug.CreateBreakPoint(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Debug.WhenBreakpointHit(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Debug.WhenBreakpointHit(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Debug.WhenBreakpointHit(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Debug.WhenBreakpointHit(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.Libraries.IO">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Libraries.IO</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.IO.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Libraries.IO</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.IO.AppendToFile(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.AppendToFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.AppendToFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.AppendToFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.IO.CanReadFile(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.CanReadFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.CanReadFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.CanReadFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.IO.CanWriteFile(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.CanWriteFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.CanWriteFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.CanWriteFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.IO.CreateFile(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.CreateFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.CreateFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.CreateFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.IO.DeleteFile(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.DeleteFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.DeleteFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.DeleteFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.IO.FileExists(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.FileExists(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.FileExists(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.FileExists(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.IO.FileNotExists(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.FileNotExists(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.FileNotExists(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.FileNotExists(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.IO.ReadFileIntoVariable(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.ReadFileIntoVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.ReadFileIntoVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.IO.ReadFileIntoVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.Libraries.Math">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Libraries.Math</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Math.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Libraries.Math</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Math.AddToVariable(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.AddToVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.AddToVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.AddToVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Math.DivideByVariable(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.DivideByVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.DivideByVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.DivideByVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Math.MultiplyByVariable(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.MultiplyByVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.MultiplyByVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.MultiplyByVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Math.SubtractFromVariable(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.SubtractFromVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.SubtractFromVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.SubtractFromVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Math.VariableGreaterThan(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableGreaterThan(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableGreaterThan(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableGreaterThan(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Math.VariableGreaterThanOrEqual(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableGreaterThanOrEqual(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableGreaterThanOrEqual(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableGreaterThanOrEqual(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Math.VariableLessThan(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableLessThan(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableLessThan(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableLessThan(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Math.VariableLessThanOrEqual(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableLessThanOrEqual(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableLessThanOrEqual(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Math.VariableLessThanOrEqual(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.Libraries.StringOperations">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Libraries.StringOperations</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.StringOperations.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Libraries.StringOperations</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.StringOperations.AddStringToVar(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.AddStringToVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.AddStringToVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.AddStringToVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.StringOperations.GetWordCountIntoVariable(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.GetWordCountIntoVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.GetWordCountIntoVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.GetWordCountIntoVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryCopy(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryCopy(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryCopy(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryCopy(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryRemove(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryRemove(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryRemove(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryRemove(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.StringOperations.StringArrayEntrySet(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntrySet(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntrySet(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntrySet(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.StringOperations.StringLength(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringLength(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringLength(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringLength(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.Libraries.Sys">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Libraries.Sys</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Libraries.Sys</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.GetEnvVariable(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.GetEnvVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.GetEnvVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.GetEnvVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.IsVariableDefined(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableDefined(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableDefined(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableDefined(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.IsVariableEqualToNumberOrVar(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableEqualToNumberOrVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableEqualToNumberOrVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableEqualToNumberOrVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.IsVariableEqualToString(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableEqualToString(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableEqualToString(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableEqualToString(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.IsVariableNotDefined(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotDefined(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotDefined(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotDefined(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToNumberOrVar(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToNumberOrVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToNumberOrVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToNumberOrVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToString(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToString(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToString(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToString(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.LoadLibraryFromFile(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.LoadLibraryFromFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.LoadLibraryFromFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.LoadLibraryFromFile(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.PrintToConsole(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.PrintToConsole(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.PrintToConsole(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.PrintToConsole(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.RaiseAnError(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.RaiseAnError(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.RaiseAnError(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.RaiseAnError(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.RandomValueToVar(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.RandomValueToVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.RandomValueToVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.RandomValueToVar(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.SetVariableToNumberOrVariable(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.SetVariableToNumberOrVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.SetVariableToNumberOrVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.SetVariableToNumberOrVariable(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.SetVariableToString(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.SetVariableToString(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.SetVariableToString(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.SetVariableToString(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.VariableIsConstant(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.VariableIsConstant(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.VariableIsConstant(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.VariableIsConstant(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Sys.VariableIsNotConstant(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.VariableIsNotConstant(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.VariableIsNotConstant(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Sys.VariableIsNotConstant(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="T:Monkeyspeak.Libraries.TimerInfo">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Libraries.TimerInfo</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.TimerInfo.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Libraries.TimerInfo</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.TimerInfo.#ctor(Monkeyspeak.Page,System.Double,System.Double)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Libraries.TimerInfo</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="owner">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>owner</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.#ctor(Monkeyspeak.Page,System.Double,System.Double)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="interval">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>interval</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.#ctor(Monkeyspeak.Page,System.Double,System.Double)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="Id">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>Id</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.#ctor(Monkeyspeak.Page,System.Double,System.Double)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.TimerInfo.#cctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocStaticConstructor">
+            <parameter>Monkeyspeak.Libraries.TimerInfo</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="F:Monkeyspeak.Libraries.TimerInfo.CurrentTimer">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>F:Monkeyspeak.Libraries.TimerInfo.CurrentTimer</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Libraries.TimerInfo.ID">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Libraries.TimerInfo.ID</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Libraries.TimerInfo.Interval">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Libraries.TimerInfo.Interval</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Libraries.TimerInfo.Owner">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Libraries.TimerInfo.Owner</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Libraries.TimerInfo.Timer">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Libraries.TimerInfo.Timer</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.TimerInfo.timer_Elapsed(System.Object)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.timer_Elapsed(System.Object)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="sender">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>sender</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.timer_Elapsed(System.Object)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
+    <member name="T:Monkeyspeak.Libraries.Timers">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>T:Monkeyspeak.Libraries.Timers</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Timers.#ctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Libraries.Timers</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Timers.#cctor">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocStaticConstructor">
+            <parameter>Monkeyspeak.Libraries.Timers</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Timers.AndTimerIsNotRunning(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.AndTimerIsNotRunning(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.AndTimerIsNotRunning(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.AndTimerIsNotRunning(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Timers.AndTimerIsRunning(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.AndTimerIsRunning(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.AndTimerIsRunning(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.AndTimerIsRunning(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Timers.CreateTimer(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.CreateTimer(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.CreateTimer(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.CreateTimer(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Timers.DestroyTimers">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.DestroyTimers</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Timers.StopTimer(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.StopTimer(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.StopTimer(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.StopTimer(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Timers.TryGetTimerFrom(Monkeyspeak.TriggerReader,Monkeyspeak.Libraries.TimerInfo@)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.TryGetTimerFrom(Monkeyspeak.TriggerReader,Monkeyspeak.Libraries.TimerInfo@)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.TryGetTimerFrom(Monkeyspeak.TriggerReader,Monkeyspeak.Libraries.TimerInfo@)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="timerInfo">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>timerInfo</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.TryGetTimerFrom(Monkeyspeak.TriggerReader,Monkeyspeak.Libraries.TimerInfo@)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.TryGetTimerFrom(Monkeyspeak.TriggerReader,Monkeyspeak.Libraries.TimerInfo@)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Timers.WhenAnyTimerGoesOff(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.WhenAnyTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.WhenAnyTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.WhenAnyTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.Timers.WhenTimerGoesOff(Monkeyspeak.TriggerReader)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.WhenTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="reader">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>reader</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.WhenTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.Timers.WhenTimerGoesOff(Monkeyspeak.TriggerReader)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+  </members>
+</doc>
