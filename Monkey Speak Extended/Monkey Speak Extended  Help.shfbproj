@@ -119,7 +119,7 @@
     </ComponentConfigurations>
     <HelpFileVersion>1.0.0.0</HelpFileVersion>
     <MaximumGroupParts>10</MaximumGroupParts>
-    <NamespaceGrouping>False</NamespaceGrouping>
+    <NamespaceGrouping>True</NamespaceGrouping>
     <SyntaxFilters>Standard</SyntaxFilters>
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <RootNamespaceContainer>True</RootNamespaceContainer>
@@ -174,6 +174,10 @@
     </DocumentationSources>
     <RootNamespaceTitle>MonkeySpeakEx API</RootNamespaceTitle>
     <VisibleItems>Attributes, InheritedMembers, Internals, Privates, Protected, SealedProtected, ProtectedInternalAsProtected, NoPIATypes, PublicCompilerGenerated</VisibleItems>
+    <FeedbackEMailLinkText>Lead Developer Geolkae</FeedbackEMailLinkText>
+    <FeedbackEMailAddress>gerolkae%40gmail.com</FeedbackEMailAddress>
+    <CopyrightText>Apache 2.0</CopyrightText>
+    <CopyrightHref>http://www.apache.org/licenses/LICENSE-2.0</CopyrightHref>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
