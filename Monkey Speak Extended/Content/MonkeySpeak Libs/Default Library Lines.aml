@@ -36,6 +36,32 @@
           </definition>
 
         </glossaryEntry>
+                   <glossaryEntry>
+          <terms>
+            <term termId="DebugEffect1000">DebugEffect (5:10000)</term>
+          </terms>
+          <definition>
+            <para>(5:10000) create a debug breakpoint here,</para>
+            <para>
+            Code Reference:
+           <codeEntityReference qualifyHint="false" autoUpgrade="true">M:Monkeyspeak.Libraries.Debug.CreateBreakPoint(Monkeyspeak.TriggerReader)</codeEntityReference>
+           </para>
+          </definition>
+
+        </glossaryEntry>
+                   <glossaryEntry>
+          <terms>
+            <term termId="DebugCause301">DebugCause (0:10000)</term>
+          </terms>
+          <definition>
+            <para>(0:10000) when a debug breakpoint is hit</para>
+               <para>
+            Code Reference:
+         <codeEntityReference qualifyHint="false" autoUpgrade="true">M:Monkeyspeak.Libraries.Debug.WhenBreakpointHit(Monkeyspeak.TriggerReader)</codeEntityReference>
+           </para>
+          </definition>
+
+        </glossaryEntry>
       </glossaryDiv>
     </glossary>
   </developerGlossaryDocument>

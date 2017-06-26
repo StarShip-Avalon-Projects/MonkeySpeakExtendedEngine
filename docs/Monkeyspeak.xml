@@ -3182,30 +3182,15 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Debug.#ctor">
       <summary>
-        <markup>
-          <include item="SMCAutoDocConstructor">
-            <parameter>Monkeyspeak.Libraries.Debug</parameter>
-          </include>
-        </markup>
-      </summary>
+            Initialize Cause and effect
+            <para><see cref="M:Monkeyspeak.Libraries.Debug.WhenBreakpointHit(Monkeyspeak.TriggerReader)">(0:10000)</see> $amp; <see cref="M:Monkeyspeak.Libraries.Debug.CreateBreakPoint(Monkeyspeak.TriggerReader)">(5:10000)</see></para></summary>
     </member>
     <member name="M:Monkeyspeak.Libraries.Debug.CreateBreakPoint(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Debug.CreateBreakPoint(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:10000) create a debug breakpoint here,
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Debug.CreateBreakPoint(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3218,21 +3203,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Debug.WhenBreakpointHit(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Debug.WhenBreakpointHit(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (0:10000) when a debug breakpoint is hit
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Debug.WhenBreakpointHit(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3259,21 +3233,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.IO.AppendToFile(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.AppendToFile(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:200) append {...} to file {...}.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.AppendToFile(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3286,21 +3249,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.IO.CanReadFile(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.CanReadFile(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:202) and the file {...} can be read from,
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.CanReadFile(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3313,21 +3265,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.IO.CanWriteFile(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.CanWriteFile(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:203) and the file {...} can be written to,"
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.CanWriteFile(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3340,21 +3281,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.IO.CreateFile(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.CreateFile(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:203) create file {...}.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.CreateFile(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3367,21 +3297,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.IO.DeleteFile(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.DeleteFile(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:202) delete file {...}.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.DeleteFile(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3394,21 +3313,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.IO.FileExists(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.FileExists(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:200) and the file {...} exists,
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.FileExists(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3421,21 +3329,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.IO.FileNotExists(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.FileNotExists(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:201) and the file {...} does not exist,
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.FileNotExists(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3448,21 +3345,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.IO.ReadFileIntoVariable(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.ReadFileIntoVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:201) read from file {...} and put it into variable %Variable.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.IO.ReadFileIntoVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3489,21 +3375,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Math.AddToVariable(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.AddToVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:150) take variable %Variable and add # to it.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.AddToVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3516,21 +3391,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Math.DivideByVariable(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.DivideByVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:153) take variable %Variable and divide it by #.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.DivideByVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3543,21 +3407,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Math.MultiplyByVariable(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.MultiplyByVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            "(5:152) take variable %Variable and multiply it by #.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.MultiplyByVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3570,21 +3423,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Math.SubtractFromVariable(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.SubtractFromVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:151) take variable %Variable and subtract # from it.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.SubtractFromVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3597,21 +3439,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Math.VariableGreaterThan(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.VariableGreaterThan(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:150) and variable %Variable is greater than #,
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.VariableGreaterThan(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3624,21 +3455,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Math.VariableGreaterThanOrEqual(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.VariableGreaterThanOrEqual(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:151) and variable %Variable is greater than or equal to #,
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.VariableGreaterThanOrEqual(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3651,21 +3471,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Math.VariableLessThan(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.VariableLessThan(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:152) and variable %Variable is less than #,
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.VariableLessThan(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3678,21 +3487,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Math.VariableLessThanOrEqual(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.VariableLessThanOrEqual(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:153) and variable %Variable is less than or equal to #,
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Math.VariableLessThanOrEqual(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3719,21 +3517,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.StringOperations.AddStringToVar(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.AddStringToVar(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:404) with string {...} add it to string variable %Variable.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.AddStringToVar(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3746,21 +3533,11 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.StringOperations.GetWordCountIntoVariable(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.GetWordCountIntoVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:403) with string {...} get word count and put it into
+            variable %Variable.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.GetWordCountIntoVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3773,21 +3550,11 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryCopy(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryCopy(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:400) use string {...} as an array and copy entry # of it into
+            variable %Variable.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryCopy(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3800,21 +3567,11 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryRemove(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryRemove(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:402) use string variable %Variable as an array and remove
+            entry # of it.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntryRemove(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3854,21 +3611,11 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.StringOperations.StringLength(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringLength(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:405) take string {...} and put its character length in
+            variable %Variable.
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringLength(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
@@ -3895,13 +3642,9 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.GetEnvVariable(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.GetEnvVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:103) get the environment variable named {...} and put it into
+            %, (ex: PATH)
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -3922,13 +3665,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.IsVariableDefined(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableDefined(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:100) and variable % is defined,
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -3949,13 +3687,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.IsVariableEqualToNumberOrVar(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableEqualToNumberOrVar(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:102) and variable % equals #,
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -3976,13 +3709,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.IsVariableEqualToString(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableEqualToString(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:104) and variable % equals {...},
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4003,13 +3731,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.IsVariableNotDefined(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotDefined(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:101) and variable % is not defined,
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4030,13 +3753,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToNumberOrVar(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToNumberOrVar(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:103) and variable % does not equal #,
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4057,13 +3775,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToString(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.IsVariableNotEqualToString(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:105) and variable % does not equal {...},
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4084,13 +3797,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.LoadLibraryFromFile(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.LoadLibraryFromFile(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:110) load library from file {...}. (example Monkeyspeak.dll)
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4111,13 +3819,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.PrintToConsole(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.PrintToConsole(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:102) print {...} to the console.
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4138,13 +3841,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.RaiseAnError(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.RaiseAnError(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:105) raise an error.
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4165,13 +3863,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.RandomValueToVar(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.RandomValueToVar(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:104) create random number and put it into variable %.
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4192,13 +3885,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.SetVariableToNumberOrVariable(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.SetVariableToNumberOrVariable(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:101) set variable % to #.
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4219,13 +3907,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.SetVariableToString(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.SetVariableToString(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:100) set variable % to {...}.
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4246,13 +3929,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.VariableIsConstant(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.VariableIsConstant(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:106) and variable % is constant,
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4273,13 +3951,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Sys.VariableIsNotConstant(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Sys.VariableIsNotConstant(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:107) and variable % is not constant,
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4427,13 +4100,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.AndTimerIsNotRunning(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.AndTimerIsNotRunning(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:301) and timer # is not running,
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4454,13 +4122,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.AndTimerIsRunning(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.AndTimerIsRunning(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (1:300) and timer # is running,"
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4481,13 +4144,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.CreateTimer(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.CreateTimer(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:300) create timer # to go off every # second(s).
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
@@ -4513,13 +4171,8 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.StopTimer(Monkeyspeak.TriggerReader)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.StopTimer(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+            (5:301) stop timer #.
+            </summary>
       <param name="reader">
         <markup>
           <include item="SMCMissingParamTag">
