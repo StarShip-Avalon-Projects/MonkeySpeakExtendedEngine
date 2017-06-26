@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<topic id="51573500-5c8e-4d79-aad7-5d99bf6c2fe1" revisionNumber="1">
+<topic id="5967b13b-41da-4051-ba01-43648cf28dea" revisionNumber="1">
   <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!--
     <summary>
@@ -12,70 +12,46 @@
            a specific number of sub-topics when creating the outline.  Specify
            zero (0) to limit it to top-level sections only.  -->
       <!-- <autoOutline /> -->
-      <para>
-        MonkeyspeakEngine parses a Monkeyspeak script and returns a Page
-        Page handles the TriggerHandlers added
-        TriggerHandler delegates that are assigned to Triggers and Executed by Page(s)
-        Trigger similar to "functions", are used to store information used in the execution of a TriggerHandler
-      </para>
+      <para>Required introduction</para>
     </introduction>
     <!-- Add one or more top-level section elements.  These are collapsible.
          If using <autoOutline />, add an address attribute to identify it
          and specify a title so that it can be jumped to with a hyperlink. -->
-    <section address="Section1">
-      <title>Definitions</title>
+    <section address="">
+      <title></title>
       <content>
-        <autoOutline />
-        <para>
-          MonkeyspeakEngine parses a Monkeyspeak script and returns a Page
-        </para>
-        <para>
-          Page handles the TriggerHandlers added
-        </para>
-        <para>
-          TriggerHandler delegates that are assigned to Triggers and Executed by Page(s)
-        </para>
-        <para>
-          Trigger similar to "functions", are used to store information used in the execution of a TriggerHandler
-        </para>
+        <!-- Uncomment this to create a sub-section outline
+        <autoOutline /> -->
       </content>
       <!-- If a section contains a sections element, its content creates
-           sub-sections.  These are not collapsible. -->
+           sub-sections.  These are not collapsible.-->
       <sections>
-        <section address="GettingStarted">
-          <title>Getting Started</title>
+        <section address="RunSmallScripts">
+          <title>Running Many Small Scripts</title>
           <content>
-            <para>Start your engines! Or just ONE engine is all you need. But you could have more if you wanted.</para>
-            <para>Everything starts with the MonkeyspeakEngine object. Lets get started and make one.</para>
+            <para>Running many small scripts is faster then loading a BIG combined script. This is because the engine returns faster loading a small script and can move on to the next. If the engine has to sit there and load a BIG script its going to hang until it completes that action.</para>
+            <para>
+              If you HAVE to use BIG scripts or want to combine scripts into one because that is what your design strategy needs I understand and I got the solution.
+            </para>
+          </content>
+        </section>
+        <section address="CombineScripts">
+          <title>Combining Scripts</title>
+          <content>
+            <para>Monkeyspeak gives you 2 methods to load a script into another existing Page.</para>
+            <para>These are:</para>
             <code language="cs">
-              Monkeyspeak.MonkeyspeakEngine engine = new Monkeyspeak.MonkeyspeakEngine();
+              LoadFromString(ref Page existingPage, string chunk)
+              LoadFromStream(ref Page existingPage, Stream stream)
             </code>
-            <para>What we are doing here is creating a MonkeyspeakEngine instance and that is all.</para>
-            <para>MonkeyspeakEngine has Options that let you configure some of the symbols in the language itself!</para>
-            <para>For example if I wanted to make all Strings start and end with " and " instead of the Default { and }</para>
-            <code language="cs">
-              engine.Options.StringBegin = '\"';
-              engine.Options.StringEnd = '\"';
-            </code>
-            <para>Or I wanted to make the variable declaration symbol % become &amp;</para>
-            <code language="cs">
-              engine.Options.VariableSymbol = '&amp;';
-            </code>
+            <para>
+              Combining scripts can lead to hanging (see <link xlink:href="#RunSmallScripts">Running Many Small Scripts</link>) but if you compile them then later you can load them a lot faster many times each.
+            </para>
           </content>
         </section>
       </sections>
     </section>
     <relatedTopics>
-      <externalLink>
-        <linkText>Beekins DS Theory</linkText>
-
-        <linkUri>http://www.furcadia.com/beekins/masons/knowledgebase/dstheory.html</linkUri>
-      </externalLink>
-      <externalLink>
-        <linkText>Dreammaker's Guild Article on Dragonspeak</linkText>
-        <linkUri>http://dreammakersguild.com/?page=basic_ds</linkUri>
-      </externalLink>
-
       <!-- One or more of the following:
            - A local link
            - An external link

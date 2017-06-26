@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<topic id="a35fb7c6-2f3f-4d85-9fa8-cce716a5a8ac" revisionNumber="1">
+<topic id="bfeaae03-aa7a-49f9-ab69-b68ca68a533d" revisionNumber="1">
   <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!--
     <summary>
@@ -12,64 +12,34 @@
            a specific number of sub-topics when creating the outline.  Specify
            zero (0) to limit it to top-level sections only.  -->
       <!-- <autoOutline /> -->
-      <para>
-        Creating a Library starts with creating a class that inherits from
-        <codeEntityReference qualifyHint="false">T:Monkeyspeak.Libraries.AbstractBaseLibrary</codeEntityReference>
-      </para>
-      <code language="cs" numberLines="true">
-        public class TestLibrary : AbstractBaseLibrary{
-
-        }
-      </code>
+      <para>Required introduction</para>
     </introduction>
     <!-- Add one or more top-level section elements.  These are collapsible.
          If using <autoOutline />, add an address attribute to identify it
          and specify a title so that it can be jumped to with a hyperlink. -->
     <section address="Section1">
-      <title>The Easy way to add TriggerHandlers by the BUNDLE.</title>
+      <title>Optional section title</title>
       <content>
         <!-- Uncomment this to create a sub-section outline
         <autoOutline /> -->
-        <para>
-          In the constructor of this TestLibrary would be where the TriggerHandlers are
-          added. This happens through the Add method. Add takes a minimum of 3parameters,
-          the Trigger you want to handle and the TriggerHandler followed by a optional description
-          of the trigger. Hint: Its good practice to add a comment with a description of the trigger
-          for easier debugging purposes. Monkeyspeak also goes a step further by giving you
-          informative Exceptions when a exception is raised by a Trigger by giving you the Library
-          class followed by the TriggerHandler method name and the Trigger identifier, always (#:#).
-        </para>
-        <code language="cs" title="C# TestLibrary sample" numberLines="true">
-          <![CDATA[
-            /// <summary>
-        /// Test Library Example
-          /// </summary>]]>
-          public class TestLibrary : AbstractBaseLibrary{
+        <code language="cs">
+          string testScript = @"
+          *This is a comment.
+          (0:0) when the script is started,
+          (5:0) print {Hello World} to the console.
+          ";
+          Monkeyspeak.MonkeyspeakEngine engine = new Monkeyspeak.MonkeyspeakEngine();
+          Monkeyspeak.Page page = engine.LoadFromString(testScript);
 
-          <![CDATA[/// <summary>
-          /// Add triggers through the constructor
-            /// </summary>]]>
-          public TestLibrary(){
-          // (0:0) when someone does something,
-          Add(TriggerType.Cause, 0, WhenSomeoneDoesSomething,
-          "(0:0) when someone does something,");
-          }
+          page.SetTriggerHandler(new Monkeyspeak.Trigger(Monkeyspeak.TriggerCategory.Cause, 0), delegate { return true; });
 
-          <![CDATA[/// <summary>
-        /// (0:0) when someone does something,
-          /// </summary>]]>
-          private bool WhenSomeoneDoesSomething(TriggerReader reader){
-          return EventManager.SomeoneDidSomething();
-          }
-          }
+          page.SetTriggerHandler(new Monkeyspeak.Trigger(Monkeyspeak.TriggerCategory.Effect, 0), delegate(TriggerReader reader){
+          Console.WriteLine(reader.ReadString());
+          return true;
+          });
+          //Execute every block containing (0:0)
+          page.Execute(0);
         </code>
-        <para>
-          Now the TestLibrary is complete. We have our TriggerHandler
-          WhenSomeoneDoesSomething registered to TriggerType.Cause, 0
-          or Trigger (0:0) when someone does something, Now when you call
-          GettingStarted it will look for the trigger (0:0) and call our
-          handler WhenSomeoneDoesSomething.
-        </para>
       </content>
       <!-- If a section contains a sections element, its content creates
            sub-sections.  These are not collapsible.

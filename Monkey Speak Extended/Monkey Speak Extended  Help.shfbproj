@@ -212,6 +212,9 @@
     <None Include="Content\Creating a Library.aml" />
     <None Include="Content\MonkeySpeak Libs\Default Libraries.aml" />
     <None Include="Content\MonkeySpeak Libs\Default Library Lines.aml" />
+    <None Include="Content\SimpleSetup.aml" />
+    <None Include="Content\RunningScripts.aml" />
+    <None Include="Content\TriggerHandler.aml" />
     <None Include="Reference with Syntax1.aml" />
   </ItemGroup>
   <ItemGroup>

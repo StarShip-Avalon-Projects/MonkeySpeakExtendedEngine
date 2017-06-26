@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<topic id="51573500-5c8e-4d79-aad7-5d99bf6c2fe1" revisionNumber="1">
+<topic id="0edd4b74-20a9-441b-a7df-7d571d2dc63c" revisionNumber="1">
   <developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!--
     <summary>
@@ -13,69 +13,75 @@
            zero (0) to limit it to top-level sections only.  -->
       <!-- <autoOutline /> -->
       <para>
-        MonkeyspeakEngine parses a Monkeyspeak script and returns a Page
-        Page handles the TriggerHandlers added
-        TriggerHandler delegates that are assigned to Triggers and Executed by Page(s)
-        Trigger similar to "functions", are used to store information used in the execution of a TriggerHandler
+        TriggerHandlers handle the logic associated with each Trigger.
+        They take a delegate that takes one parameter TriggerReader.
       </para>
     </introduction>
     <!-- Add one or more top-level section elements.  These are collapsible.
          If using <autoOutline />, add an address attribute to identify it
          and specify a title so that it can be jumped to with a hyperlink. -->
     <section address="Section1">
-      <title>Definitions</title>
+      <title>Optional section title</title>
       <content>
-        <autoOutline />
-        <para>
-          MonkeyspeakEngine parses a Monkeyspeak script and returns a Page
-        </para>
-        <para>
-          Page handles the TriggerHandlers added
-        </para>
-        <para>
-          TriggerHandler delegates that are assigned to Triggers and Executed by Page(s)
-        </para>
-        <para>
-          Trigger similar to "functions", are used to store information used in the execution of a TriggerHandler
-        </para>
+        <!-- Uncomment this to create a sub-section outline
+        <autoOutline /> -->
+        <para>Add one or more sections with content</para>
       </content>
       <!-- If a section contains a sections element, its content creates
-           sub-sections.  These are not collapsible. -->
+           sub-sections.  These are not collapsible.-->
       <sections>
-        <section address="GettingStarted">
-          <title>Getting Started</title>
+        <section address="BriefIntro">
+          <title>Brief Intro to TriggerReader</title>
           <content>
-            <para>Start your engines! Or just ONE engine is all you need. But you could have more if you wanted.</para>
-            <para>Everything starts with the MonkeyspeakEngine object. Lets get started and make one.</para>
+            <para>
+              TriggerReader is like BinaryReader. TriggerReader
+              is used in retrieving the values associated with a
+              Trigger. This is done through the 3 main Read* methods.
+              The methods reader.PeekString, reader.PeekNumber or
+              reader.PeekVariable return boolean if the next value is
+              the desired type. Using those methods help avoid the
+              Exception that is thrown if you try to read a value that
+              doesn't exist.
+            </para>
+            <para>
+              In this example "trigger" points to a Trigger (5:999)
+              set %testVariable to 123 and print {This is a String}.
+            </para>
             <code language="cs">
-              Monkeyspeak.MonkeyspeakEngine engine = new Monkeyspeak.MonkeyspeakEngine();
+              TriggerReader reader = new TriggerReader(trigger);
+              Monkeyspeak.Variable varValue = reader.ReadVariable(); // This would return a reference to %testVariable
+              double numValue = reader.ReadNumber(); // This would return 123
+              string stringValue = reader.ReadString(); // This would return "This is a String"
             </code>
-            <para>What we are doing here is creating a MonkeyspeakEngine instance and that is all.</para>
-            <para>MonkeyspeakEngine has Options that let you configure some of the symbols in the language itself!</para>
-            <para>For example if I wanted to make all Strings start and end with " and " instead of the Default { and }</para>
+            <para>
+              Trying to read these values out of order would cause an exception to be raised.
+              This allows you to have some actual structure when processing Triggers.
+            </para>
+            <para>
+              For example if you add a 0, "Hello World", and %userName* to your trigger. You would read it like this:
+            </para>
             <code language="cs">
-              engine.Options.StringBegin = '\"';
-              engine.Options.StringEnd = '\"';
+              triggerReader.ReadNumber(); // Number is 0
+              triggerReader.ReadString(); // String is "Hello World"
+              triggerReader.ReadVariable(); // Variable is %userName
             </code>
-            <para>Or I wanted to make the variable declaration symbol % become &amp;</para>
-            <code language="cs">
-              engine.Options.VariableSymbol = '&amp;';
+            <para>
+              If however you decided to try to read the first value 0 as a String
+            </para>
+            <code launguage="cs">
+              triggerReader.ReadString(); // TriggerReaderException would be thrown here.
             </code>
+          </content>
+        </section>
+        <section address="SubSection2">
+          <title>Sub-section 2</title>
+          <content>
+            <para>Sub-section content.</para>
           </content>
         </section>
       </sections>
     </section>
     <relatedTopics>
-      <externalLink>
-        <linkText>Beekins DS Theory</linkText>
-
-        <linkUri>http://www.furcadia.com/beekins/masons/knowledgebase/dstheory.html</linkUri>
-      </externalLink>
-      <externalLink>
-        <linkText>Dreammaker's Guild Article on Dragonspeak</linkText>
-        <linkUri>http://dreammakersguild.com/?page=basic_ds</linkUri>
-      </externalLink>
-
       <!-- One or more of the following:
            - A local link
            - An external link
