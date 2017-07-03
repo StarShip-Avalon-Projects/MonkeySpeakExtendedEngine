@@ -18,7 +18,7 @@ MonkeySpeakEx is a functional language. The Engine loads the script into a new P
 * EXE compiler (beta)
 
 ## Examples
-
+The Red-Laser eyed Furcadia&copy; bot
 [Silver Monkey](http://silvermonkey.tsprojects.org)
 
 ## Apache License
