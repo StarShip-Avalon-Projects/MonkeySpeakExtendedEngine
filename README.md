@@ -6,15 +6,12 @@ MonkeySpeakEx is a dragonspeak-like interpreter written in C# 4.6. MonkeySpeakEx
 ## What is Monkey Speak?
 Monkey Speak is a script language based on natural speech resembling [Furcadia&copy; Dragon Speak](http://www.furcadia.com/beekins/masons/knowledgebase/tds.html). It consists of causes, conditions and effects. 
 
-
+``` Monkey Speak
 (0:xx) When this happens (return True and continue) (Cause) 
-
 	(1:xx) And this is True (return True and continue)  (Condition) 
-
 		(5:xx) Do this (if sucessful, return True and continue, otherwise return false and halt furter processing) (Effect)
-
 		(5:xy) Do this (if sucessful, return True and continue, otherwise return false and halt furter processing) (Effect)
-
+```
 
 The Engine loads the script into a new Page that contains the Triggers. Triggers can be compared to functions since they are used to perform a function in MonkeySpeakEx. Triggers are assigned specific TriggerHandlers (delegates) that are executed whenever the engine detects that trigger. Only one TriggerHandler delegate is assigned per Trigger.
 
