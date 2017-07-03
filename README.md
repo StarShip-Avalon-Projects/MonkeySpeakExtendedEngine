@@ -20,8 +20,8 @@ The Engine loads the script into a new Page that contains the Triggers. Triggers
 * Native supported data types (string, double) 
 * Local variable scope per Page 
 * Multiple conditional statements using (1:##) triggers 
-* Default libraries Sys, IO, Math, Debug, Timers 
-* Easy to extend by extending AbstractBaseLibrary or attaching TriggerHandlerAttribute to a method 
+* [Default libraries](https://starship-avalon-projects.github.io/MonkeySpeakExtendedEngine/html/f0801825-eba4-44b1-4629-82ca22d81e8a.htm) Sys, IO, Math, Debug, Timers 
+* Easy to extend by extending [AbstractBaseLibrary](https://starship-avalon-projects.github.io/MonkeySpeakExtendedEngine/html/16b41a55-314a-c426-9aaf-22da47e8e065.htm) or attaching TriggerHandlerAttribute to a method 
 * Compilable scripts for faster loading or sending over the network 
 * Thread safe, can execute multiple pages asynchronously. (beta) 
 * EXE compiler (beta)
@@ -36,5 +36,6 @@ Version 2.0, January 2004
 http://www.apache.org/licenses/
 
 ## Disclaimer
-The project "MonkeySpeakEx" and it's development team is in no way affiliated with Dragon's Eye Productions or Catnip Studios. MonkeySpeakEx is free for life. Free as in FREE BEER!!
-Important: MonkeySpeakEx's compiled file format is not compatible with Dragonspeak's compiled file format.
+The project "MonkeySpeakEx" and it's development team is in no way affiliated with Dragon's Eye Productions or [Catnip Studios](https://www.catnipstudios.com/). MonkeySpeakEx is free for life. Free as in FREE BEER!!
+
+_Important:_ MonkeySpeakEx's compiled file format is not compatible with Dragon Speak's compiled file format.
