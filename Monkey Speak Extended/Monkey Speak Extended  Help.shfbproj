@@ -13,8 +13,8 @@
     <RootNamespace>Monkey_Speak_Extended</RootNamespace>
     <Name>Monkey Speak Extended  Help</Name>
     <!-- SHFB properties -->
-    <FrameworkVersion>.NET Framework 4.6</FrameworkVersion>
-    <OutputPath>..\..\..\..\Bitnami\wampstack-5.6.29-1\apps\silvermonkey\htdocs\help\devdocs\monkeyspeakex\</OutputPath>
+    <FrameworkVersion>.NET Framework 4.5</FrameworkVersion>
+    <OutputPath>docs\</OutputPath>
     <HtmlHelpName>Monkey_Speak_Extended</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
@@ -134,7 +134,7 @@
     <PlugInConfigurations>
       <PlugInConfig id="Output Deployment" enabled="True">
         <configuration deleteAfterDeploy="false" verboseLogging="false">
-          <deploymentLocation id="help1x" location="">
+          <deploymentLocation id="help1x" location="..\Buiild\Help">
             <userCredentials useDefault="true" userName="" password="" />
             <proxyCredentials useProxy="false" proxyServer="">
               <userCredentials useDefault="true" userName="" password="" />
@@ -146,7 +146,7 @@
               <userCredentials useDefault="true" userName="" password="" />
             </proxyCredentials>
           </deploymentLocation>
-          <deploymentLocation id="website" location="D:\TS-Projects\Net Source Code\MonkeySpeakExtendedEngine\docs">
+          <deploymentLocation id="website" location="D:\Bitnami\wampstack-5.6.29-1\apps\silvermonkey\htdocs\help\devdocs\monkeyspeakex">
             <userCredentials useDefault="true" userName="" password="" />
             <proxyCredentials useProxy="false" proxyServer="">
               <userCredentials useDefault="true" userName="" password="" />
@@ -230,8 +230,7 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>xcopy /y "$(OutputPath)Monkey_Speak_Extended.chm" "$(SolutionDir)build\$(Configuration)"</PostBuildEvent>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
 </Project>

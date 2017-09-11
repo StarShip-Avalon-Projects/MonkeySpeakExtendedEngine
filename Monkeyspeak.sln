@@ -1,17 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36738DD3-4CE5-4877-AC28-D14E16160FA0}"
 	ProjectSection(SolutionItems) = preProject
+		Backup SRC.cmd = Backup SRC.cmd
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		LICENSE = LICENSE
+		Package.nuspec = Package.nuspec
 		README.md = README.md
+		Solution.build = Solution.build
 		TestSettings1.testsettings = TestSettings1.testsettings
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msxc", "msxc\msxc.csproj", "{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Monkey Speak Extended  Help", "Monkey Speak Extended\Monkey Speak Extended  Help.shfbproj", "{13740822-D8C6-4BC3-A702-3957466AFB2E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{925781E6-8B75-471B-887F-616495BBBFDD} = {925781E6-8B75-471B-887F-616495BBBFDD}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeySpeakEx", "MonkeySpeakEx\MonkeySpeakEx.csproj", "{925781E6-8B75-471B-887F-616495BBBFDD}"
 EndProject
@@ -160,6 +168,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3F32804A-6C3A-49AA-82A9-9AF527683209} = {662F6D80-BE7A-4AC1-AB82-58474D346091}
 		{44FF51A1-8FF5-444D-B36A-FE89685540A3} = {662F6D80-BE7A-4AC1-AB82-58474D346091}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BF8D41C-4F24-4F0E-BAEA-38851F7F00B5}
 	EndGlobalSection
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True

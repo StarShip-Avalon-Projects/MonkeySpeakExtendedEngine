@@ -1,7 +1,7 @@
-# Monkey Speak Extended
+# Monkey Speak Extended Script Engine
 
 ## Description
-MonkeySpeakEx is a dragonspeak-like interpreter written in C# 4.6. MonkeySpeakEx has a light footprint, less than 100kb size. Runtime memory usage is small making it very friendly in mobile environments.
+MonkeySpeakEx is a dragonspeak-like interpreter written in C# 4.5. MonkeySpeakEx has a light footprint, less than 100kb size. Runtime memory usage is small making it very friendly in mobile environments.
 
 ## What is Monkey Speak?
 Monkey Speak is a script language based on natural speech resembling [Furcadia&copy; Dragon Speak](http://www.furcadia.com/beekins/masons/knowledgebase/tds.html). It consists of causes, conditions and effects. 
