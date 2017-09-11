@@ -14,7 +14,7 @@
     <Name>Monkey Speak Extended  Help</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 4.5</FrameworkVersion>
-    <OutputPath>docs\</OutputPath>
+    <OutputPath>..\docs\</OutputPath>
     <HtmlHelpName>Monkey_Speak_Extended</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
@@ -134,7 +134,7 @@
     <PlugInConfigurations>
       <PlugInConfig id="Output Deployment" enabled="True">
         <configuration deleteAfterDeploy="false" verboseLogging="false">
-          <deploymentLocation id="help1x" location="..\Buiild\Help">
+          <deploymentLocation id="help1x" location="..\Build\Help">
             <userCredentials useDefault="true" userName="" password="" />
             <proxyCredentials useProxy="false" proxyServer="">
               <userCredentials useDefault="true" userName="" password="" />

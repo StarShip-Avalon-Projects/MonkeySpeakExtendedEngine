@@ -565,13 +565,10 @@
     </member>
     <member name="T:Monkeyspeak.Page">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.Page</parameter>
-          </include>
-        </markup>
-      </summary>
+            the core system of Monkey Speak
+            <para>
+            This is where the triggers happen for the monkey speak lines
+            </para></summary>
     </member>
     <member name="M:Monkeyspeak.Page.#ctor(Monkeyspeak.MonkeyspeakEngine)">
       <summary>
@@ -639,15 +636,10 @@
           </include>
         </markup>
       </summary>
-      <param name="filePath">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>filePath</parameter>
-            <parameter>M:Monkeyspeak.Page.CompileToFile(System.String)</parameter>
-          </include>
-        </markup>
-      </param>
+      <param name="filePath">output file path</param>
+      <exception cref="T:System.ArgumentException">
+            Thrown when no file path is supplied
+            </exception>
     </member>
     <member name="M:Monkeyspeak.Page.CompileToStream(System.IO.Stream)">
       <summary>
@@ -685,13 +677,8 @@
     </member>
     <member name="M:Monkeyspeak.Page.Execute(Monkeyspeak.TriggerCategory,System.Int32)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.Execute(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
-          </include>
-        </markup>
-      </summary>
+            old style way to execute monkey speak causes
+            </summary>
       <param name="cat">
         <markup>
           <include item="SMCMissingParamTag">
@@ -1620,13 +1607,9 @@
     </member>
     <member name="T:Monkeyspeak.Trigger">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.Trigger</parameter>
-          </include>
-        </markup>
-      </summary>
+            Monkey Speak Trigger
+            <para>
+            ( <see cref="T:Monkeyspeak.TriggerCategory" />, <see cref="T:System.Int32">Id</see></para></summary>
     </member>
     <member name="M:Monkeyspeak.Trigger.#ctor">
       <summary>
@@ -1639,30 +1622,14 @@
     </member>
     <member name="M:Monkeyspeak.Trigger.#ctor(Monkeyspeak.TriggerCategory,System.Int32)">
       <summary>
-        <markup>
-          <include item="SMCAutoDocConstructor">
-            <parameter>Monkeyspeak.Trigger</parameter>
-          </include>
-        </markup>
-      </summary>
+            Establish a new trigger
+            </summary>
       <param name="cat">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>cat</parameter>
-            <parameter>M:Monkeyspeak.Trigger.#ctor(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerCategory" />
       </param>
       <param name="id">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>id</parameter>
-            <parameter>M:Monkeyspeak.Trigger.#ctor(Monkeyspeak.TriggerCategory,System.Int32)</parameter>
-          </include>
-        </markup>
-      </param>
+            Line ID
+            </param>
     </member>
     <member name="P:Monkeyspeak.Trigger.Category">
       <summary>
@@ -1806,13 +1773,8 @@
     </member>
     <member name="M:Monkeyspeak.Trigger.ToString">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Trigger.ToString</parameter>
-          </include>
-        </markup>
-      </summary>
+            Display the line id format (#:#)
+            </summary>
       <returns>
         <markup>
           <include item="SMCMissingTag">
@@ -1834,13 +1796,8 @@
     </member>
     <member name="T:Monkeyspeak.TriggerCategory">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.TriggerCategory</parameter>
-          </include>
-        </markup>
-      </summary>
+            Monkey Speak Trigger Catagories
+            </summary>
     </member>
     <member name="F:Monkeyspeak.TriggerCategory.Cause">
       <summary>
@@ -1865,8 +1822,8 @@
     </member>
     <member name="F:Monkeyspeak.TriggerCategory.Undefined">
       <summary>
-            A trigger that was not defined. You should never encounter this if you do then something
-            isn't quite right.
+            A trigger that was not defined. You should never encounter this
+            if you do then something isn't quite right.
             </summary>
     </member>
     <member name="T:Monkeyspeak.TriggerHandledEventHandler">
@@ -2069,25 +2026,14 @@
     </member>
     <member name="M:Monkeyspeak.TriggerReader.#ctor(Monkeyspeak.Page,Monkeyspeak.Trigger)">
       <summary>
-            A Reader that is used to get Variables, Strings, and Numbers from Triggers
+            A Reader that is used to get Variables, Strings, and Numbers
+            from Triggers
             </summary>
       <param name="page">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>page</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.#ctor(Monkeyspeak.Page,Monkeyspeak.Trigger)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.Page" />
       </param>
       <param name="trigger">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>trigger</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.#ctor(Monkeyspeak.Page,Monkeyspeak.Trigger)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.Trigger" />
       </param>
     </member>
     <member name="P:Monkeyspeak.TriggerReader.Page">
@@ -2131,21 +2077,16 @@
             Peeks at the next value
             </summary>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.PeekVariable</parameter>
-          </include>
-        </markup>
-      </returns>
+            the current peek <see cref="T:Monkeyspeak.Variable" /></returns>
     </member>
     <member name="M:Monkeyspeak.TriggerReader.ReadNumber">
       <summary>
-            Reads the next Double available, throws TriggerReaderException on failure
+            Reads the next Double available, throws TriggerReaderException
+            on failure
             </summary>
       <returns>
-            Double
-            </returns>
+        <see cref="T:System.Double" />
+      </returns>
     </member>
     <member name="M:Monkeyspeak.TriggerReader.ReadString(System.Boolean)">
       <summary>
@@ -2161,17 +2102,13 @@
         </markup>
       </param>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.ReadString(System.Boolean)</parameter>
-          </include>
-        </markup>
+        <see cref="T:System.String" />
       </returns>
     </member>
     <member name="M:Monkeyspeak.TriggerReader.ReadVariable">
       <summary>
-            Reads the next Variable available, throws TriggerReaderException on failure
+            Reads the next Variable available, throws TriggerReaderException
+            on failure
             </summary>
       <returns>
             Variable
@@ -2179,10 +2116,12 @@
     </member>
     <member name="M:Monkeyspeak.TriggerReader.ReadVariable(System.Boolean)">
       <summary>
-            Reads the next Variable available, throws TriggerReaderException on failure
+            Reads the next Variable available, throws TriggerReaderException
+            on failure
             </summary>
       <param name="addIfNotExist">
-            Add the Variable if it doesn't exist and return that Variable with a Value equal to null.
+            Add the Variable if it doesn't exist and return that Variable
+            with a Value equal to null.
             </param>
       <returns>
             Variable
@@ -2233,22 +2172,11 @@
         </markup>
       </summary>
       <param name="number">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>number</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.TryReadNumber(System.Double@)</parameter>
-          </include>
-        </markup>
+        <see cref="T:System.Double" />
       </param>
       <returns>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>returns</parameter>
-            <parameter>M:Monkeyspeak.TriggerReader.TryReadNumber(System.Double@)</parameter>
-          </include>
-        </markup>
-      </returns>
+            True on sucess
+            </returns>
     </member>
     <member name="M:Monkeyspeak.TriggerReader.TryReadString(System.String@)">
       <summary>
