@@ -35,7 +35,7 @@ git add --all
 set GIT_STATUS=%ERRORLEVEL% 
 if not %GIT_STATUS%==0 goto fail 
 
-git commit -m"Auto Version Update" --all
+git commit -am"Auto Version Update" --all
 
 git submodule foreach "git add --all"
 set GIT_STATUS=%ERRORLEVEL% 
