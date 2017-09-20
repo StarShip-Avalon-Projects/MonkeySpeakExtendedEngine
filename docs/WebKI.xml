@@ -454,8 +454,8 @@
   <HelpKINode Title="TimerInfo.Owner property" Url="html/76300b9e-acfe-fa53-c071-308260af2385.htm" />
   <HelpKINode Title="TimerInfo.Timer property" Url="html/d1487e47-ba1f-3562-9b58-02fc006079ae.htm" />
   <HelpKINode Title="TimerInfo.TimerInfo constructor">
-    <HelpKINode Title="TimerInfo Constructor " Url="html/cd448b67-f0b1-a85a-5a24-ac8c03d78c6b.htm" />
     <HelpKINode Title="TimerInfo Constructor " Url="html/dd88d2f5-0039-a081-5f21-af1deffafc94.htm" />
+    <HelpKINode Title="TimerInfo Constructor " Url="html/cd448b67-f0b1-a85a-5a24-ac8c03d78c6b.htm" />
   </HelpKINode>
   <HelpKINode Title="TimerInfo.timer_Elapsed method" Url="html/f324ffd8-6c91-6967-0d42-24e165a8edec.htm" />
   <HelpKINode Title="TimerLimit property" Url="html/49deb5ae-d98b-fd7c-79f4-0942dd7699e2.htm" />
