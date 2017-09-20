@@ -638,8 +638,8 @@
       </summary>
       <param name="filePath">output file path</param>
       <exception cref="T:System.ArgumentException">
-            Thrown when no file path is supplied
-            </exception>
+             Thrown when no file path is supplied
+             </exception>
     </member>
     <member name="M:Monkeyspeak.Page.CompileToStream(System.IO.Stream)">
       <summary>
@@ -2417,6 +2417,33 @@
         </markup>
       </summary>
     </member>
+    <member name="M:Monkeyspeak.Variable.#ctor(System.String,System.Object)">
+      <summary>
+        <markup>
+          <include item="SMCAutoDocConstructor">
+            <parameter>Monkeyspeak.Variable</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="Name">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>Name</parameter>
+            <parameter>M:Monkeyspeak.Variable.#ctor(System.String,System.Object)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="value">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>value</parameter>
+            <parameter>M:Monkeyspeak.Variable.#ctor(System.String,System.Object)</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
     <member name="M:Monkeyspeak.Variable.#ctor(System.String,System.Object,System.Boolean)">
       <summary>
         <markup>
@@ -3922,20 +3949,11 @@
             Page owner
             </param>
       <param name="interval">
-            Sycle time in seconds
+            cycle time in seconds
             </param>
       <param name="Id">
             MonkeySpeak ID if the timer
             </param>
-    </member>
-    <member name="M:Monkeyspeak.Libraries.TimerInfo.#cctor">
-      <summary>
-        <markup>
-          <include item="SMCAutoDocStaticConstructor">
-            <parameter>Monkeyspeak.Libraries.TimerInfo</parameter>
-          </include>
-        </markup>
-      </summary>
     </member>
     <member name="F:Monkeyspeak.Libraries.TimerInfo.CurrentTimer">
       <summary>
@@ -3946,6 +3964,51 @@
           </include>
         </markup>
       </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.TimerInfo.Equals(System.Object)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.Equals(System.Object)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="obj">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>obj</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.Equals(System.Object)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.Equals(System.Object)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.TimerInfo.GetHashCode">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.GetHashCode</parameter>
+          </include>
+        </markup>
+      </summary>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.GetHashCode</parameter>
+          </include>
+        </markup>
+      </returns>
     </member>
     <member name="P:Monkeyspeak.Libraries.TimerInfo.ID">
       <summary>
@@ -3967,6 +4030,78 @@
         </markup>
       </summary>
     </member>
+    <member name="M:Monkeyspeak.Libraries.TimerInfo.op_Equality(Monkeyspeak.Libraries.TimerInfo,Monkeyspeak.Libraries.TimerInfo)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.op_Equality(Monkeyspeak.Libraries.TimerInfo,Monkeyspeak.Libraries.TimerInfo)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="timer1">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>timer1</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.op_Equality(Monkeyspeak.Libraries.TimerInfo,Monkeyspeak.Libraries.TimerInfo)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="timer2">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>timer2</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.op_Equality(Monkeyspeak.Libraries.TimerInfo,Monkeyspeak.Libraries.TimerInfo)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.op_Equality(Monkeyspeak.Libraries.TimerInfo,Monkeyspeak.Libraries.TimerInfo)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.TimerInfo.op_Inequality(Monkeyspeak.Libraries.TimerInfo,Monkeyspeak.Libraries.TimerInfo)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.op_Inequality(Monkeyspeak.Libraries.TimerInfo,Monkeyspeak.Libraries.TimerInfo)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="timer1">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>timer1</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.op_Inequality(Monkeyspeak.Libraries.TimerInfo,Monkeyspeak.Libraries.TimerInfo)</parameter>
+          </include>
+        </markup>
+      </param>
+      <param name="timer2">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>timer2</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.op_Inequality(Monkeyspeak.Libraries.TimerInfo,Monkeyspeak.Libraries.TimerInfo)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.op_Inequality(Monkeyspeak.Libraries.TimerInfo,Monkeyspeak.Libraries.TimerInfo)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
     <member name="P:Monkeyspeak.Libraries.TimerInfo.Owner">
       <summary>
         <markup>
@@ -3987,12 +4122,12 @@
         </markup>
       </summary>
     </member>
-    <member name="M:Monkeyspeak.Libraries.TimerInfo.timer_Elapsed(System.Object)">
+    <member name="M:Monkeyspeak.Libraries.TimerInfo.Timer_Elapsed(System.Object)">
       <summary>
         <markup>
           <include item="SMCMissingTag">
             <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.TimerInfo.timer_Elapsed(System.Object)</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.Timer_Elapsed(System.Object)</parameter>
           </include>
         </markup>
       </summary>
@@ -4001,7 +4136,7 @@
           <include item="SMCMissingParamTag">
             <parameter>param</parameter>
             <parameter>sender</parameter>
-            <parameter>M:Monkeyspeak.Libraries.TimerInfo.timer_Elapsed(System.Object)</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.Timer_Elapsed(System.Object)</parameter>
           </include>
         </markup>
       </param>
