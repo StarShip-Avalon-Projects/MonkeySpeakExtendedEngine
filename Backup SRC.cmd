@@ -20,6 +20,11 @@ goto End
 
 :BuildAll
 msbuild /t:BuildAll  Solution.build
+goto End
+
+:fail 
+pause 
+exit /b 1
 
 :End
 git add --all
