@@ -233,4 +233,7 @@
     <PostBuildEvent>xcopy /y "$(OutputPath)Monkey_Speak_Extended.chm" "$(SolutionDir)build\$(Configuration)"</PostBuildEvent>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Restore' ">
+    <OutputPath>bin\Restore\</OutputPath>
+  </PropertyGroup>
 </Project>

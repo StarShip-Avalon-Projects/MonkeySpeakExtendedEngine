@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36738DD3-4CE5-4877-AC28-D14E16160FA0}"
 	ProjectSection(SolutionItems) = preProject
@@ -37,6 +37,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
+		Restore|Any CPU = Restore|Any CPU
+		Restore|Mixed Platforms = Restore|Mixed Platforms
+		Restore|x86 = Restore|x86
 		Special|Any CPU = Special|Any CPU
 		Special|Mixed Platforms = Special|Mixed Platforms
 		Special|x86 = Special|x86
@@ -55,6 +58,11 @@ Global
 		{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}.Release|Mixed Platforms.Build.0 = Release|x86
 		{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}.Release|x86.ActiveCfg = Release|x86
 		{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}.Release|x86.Build.0 = Release|x86
+		{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}.Restore|Any CPU.ActiveCfg = Restore|x86
+		{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}.Restore|Mixed Platforms.ActiveCfg = Restore|x86
+		{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}.Restore|Mixed Platforms.Build.0 = Restore|x86
+		{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}.Restore|x86.ActiveCfg = Restore|x86
+		{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}.Restore|x86.Build.0 = Restore|x86
 		{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}.Special|Any CPU.ActiveCfg = Release|x86
 		{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}.Special|Any CPU.Build.0 = Release|x86
 		{DF4E5C1B-02E6-4C72-A96C-D5397F84E59F}.Special|Mixed Platforms.ActiveCfg = Release|x86
@@ -79,6 +87,12 @@ Global
 		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Release|x86.ActiveCfg = Release|Any CPU
 		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Release|x86.Build.0 = Release|Any CPU
+		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Restore|Any CPU.ActiveCfg = Restore|Any CPU
+		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Restore|Any CPU.Build.0 = Restore|Any CPU
+		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Restore|Mixed Platforms.ActiveCfg = Restore|Any CPU
+		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Restore|Mixed Platforms.Build.0 = Restore|Any CPU
+		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Restore|x86.ActiveCfg = Restore|Any CPU
+		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Restore|x86.Build.0 = Restore|Any CPU
 		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Special|Any CPU.ActiveCfg = Release|Any CPU
 		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Special|Any CPU.Build.0 = Release|Any CPU
 		{13740822-D8C6-4BC3-A702-3957466AFB2E}.Special|Mixed Platforms.ActiveCfg = Release|Any CPU
@@ -103,6 +117,12 @@ Global
 		{925781E6-8B75-471B-887F-616495BBBFDD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{925781E6-8B75-471B-887F-616495BBBFDD}.Release|x86.ActiveCfg = Release|Any CPU
 		{925781E6-8B75-471B-887F-616495BBBFDD}.Release|x86.Build.0 = Release|Any CPU
+		{925781E6-8B75-471B-887F-616495BBBFDD}.Restore|Any CPU.ActiveCfg = Restore|Any CPU
+		{925781E6-8B75-471B-887F-616495BBBFDD}.Restore|Any CPU.Build.0 = Restore|Any CPU
+		{925781E6-8B75-471B-887F-616495BBBFDD}.Restore|Mixed Platforms.ActiveCfg = Restore|Any CPU
+		{925781E6-8B75-471B-887F-616495BBBFDD}.Restore|Mixed Platforms.Build.0 = Restore|Any CPU
+		{925781E6-8B75-471B-887F-616495BBBFDD}.Restore|x86.ActiveCfg = Restore|Any CPU
+		{925781E6-8B75-471B-887F-616495BBBFDD}.Restore|x86.Build.0 = Restore|Any CPU
 		{925781E6-8B75-471B-887F-616495BBBFDD}.Special|Any CPU.ActiveCfg = Special|Any CPU
 		{925781E6-8B75-471B-887F-616495BBBFDD}.Special|Any CPU.Build.0 = Special|Any CPU
 		{925781E6-8B75-471B-887F-616495BBBFDD}.Special|Mixed Platforms.ActiveCfg = Special|Any CPU
@@ -111,8 +131,8 @@ Global
 		{925781E6-8B75-471B-887F-616495BBBFDD}.Special|x86.Build.0 = Special|Any CPU
 		{925781E6-8B75-471B-887F-616495BBBFDD}.Wix|Any CPU.ActiveCfg = Wix|Any CPU
 		{925781E6-8B75-471B-887F-616495BBBFDD}.Wix|Any CPU.Build.0 = Wix|Any CPU
-		{925781E6-8B75-471B-887F-616495BBBFDD}.Wix|Mixed Platforms.ActiveCfg = Wix|Any CPU
-		{925781E6-8B75-471B-887F-616495BBBFDD}.Wix|Mixed Platforms.Build.0 = Wix|Any CPU
+		{925781E6-8B75-471B-887F-616495BBBFDD}.Wix|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{925781E6-8B75-471B-887F-616495BBBFDD}.Wix|Mixed Platforms.Build.0 = Release|Any CPU
 		{925781E6-8B75-471B-887F-616495BBBFDD}.Wix|x86.ActiveCfg = Wix|Any CPU
 		{925781E6-8B75-471B-887F-616495BBBFDD}.Wix|x86.Build.0 = Wix|Any CPU
 		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Debug|Any CPU.ActiveCfg = Debug|x86
@@ -125,6 +145,11 @@ Global
 		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Release|Mixed Platforms.Build.0 = Release|x86
 		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Release|x86.ActiveCfg = Release|x86
 		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Release|x86.Build.0 = Release|x86
+		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Restore|Any CPU.ActiveCfg = Restore|x86
+		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Restore|Mixed Platforms.ActiveCfg = Restore|x86
+		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Restore|Mixed Platforms.Build.0 = Restore|x86
+		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Restore|x86.ActiveCfg = Restore|x86
+		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Restore|x86.Build.0 = Restore|x86
 		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Special|Any CPU.ActiveCfg = Release|x86
 		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Special|Any CPU.Build.0 = Release|x86
 		{3F32804A-6C3A-49AA-82A9-9AF527683209}.Special|Mixed Platforms.ActiveCfg = Release|x86
@@ -149,6 +174,12 @@ Global
 		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Release|x86.ActiveCfg = Release|Any CPU
 		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Release|x86.Build.0 = Release|Any CPU
+		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Restore|Any CPU.ActiveCfg = Restore|Any CPU
+		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Restore|Any CPU.Build.0 = Restore|Any CPU
+		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Restore|Mixed Platforms.ActiveCfg = Restore|Any CPU
+		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Restore|Mixed Platforms.Build.0 = Restore|Any CPU
+		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Restore|x86.ActiveCfg = Restore|Any CPU
+		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Restore|x86.Build.0 = Restore|Any CPU
 		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Special|Any CPU.ActiveCfg = Release|Any CPU
 		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Special|Any CPU.Build.0 = Release|Any CPU
 		{44FF51A1-8FF5-444D-B36A-FE89685540A3}.Special|Mixed Platforms.ActiveCfg = Release|Any CPU

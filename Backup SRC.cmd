@@ -17,12 +17,18 @@ IF "%~1"=="VersionBump" GOTO VersionBump
 :VersionBump
 msbuild /t:IncrementVersions;BuildAll  Solution.build
 set BUILD_STATUS=%ERRORLEVEL% 
-if %BUILD_STATUS%==0 goto end 
+if %BUILD_STATUS%==0 goto BuildRelease 
 if not %BUILD_STATUS%==0 goto fail 
  
 :BuildAll
 msbuild /t:BuildAll  Solution.build
 set BUILD_STATUS=%ERRORLEVEL% 
+if %BUILD_STATUS%==0 goto BuildRelease 
+if not %BUILD_STATUS%==0 goto fail 
+
+:BuildRelease
+ msbuild /t:Build /property:Configuration=Release Solution.build
+ set BUILD_STATUS=%ERRORLEVEL% 
 if %BUILD_STATUS%==0 goto end 
 if not %BUILD_STATUS%==0 goto fail 
 
