@@ -482,8 +482,8 @@
   <HelpKINode Title="Timers.DestroyTimers method" Url="html/5afc1b1c-4b58-0511-a0c4-31f9712bb56a.htm" />
   <HelpKINode Title="Timers.StopTimer method" Url="html/de77bf76-eb94-a179-0751-01b6b1e3479b.htm" />
   <HelpKINode Title="Timers.Timers constructor">
-    <HelpKINode Title="Timers Constructor " Url="html/db79e587-c9d3-2533-48e2-acc99775ed6b.htm" />
     <HelpKINode Title="Timers Constructor " Url="html/864b8e27-140f-f52d-e45f-db6d51708863.htm" />
+    <HelpKINode Title="Timers Constructor " Url="html/db79e587-c9d3-2533-48e2-acc99775ed6b.htm" />
   </HelpKINode>
   <HelpKINode Title="Timers.TryGetTimerFrom method" Url="html/57dd3840-801b-b5f6-2862-3e581f19270d.htm" />
   <HelpKINode Title="Timers.WhenAnyTimerGoesOff method" Url="html/42f361f9-f832-b5ba-0d20-d6b3a8727e2d.htm" />
