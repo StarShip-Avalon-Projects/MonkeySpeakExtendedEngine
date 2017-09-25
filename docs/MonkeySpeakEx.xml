@@ -478,22 +478,13 @@
     </member>
     <member name="T:Monkeyspeak.Options">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>T:Monkeyspeak.Options</parameter>
-          </include>
-        </markup>
-      </summary>
+            Monkey Speak Engine options
+            </summary>
     </member>
     <member name="M:Monkeyspeak.Options.#ctor">
       <summary>
-        <markup>
-          <include item="SMCAutoDocConstructor">
-            <parameter>Monkeyspeak.Options</parameter>
-          </include>
-        </markup>
-      </summary>
+            default options preloaded
+            </summary>
     </member>
     <member name="P:Monkeyspeak.Options.CanOverrideTriggerHandlers">
       <summary>
@@ -508,6 +499,11 @@
             <para>
             Default: *
             </para></summary>
+    </member>
+    <member name="P:Monkeyspeak.Options.DefaultExecutePath">
+      <summary>
+            Default File path for executing assemblies such as 
+            <see cref="T:Monkeyspeak.Libraries.IO" /></summary>
     </member>
     <member name="P:Monkeyspeak.Options.StringBeginSymbol">
       <summary>
@@ -3955,12 +3951,16 @@
             MonkeySpeak ID if the timer
             </param>
     </member>
-    <member name="F:Monkeyspeak.Libraries.TimerInfo.CurrentTimer">
+    <member name="P:Monkeyspeak.Libraries.TimerInfo.CurrentTimer">
+      <summary>
+            Current Triggering timer
+            </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.TimerInfo.Dispose">
       <summary>
         <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>F:Monkeyspeak.Libraries.TimerInfo.CurrentTimer</parameter>
+          <include item="SMCAutoDocDispose">
+            <parameter>Monkeyspeak.Libraries.TimerInfo</parameter>
           </include>
         </markup>
       </summary>
@@ -4026,6 +4026,16 @@
           <include item="SMCMissingTag">
             <parameter>summary</parameter>
             <parameter>P:Monkeyspeak.Libraries.TimerInfo.Interval</parameter>
+          </include>
+        </markup>
+      </summary>
+    </member>
+    <member name="P:Monkeyspeak.Libraries.TimerInfo.IsDisposed">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Libraries.TimerInfo.IsDisposed</parameter>
           </include>
         </markup>
       </summary>
@@ -4256,31 +4266,10 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.Timers.TryGetTimerFrom(Monkeyspeak.TriggerReader,Monkeyspeak.Libraries.TimerInfo@)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.TryGetTimerFrom(Monkeyspeak.TriggerReader,Monkeyspeak.Libraries.TimerInfo@)</parameter>
-          </include>
-        </markup>
-      </summary>
-      <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.TryGetTimerFrom(Monkeyspeak.TriggerReader,Monkeyspeak.Libraries.TimerInfo@)</parameter>
-          </include>
-        </markup>
-      </param>
-      <param name="timerInfo">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>timerInfo</parameter>
-            <parameter>M:Monkeyspeak.Libraries.Timers.TryGetTimerFrom(Monkeyspeak.TriggerReader,Monkeyspeak.Libraries.TimerInfo@)</parameter>
-          </include>
-        </markup>
-      </param>
+            Tried to get a timer by <see cref="T:Monkeyspeak.Variable" /> or by double
+            </summary>
+      <param name="reader"></param>
+      <param name="timerInfo"></param>
       <returns>
         <markup>
           <include item="SMCMissingTag">

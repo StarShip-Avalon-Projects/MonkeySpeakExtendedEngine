@@ -81,7 +81,7 @@
   <HelpKINode Title="CreateDefaultOptions method" Url="html/796e9cc6-b9a1-52dc-3418-148719ed9ecb.htm" />
   <HelpKINode Title="CreateFile method" Url="html/f489615a-f095-d89a-a467-01b80473dd4a.htm" />
   <HelpKINode Title="CreateTimer method" Url="html/140b71dc-8bd7-4493-c85c-68f7ff931f2b.htm" />
-  <HelpKINode Title="CurrentTimer field" Url="html/f9e0cdaa-a804-0f74-440c-016b73a6ec02.htm" />
+  <HelpKINode Title="CurrentTimer property" Url="html/a2ab4204-da1f-384e-a024-568b9b6b6508.htm" />
   <HelpKINode Title="Debug class">
     <HelpKINode Title="Debug Class" Url="html/b0ec140d-3d00-e4a0-5b08-651ea0500ebc.htm" />
     <HelpKINode Title="about Debug class" Url="html/b0ec140d-3d00-e4a0-5b08-651ea0500ebc.htm" />
@@ -93,10 +93,12 @@
   <HelpKINode Title="Debug.Debug constructor" Url="html/70b89102-6da4-c71b-c20f-e79191388146.htm" />
   <HelpKINode Title="Debug.WhenBreakpointHit method" Url="html/0a656dae-7806-36ad-8853-28a580a90566.htm" />
   <HelpKINode Title="DecompileFromStream method" Url="html/3b3b931b-47d5-bbbf-e274-31bec660611b.htm" />
+  <HelpKINode Title="DefaultExecutePath property" Url="html/c7f2ea53-ac24-2d69-13d2-8217e18df950.htm" />
   <HelpKINode Title="DeleteFile method" Url="html/cc44978d-1f81-959c-1af1-8147ab7c1cf8.htm" />
   <HelpKINode Title="Description property" Url="html/668c6874-2529-7652-015c-0af63d5a28c8.htm" />
   <HelpKINode Title="descriptions field" Url="html/ee424990-13ba-c587-aac8-b3550cbfa023.htm" />
   <HelpKINode Title="DestroyTimers method" Url="html/5afc1b1c-4b58-0511-a0c4-31f9712bb56a.htm" />
+  <HelpKINode Title="Dispose method" Url="html/964a4109-c634-8b61-b034-fe9bed142b12.htm" />
   <HelpKINode Title="DivideByVariable method" Url="html/4dc0d33c-2534-1c94-d579-0372020a7442.htm" />
   <HelpKINode Title="Effect enumeration member" Url="html/74963bc8-b3f1-6b4b-b4a5-b7a6f6c34c27.htm" />
   <HelpKINode Title="Engine field" Url="html/e7f2819f-fb54-44ce-023b-39dbdf029b02.htm" />
@@ -166,6 +168,7 @@
   <HelpKINode Title="IO.IO constructor" Url="html/f9fa5249-c231-17ca-3315-f1097a511592.htm" />
   <HelpKINode Title="IO.ReadFileIntoVariable method" Url="html/949f5e3e-4e22-2803-8ad1-db01e20e793a.htm" />
   <HelpKINode Title="IsConstant property" Url="html/8547987b-67d2-d114-2991-7c5f673ab645.htm" />
+  <HelpKINode Title="IsDisposed property" Url="html/544288a3-378e-9bb8-d057-0fbef5258c67.htm" />
   <HelpKINode Title="IsIgnored property" Url="html/b7647bbc-953c-3859-12df-74def2ca5ff3.htm" />
   <HelpKINode Title="IsVariableDefined method" Url="html/453cfa94-2d69-c6fd-9ea9-a2636e7c6cfa.htm" />
   <HelpKINode Title="IsVariableEqualToNumberOrVar method" Url="html/637a595a-7eea-9924-cce0-73c0f72109eb.htm" />
@@ -290,6 +293,7 @@
   <HelpKINode Title="Options property" Url="html/1ad9009e-2423-5d49-57da-9b16e0b81417.htm" />
   <HelpKINode Title="Options.CanOverrideTriggerHandlers property" Url="html/f3f26356-7cf3-f9b2-870c-805673fbbaf0.htm" />
   <HelpKINode Title="Options.CommentSymbol property" Url="html/d88a767c-77ce-17a6-8777-ce35009c03d5.htm" />
+  <HelpKINode Title="Options.DefaultExecutePath property" Url="html/c7f2ea53-ac24-2d69-13d2-8217e18df950.htm" />
   <HelpKINode Title="Options.Options constructor" Url="html/260f1e64-980d-82b6-e7e0-833e98273d30.htm" />
   <HelpKINode Title="Options.StringBeginSymbol property" Url="html/f19f77cc-5fae-09b1-30c5-54db0722d25d.htm" />
   <HelpKINode Title="Options.StringEndSymbol property" Url="html/859d6535-3f57-8555-4c22-d9f1d1a79452.htm" />
@@ -451,18 +455,19 @@
     <HelpKINode Title="TimerInfo Class" Url="html/37764d3b-fdc0-e767-887b-db75341437c4.htm" />
     <HelpKINode Title="about TimerInfo class" Url="html/37764d3b-fdc0-e767-887b-db75341437c4.htm" />
     <HelpKINode Title="constructor" Url="html/dd88d2f5-0039-a081-5f21-af1deffafc94.htm" />
-    <HelpKINode Title="fields" Url="html/9fd0dc46-6202-7603-ba17-4fb589a5ed19.htm" />
     <HelpKINode Title="methods" Url="html/31f0745f-4003-c249-88d9-32c2bb2c2b4b.htm" />
     <HelpKINode Title="operators" Url="html/7a502c1d-6733-b659-a9cc-a67eaec9cb94.htm" />
     <HelpKINode Title="properties" Url="html/515e6b42-faf4-c9f6-5013-82e7f9dff0d8.htm" />
   </HelpKINode>
-  <HelpKINode Title="TimerInfo.CurrentTimer field" Url="html/f9e0cdaa-a804-0f74-440c-016b73a6ec02.htm" />
+  <HelpKINode Title="TimerInfo.CurrentTimer property" Url="html/a2ab4204-da1f-384e-a024-568b9b6b6508.htm" />
+  <HelpKINode Title="TimerInfo.Dispose method" Url="html/964a4109-c634-8b61-b034-fe9bed142b12.htm" />
   <HelpKINode Title="TimerInfo.Equality operator" Url="html/9f70dfb4-719a-1552-e688-f0e0900efc44.htm" />
   <HelpKINode Title="TimerInfo.Equals method" Url="html/2deb2e80-bde4-5e4d-f5f8-dfda6bd5164b.htm" />
   <HelpKINode Title="TimerInfo.GetHashCode method" Url="html/fd0a56be-f6ea-4fae-9928-1af0ffa597b3.htm" />
   <HelpKINode Title="TimerInfo.ID property" Url="html/bf79d3b5-4125-5071-7a89-6c437ac04399.htm" />
   <HelpKINode Title="TimerInfo.Inequality operator" Url="html/69762b3c-0990-082c-a495-173246bad2bd.htm" />
   <HelpKINode Title="TimerInfo.Interval property" Url="html/5654d21f-9f31-b48e-c71c-85a4495cd1ff.htm" />
+  <HelpKINode Title="TimerInfo.IsDisposed property" Url="html/544288a3-378e-9bb8-d057-0fbef5258c67.htm" />
   <HelpKINode Title="TimerInfo.Owner property" Url="html/76300b9e-acfe-fa53-c071-308260af2385.htm" />
   <HelpKINode Title="TimerInfo.Timer property" Url="html/d1487e47-ba1f-3562-9b58-02fc006079ae.htm" />
   <HelpKINode Title="TimerInfo.TimerInfo constructor" Url="html/dd88d2f5-0039-a081-5f21-af1deffafc94.htm" />
@@ -482,8 +487,8 @@
   <HelpKINode Title="Timers.DestroyTimers method" Url="html/5afc1b1c-4b58-0511-a0c4-31f9712bb56a.htm" />
   <HelpKINode Title="Timers.StopTimer method" Url="html/de77bf76-eb94-a179-0751-01b6b1e3479b.htm" />
   <HelpKINode Title="Timers.Timers constructor">
-    <HelpKINode Title="Timers Constructor " Url="html/864b8e27-140f-f52d-e45f-db6d51708863.htm" />
     <HelpKINode Title="Timers Constructor " Url="html/db79e587-c9d3-2533-48e2-acc99775ed6b.htm" />
+    <HelpKINode Title="Timers Constructor " Url="html/864b8e27-140f-f52d-e45f-db6d51708863.htm" />
   </HelpKINode>
   <HelpKINode Title="Timers.TryGetTimerFrom method" Url="html/57dd3840-801b-b5f6-2862-3e581f19270d.htm" />
   <HelpKINode Title="Timers.WhenAnyTimerGoesOff method" Url="html/42f361f9-f832-b5ba-0d20-d6b3a8727e2d.htm" />
@@ -651,8 +656,8 @@
   <HelpKINode Title="Variable.ToString method" Url="html/6db22582-1a5c-4cba-bffe-200c4b4865cf.htm" />
   <HelpKINode Title="Variable.Value property" Url="html/af8b04de-217a-bb53-6b95-3d42846db643.htm" />
   <HelpKINode Title="Variable.Variable constructor">
-    <HelpKINode Title="Variable Constructor " Url="html/bc2a5ebd-c35f-8748-4879-746513a291f4.htm" />
     <HelpKINode Title="Variable Constructor " Url="html/200ff8a5-1573-8a7b-178d-df11d461f760.htm" />
+    <HelpKINode Title="Variable Constructor " Url="html/bc2a5ebd-c35f-8748-4879-746513a291f4.htm" />
   </HelpKINode>
   <HelpKINode Title="VariableCountLimit property" Url="html/d25c54b3-34ec-f907-82b4-34b7843d1c88.htm" />
   <HelpKINode Title="VariableDeclarationSymbol property" Url="html/174293fb-cec2-cb80-1fc0-a8b5e1d1e28a.htm" />
