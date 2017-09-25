@@ -502,7 +502,7 @@
     </member>
     <member name="P:Monkeyspeak.Options.DefaultExecutePath">
       <summary>
-            Default File path for executing assemblies such as 
+            Default File path for executing assemblies such as
             <see cref="T:Monkeyspeak.Libraries.IO" /></summary>
     </member>
     <member name="P:Monkeyspeak.Options.StringBeginSymbol">
