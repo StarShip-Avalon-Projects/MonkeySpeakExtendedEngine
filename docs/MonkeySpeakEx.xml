@@ -3534,22 +3534,11 @@
       </returns>
     </member>
     <member name="M:Monkeyspeak.Libraries.StringOperations.StringArrayEntrySet(Monkeyspeak.TriggerReader)">
-      <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntrySet(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
-      </summary>
+      <summary> (5:401) use string variable %Variable as an array and
+            set entry # of it to {...}. 
+            </summary>
       <param name="reader">
-        <markup>
-          <include item="SMCMissingParamTag">
-            <parameter>param</parameter>
-            <parameter>reader</parameter>
-            <parameter>M:Monkeyspeak.Libraries.StringOperations.StringArrayEntrySet(Monkeyspeak.TriggerReader)</parameter>
-          </include>
-        </markup>
+        <see cref="T:Monkeyspeak.TriggerReader" />
       </param>
       <returns>
         <markup>
