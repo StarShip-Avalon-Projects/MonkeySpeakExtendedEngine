@@ -3947,12 +3947,37 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.TimerInfo.Dispose">
       <summary>
+            Implement IDisposable
+            </summary>
+    </member>
+    <member name="P:Monkeyspeak.Libraries.TimerInfo.Disposed">
+      <summary>
         <markup>
-          <include item="SMCAutoDocDispose">
-            <parameter>Monkeyspeak.Libraries.TimerInfo</parameter>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>P:Monkeyspeak.Libraries.TimerInfo.Disposed</parameter>
           </include>
         </markup>
       </summary>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.TimerInfo.Disposing(System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.Disposing(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="disposing">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>disposing</parameter>
+            <parameter>M:Monkeyspeak.Libraries.TimerInfo.Disposing(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
     </member>
     <member name="M:Monkeyspeak.Libraries.TimerInfo.Equals(System.Object)">
       <summary>
@@ -4015,16 +4040,6 @@
           <include item="SMCMissingTag">
             <parameter>summary</parameter>
             <parameter>P:Monkeyspeak.Libraries.TimerInfo.Interval</parameter>
-          </include>
-        </markup>
-      </summary>
-    </member>
-    <member name="P:Monkeyspeak.Libraries.TimerInfo.IsDisposed">
-      <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>P:Monkeyspeak.Libraries.TimerInfo.IsDisposed</parameter>
           </include>
         </markup>
       </summary>
