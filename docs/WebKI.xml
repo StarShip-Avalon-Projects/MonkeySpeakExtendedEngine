@@ -98,7 +98,10 @@
   <HelpKINode Title="Description property" Url="html/668c6874-2529-7652-015c-0af63d5a28c8.htm" />
   <HelpKINode Title="descriptions field" Url="html/ee424990-13ba-c587-aac8-b3550cbfa023.htm" />
   <HelpKINode Title="DestroyTimers method" Url="html/5afc1b1c-4b58-0511-a0c4-31f9712bb56a.htm" />
-  <HelpKINode Title="Dispose method" Url="html/964a4109-c634-8b61-b034-fe9bed142b12.htm" />
+  <HelpKINode Title="Dispose method">
+    <HelpKINode Title="Page.Dispose Method " Url="html/f7c31dd8-882f-86d5-870b-0647004da30a.htm" />
+    <HelpKINode Title="TimerInfo.Dispose Method " Url="html/964a4109-c634-8b61-b034-fe9bed142b12.htm" />
+  </HelpKINode>
   <HelpKINode Title="Disposed property" Url="html/ed9ffa0e-3997-9558-d67c-f5c9e2f4379d.htm" />
   <HelpKINode Title="Disposing method" Url="html/53a7140c-e6a1-24eb-d99d-a85d2dd85664.htm" />
   <HelpKINode Title="DivideByVariable method" Url="html/4dc0d33c-2534-1c94-d579-0372020a7442.htm" />
@@ -322,6 +325,7 @@
   <HelpKINode Title="Page.CheckType method" Url="html/93e31974-adcb-df9f-5e64-15a9d352f64f.htm" />
   <HelpKINode Title="Page.CompileToFile method" Url="html/f083c6ad-986a-3551-56d4-ca91cc16479e.htm" />
   <HelpKINode Title="Page.CompileToStream method" Url="html/eb06cb00-6dc1-9e1f-6085-1fdbcb054a60.htm" />
+  <HelpKINode Title="Page.Dispose method" Url="html/f7c31dd8-882f-86d5-870b-0647004da30a.htm" />
   <HelpKINode Title="Page.Engine property" Url="html/e7cf7e87-e3d3-de6e-cfa7-12b34a43051d.htm" />
   <HelpKINode Title="Page.Error event" Url="html/cd6c3616-b0f6-c5fd-7a90-e520a1ae8d64.htm" />
   <HelpKINode Title="Page.Execute method" Url="html/e1c95c73-76a2-5856-1bcd-2a0175cd2065.htm" />

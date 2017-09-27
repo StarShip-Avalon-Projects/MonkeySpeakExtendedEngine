@@ -656,6 +656,23 @@
         </markup>
       </param>
     </member>
+    <member name="M:Monkeyspeak.Page.Dispose">
+      <summary>
+            Public implementation of Dispose pattern callable by consumers.
+            </summary>
+    </member>
+    <member name="M:Monkeyspeak.Page.Dispose(System.Boolean)">
+      <summary>
+            Protected implementation of Dispose pattern.
+            </summary>
+      <param name="disposing">
+        <markup>
+          <include item="SMCAutoDocDisposeParam">
+            <parameter>Monkeyspeak.Page</parameter>
+          </include>
+        </markup>
+      </param>
+    </member>
     <member name="P:Monkeyspeak.Page.Engine">
       <summary>
         <markup>
