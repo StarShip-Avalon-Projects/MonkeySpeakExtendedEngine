@@ -482,8 +482,8 @@
   <HelpKINode Title="Timers class">
     <HelpKINode Title="Timers Class" Url="html/f228e447-db0e-b00f-355c-d1c2e1b2008d.htm" />
     <HelpKINode Title="about Timers class" Url="html/f228e447-db0e-b00f-355c-d1c2e1b2008d.htm" />
-    <HelpKINode Title="constructor" Url="html/864b8e27-140f-f52d-e45f-db6d51708863.htm" />
     <HelpKINode Title="constructor" Url="html/db79e587-c9d3-2533-48e2-acc99775ed6b.htm" />
+    <HelpKINode Title="constructor" Url="html/864b8e27-140f-f52d-e45f-db6d51708863.htm" />
     <HelpKINode Title="fields" Url="html/6d4b2393-c663-4684-591d-2e0a49191418.htm" />
     <HelpKINode Title="methods" Url="html/4507d2ee-1e15-d8a9-106c-cff393511631.htm" />
   </HelpKINode>
@@ -493,8 +493,8 @@
   <HelpKINode Title="Timers.DestroyTimers method" Url="html/5afc1b1c-4b58-0511-a0c4-31f9712bb56a.htm" />
   <HelpKINode Title="Timers.StopTimer method" Url="html/de77bf76-eb94-a179-0751-01b6b1e3479b.htm" />
   <HelpKINode Title="Timers.Timers constructor">
-    <HelpKINode Title="Timers Constructor " Url="html/db79e587-c9d3-2533-48e2-acc99775ed6b.htm" />
     <HelpKINode Title="Timers Constructor " Url="html/864b8e27-140f-f52d-e45f-db6d51708863.htm" />
+    <HelpKINode Title="Timers Constructor " Url="html/db79e587-c9d3-2533-48e2-acc99775ed6b.htm" />
   </HelpKINode>
   <HelpKINode Title="Timers.TryGetTimerFrom method" Url="html/57dd3840-801b-b5f6-2862-3e581f19270d.htm" />
   <HelpKINode Title="Timers.WhenAnyTimerGoesOff method" Url="html/42f361f9-f832-b5ba-0d20-d6b3a8727e2d.htm" />
@@ -662,8 +662,8 @@
   <HelpKINode Title="Variable.ToString method" Url="html/6db22582-1a5c-4cba-bffe-200c4b4865cf.htm" />
   <HelpKINode Title="Variable.Value property" Url="html/af8b04de-217a-bb53-6b95-3d42846db643.htm" />
   <HelpKINode Title="Variable.Variable constructor">
-    <HelpKINode Title="Variable Constructor " Url="html/bc2a5ebd-c35f-8748-4879-746513a291f4.htm" />
     <HelpKINode Title="Variable Constructor " Url="html/200ff8a5-1573-8a7b-178d-df11d461f760.htm" />
+    <HelpKINode Title="Variable Constructor " Url="html/bc2a5ebd-c35f-8748-4879-746513a291f4.htm" />
   </HelpKINode>
   <HelpKINode Title="VariableCountLimit property" Url="html/d25c54b3-34ec-f907-82b4-34b7843d1c88.htm" />
   <HelpKINode Title="VariableDeclarationSymbol property" Url="html/174293fb-cec2-cb80-1fc0-a8b5e1d1e28a.htm" />
