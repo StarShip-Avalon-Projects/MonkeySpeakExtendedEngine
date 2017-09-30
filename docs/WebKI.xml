@@ -140,8 +140,8 @@
   <HelpKINode Title="handlers field" Url="html/0d1d1b5b-6eff-e3f0-0c27-2d73a342ee27.htm" />
   <HelpKINode Title="HasTrigger method" Url="html/47a3783a-1ce8-e950-0ea9-4b43266f594e.htm" />
   <HelpKINode Title="HasVariable method" Url="html/df22e504-51bd-8578-ba84-3fd536ec945b.htm" />
-  <HelpKINode Title="Id property" Url="html/c26e4b81-f218-2a3e-a040-bcc75908608f.htm" />
   <HelpKINode Title="ID property" Url="html/bf79d3b5-4125-5071-7a89-6c437ac04399.htm" />
+  <HelpKINode Title="Id property" Url="html/c26e4b81-f218-2a3e-a040-bcc75908608f.htm" />
   <HelpKINode Title="ILexer interface">
     <HelpKINode Title="ILexer Interface" Url="html/d97a9232-9d84-2609-5fa6-1370eaf5a082.htm" />
     <HelpKINode Title="about ILexer interface" Url="html/d97a9232-9d84-2609-5fa6-1370eaf5a082.htm" />
@@ -482,8 +482,8 @@
   <HelpKINode Title="Timers class">
     <HelpKINode Title="Timers Class" Url="html/f228e447-db0e-b00f-355c-d1c2e1b2008d.htm" />
     <HelpKINode Title="about Timers class" Url="html/f228e447-db0e-b00f-355c-d1c2e1b2008d.htm" />
-    <HelpKINode Title="constructor" Url="html/864b8e27-140f-f52d-e45f-db6d51708863.htm" />
     <HelpKINode Title="constructor" Url="html/db79e587-c9d3-2533-48e2-acc99775ed6b.htm" />
+    <HelpKINode Title="constructor" Url="html/864b8e27-140f-f52d-e45f-db6d51708863.htm" />
     <HelpKINode Title="fields" Url="html/6d4b2393-c663-4684-591d-2e0a49191418.htm" />
     <HelpKINode Title="methods" Url="html/4507d2ee-1e15-d8a9-106c-cff393511631.htm" />
   </HelpKINode>
@@ -641,8 +641,8 @@
   <HelpKINode Title="Variable class">
     <HelpKINode Title="Variable Class" Url="html/be56b42f-0044-e7c0-6857-dd782233246a.htm" />
     <HelpKINode Title="about Variable class" Url="html/be56b42f-0044-e7c0-6857-dd782233246a.htm" />
-    <HelpKINode Title="constructor" Url="html/bc2a5ebd-c35f-8748-4879-746513a291f4.htm" />
     <HelpKINode Title="constructor" Url="html/200ff8a5-1573-8a7b-178d-df11d461f760.htm" />
+    <HelpKINode Title="constructor" Url="html/bc2a5ebd-c35f-8748-4879-746513a291f4.htm" />
     <HelpKINode Title="fields" Url="html/9f2cbdcd-53bf-ec05-b174-8c80fa8fedf7.htm" />
     <HelpKINode Title="methods" Url="html/fca640ae-c9fd-92da-10f2-94c54bc44b74.htm" />
     <HelpKINode Title="operators" Url="html/02372d1d-3b81-7f4c-ad4a-69426597e5d6.htm" />
