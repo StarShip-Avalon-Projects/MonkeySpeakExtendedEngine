@@ -146,7 +146,7 @@
               <userCredentials useDefault="true" userName="" password="" />
             </proxyCredentials>
           </deploymentLocation>
-          <deploymentLocation id="website" location="D:\Bitnami\wampstack-5.6.29-1\apps\silvermonkey\htdocs\help\devdocs\monkeyspeakex">
+          <deploymentLocation id="website" location="..\Docs\">
             <userCredentials useDefault="true" userName="" password="" />
             <proxyCredentials useProxy="false" proxyServer="">
               <userCredentials useDefault="true" userName="" password="" />
