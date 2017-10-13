@@ -171,6 +171,7 @@
     </SourceCodeBasePath>
     <DocumentationSources>
       <DocumentationSource sourceFile="..\MonkeySpeakEx\MonkeySpeakEx.csproj" />
+      <DocumentationSource sourceFile="..\MonkeySpeakEx\Monkeyspeak.csproj" />
     </DocumentationSources>
     <RootNamespaceTitle>MonkeySpeakEx API</RootNamespaceTitle>
     <VisibleItems>Attributes, InheritedMembers, Internals, Privates, Protected, SealedProtected, ProtectedInternalAsProtected, NoPIATypes, PublicCompilerGenerated</VisibleItems>
@@ -230,7 +231,8 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>xcopy /y "$(OutputPath)Monkey_Speak_Extended.chm" "$(SolutionDir)build\$(Configuration)"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Restore' ">
