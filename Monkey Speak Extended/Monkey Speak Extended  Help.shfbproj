@@ -14,7 +14,7 @@
     <Name>Monkey Speak Extended  Help</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 4.5</FrameworkVersion>
-    <OutputPath>..\docs\</OutputPath>
+    <OutputPath>..\Build\Help\docs\</OutputPath>
     <HtmlHelpName>Monkey_Speak_Extended</HtmlHelpName>
     <Language>en-US</Language>
     <TransformComponentArguments>
