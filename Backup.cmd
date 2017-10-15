@@ -43,6 +43,7 @@ if not %GIT_STATUS%==0 goto eof
 
 :pull
 git request-pull master https://github.com/StarShip-Avalon-Projects/MonkeySpeakExtendedEngine.git
+git gc --prune=now
 
 :eof
 exit /b 0

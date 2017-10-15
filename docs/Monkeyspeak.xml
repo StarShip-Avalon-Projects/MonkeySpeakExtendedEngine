@@ -1397,6 +1397,33 @@
       </summary>
       <returns>IEnumerable of Triggers</returns>
     </member>
+    <member name="M:Monkeyspeak.Page.GetTriggerDescriptions(System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Page.GetTriggerDescriptions(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="HideLibraryNames">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>HideLibraryNames</parameter>
+            <parameter>M:Monkeyspeak.Page.GetTriggerDescriptions(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Page.GetTriggerDescriptions(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
     <member name="M:Monkeyspeak.Page.GetVariable(System.String)">
       <summary>
             Gets a Variable with Name set to <paramref name="name" /><b>Throws Exception if Variable not found.</b></summary>
@@ -1467,11 +1494,11 @@
       <summary>
             Loads Monkeyspeak IO Library into this Page
             <para>Used for File Input/Output operations</para></summary>
-      <param name="FilePath">
+      <param name="FileName">
         <markup>
           <include item="SMCMissingParamTag">
             <parameter>param</parameter>
-            <parameter>FilePath</parameter>
+            <parameter>FileName</parameter>
             <parameter>M:Monkeyspeak.Page.LoadIOLibrary(System.String)</parameter>
           </include>
         </markup>
@@ -1517,13 +1544,8 @@
     </member>
     <member name="M:Monkeyspeak.Page.LoadTimerLibrary(System.UInt32)">
       <summary>
-        <markup>
-          <include item="SMCMissingTag">
-            <parameter>summary</parameter>
-            <parameter>M:Monkeyspeak.Page.LoadTimerLibrary(System.UInt32)</parameter>
-          </include>
-        </markup>
-      </summary>
+            Loads Monkeyspeak Timer Library into this Page
+            </summary>
       <param name="TimerLimit">
         <markup>
           <include item="SMCMissingParamTag">
@@ -5370,13 +5392,45 @@
     </member>
     <member name="M:Monkeyspeak.Libraries.BaseLibrary.ToString">
       <summary>
-            Builds a string representation of the descriptions of each trigger.
-            </summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.BaseLibrary.ToString</parameter>
+          </include>
+        </markup>
+      </summary>
       <returns>
         <markup>
           <include item="SMCMissingTag">
             <parameter>returns</parameter>
             <parameter>M:Monkeyspeak.Libraries.BaseLibrary.ToString</parameter>
+          </include>
+        </markup>
+      </returns>
+    </member>
+    <member name="M:Monkeyspeak.Libraries.BaseLibrary.ToString(System.Boolean)">
+      <summary>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>summary</parameter>
+            <parameter>M:Monkeyspeak.Libraries.BaseLibrary.ToString(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </summary>
+      <param name="HideLibraryies">
+        <markup>
+          <include item="SMCMissingParamTag">
+            <parameter>param</parameter>
+            <parameter>HideLibraryies</parameter>
+            <parameter>M:Monkeyspeak.Libraries.BaseLibrary.ToString(System.Boolean)</parameter>
+          </include>
+        </markup>
+      </param>
+      <returns>
+        <markup>
+          <include item="SMCMissingTag">
+            <parameter>returns</parameter>
+            <parameter>M:Monkeyspeak.Libraries.BaseLibrary.ToString(System.Boolean)</parameter>
           </include>
         </markup>
       </returns>
