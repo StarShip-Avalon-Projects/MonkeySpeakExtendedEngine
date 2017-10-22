@@ -1,4 +1,5 @@
 # Monkey Speak Extended Script Engine
+This is a fork of Squizles [Monkeyspeak](https://github.com/captkirk88/monkeyspeak)
 
 ## Description
 MonkeySpeakEx is a dragonspeak-like interpreter written in C# 4.5. MonkeySpeakEx has a light footprint, less than 100kb size. Runtime memory usage is small making it very friendly in mobile environments.
@@ -25,6 +26,8 @@ The Engine loads the script into a new Page that contains the Triggers. Triggers
 * Compilable scripts for faster loading or sending over the network 
 * Thread safe, can execute multiple pages asynchronously. (beta) 
 * EXE compiler (beta)
+* Loops
+* Tables
 
 ## Examples
 The Red-Laser eyed [Furcadia&copy;](http://cms.furcadia.com) bot,
