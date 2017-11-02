@@ -8,10 +8,33 @@ MonkeySpeakEx is a dragonspeak-like interpreter written in C# 4.5. MonkeySpeakEx
 Monkey Speak is a script language based on natural speech resembling [Furcadia&copy; Dragon Speak](http://www.furcadia.com/beekins/masons/knowledgebase/tds.html). It consists of causes, conditions and effects. 
 
 ``` Monkey Speak
-(0:xx) When this happens (return True and continue) (Cause) 
-	(1:xx) And this is True (return True and continue)  (Condition) 
-		(5:xx) Do this (if sucessful, return True and continue, otherwise return false and halt furter processing) (Effect)
-		(5:xy) Do this (if sucessful, return True and continue, otherwise return false and halt furter processing) (Effect)
+(0:0) when the script is started,
+    (5:250) create a table as %myTable.
+    (5:100) set %hello to {hi}
+    (5:101) set %i to 0
+    (5:252) with table %myTable put {%hello} in it at key {myKey1}.
+    (5:252) with table %myTable put {%hello} in it at key {myKey2}.
+    (5:252) with table %myTable put {%hello} in it at key {myKey3}.
+    (5:252) with table %myTable put {%hello} in it at key {myKey4}.
+    (5:252) with table %myTable put {%hello} in it at key {myKey5}.
+    (5:252) with table %myTable put {%hello} in it at key {myKey6}.
+    (5:252) with table %myTable put {%hello} in it at key {myKey7}.
+    (6:250) for each entry in table %myTable put it into %entry,
+        (5:102) print {%entry} to the console.
+        (5:150) take variable %i and add 1 to it.
+        (5:102) print {%i} to the console.
+    (6:454) after the loop is done,
+        (5:102) print {I'm Mr. Meeseeks, look at me!} to the console.
+
+(0:0) when the script is started,
+    (5:101) set %answer to 0
+    (5:101) set %life to 42
+    (6:450) while variable %answer is not %life,
+        (5:150) take variable %answer and add 1 to it.
+        (1:102) and variable %answer equals 21,
+            (5:450) exit the current loop.
+    (6:454) after the loop is done,
+        (5:102) print {I'm Mr. Meeseeks, look at me!} to the console.
 ```
 
 The Engine loads the script into a new Page that contains the Triggers. Triggers can be compared to functions since they are used to perform a function in MonkeySpeakEx. Triggers are assigned specific TriggerHandlers (delegates) that are executed whenever the engine detects that trigger. Only one TriggerHandler delegate is assigned per Trigger.

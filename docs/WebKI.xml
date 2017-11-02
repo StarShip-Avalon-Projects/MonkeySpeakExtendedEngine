@@ -9,6 +9,9 @@
     <HelpKINode Title="properties" Url="html/32a01766-8f10-af52-2b85-991f54268615.htm" />
   </HelpKINode>
   <HelpKINode Title="AbstractLexer.AbstractLexer constructor" Url="html/18ad51df-b80f-514f-93cf-faf6e8fd126e.htm" />
+  <HelpKINode Title="AbstractLexer.CheckEOF method" Url="html/c2538f9a-2c25-8497-4e1b-db4a0258c310.htm" />
+  <HelpKINode Title="AbstractLexer.CheckIsDigit method" Url="html/99475d1d-4295-abe4-f654-1826017d23c1.htm" />
+  <HelpKINode Title="AbstractLexer.CheckMatch method" Url="html/57dac450-ac96-3e01-8153-fe8b231df73c.htm" />
   <HelpKINode Title="AbstractLexer.CurrentSourcePosition property" Url="html/fc76a227-acb7-6f47-b5aa-5692e3b179e0.htm" />
   <HelpKINode Title="AbstractLexer.Dispose method" Url="html/e8fc9ca1-d6fe-2373-cbdb-147f6c9d808d.htm" />
   <HelpKINode Title="AbstractLexer.Engine property" Url="html/b056bd3b-2a0d-537b-ad45-4c0347414747.htm" />
@@ -28,24 +31,35 @@
   <HelpKINode Title="AbstractParser.AbstractParser constructor" Url="html/91894013-14ce-7d7a-945a-9002da9648cc.htm" />
   <HelpKINode Title="AbstractParser.Engine field" Url="html/e7f2819f-fb54-44ce-023b-39dbdf029b02.htm" />
   <HelpKINode Title="AbstractParser.Parse method" Url="html/06f20657-2040-65ca-78d5-16b0930d94c9.htm" />
+  <HelpKINode Title="ActiveIndexer property" Url="html/b24c4357-af66-fbfe-bd8d-09bfa04f3fa9.htm" />
   <HelpKINode Title="Add method">
     <HelpKINode Title="Attributes.Add Method " Url="html/2847a64f-32c6-3331-205c-84834c646d27.htm" />
+    <HelpKINode Title="AutoIncrementBaseLibrary.Add Method " Url="html/1164cf20-bb9e-9bad-c766-da8f5aa2d610.htm" />
     <HelpKINode Title="BaseLibrary.Add Method " Url="html/f6fcab87-2d19-389a-5df0-2e2719cee50e.htm" />
+    <HelpKINode Title="VariableTable.Add Method " Url="html/eae5ed20-7603-2935-2b2f-c1cdc72686d4.htm" />
   </HelpKINode>
   <HelpKINode Title="AddBlocks method" Url="html/289bee11-0668-50c5-04af-97e878f5c094.htm" />
   <HelpKINode Title="AddDescription method" Url="html/d4f335ce-600c-b85b-d6ba-1fb8ab5bde30.htm" />
   <HelpKINode Title="Addition operator" Url="html/aa1e2501-aab6-30d0-d3b3-ac66df9ccc35.htm" />
   <HelpKINode Title="AddStringToVar method" Url="html/e0c846af-ccec-80ff-ab14-833639f975e9.htm" />
   <HelpKINode Title="AddToVariable method" Url="html/89e9524b-7008-ede7-48aa-831b99ba2349.htm" />
+  <HelpKINode Title="AfterLoopIsDone method" Url="html/0a39fc92-5a37-ec30-996c-3666fcfd3edb.htm" />
   <HelpKINode Title="AfterTriggerHandled event" Url="html/12762b99-481f-5ab2-decf-647520361e70.htm" />
   <HelpKINode Title="AND enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="AndTimerIsNotRunning method" Url="html/1e938dac-946f-371d-e58d-71d0b20aad4b.htm" />
   <HelpKINode Title="AndTimerIsRunning method" Url="html/50a1352d-a732-1322-71a6-250b9082d416.htm" />
   <HelpKINode Title="AppendToFile method" Url="html/676b0c4b-449a-419b-1aeb-b4932195276d.htm" />
-  <HelpKINode Title="As(Of T) method" Url="html/9383705e-82ee-a0a6-565c-6db3d3af1247.htm" />
-  <HelpKINode Title="As&lt;T&gt; method" Url="html/9383705e-82ee-a0a6-565c-6db3d3af1247.htm" />
-  <HelpKINode Title="Assert method" Url="html/2e1e3fd0-8033-b732-875e-11ccc3eaeb1f.htm" />
+  <HelpKINode Title="ArrayExtensions class">
+    <HelpKINode Title="ArrayExtensions Class" Url="html/482bec33-c44b-cf87-dc4a-f655b25d92a8.htm" />
+    <HelpKINode Title="about ArrayExtensions class" Url="html/482bec33-c44b-cf87-dc4a-f655b25d92a8.htm" />
+    <HelpKINode Title="methods" Url="html/c36a9992-a06d-f51d-9dc0-0866020e48fa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ArrayExtensions.ToString method" Url="html/6dcbd889-4146-4b56-9d94-085d741b8883.htm" />
+  <HelpKINode Title="As(Of T) method" Url="html/a32a32a6-8ee7-dd4b-29c8-65fef8a43889.htm" />
+  <HelpKINode Title="As&lt;T&gt; method" Url="html/a32a32a6-8ee7-dd4b-29c8-65fef8a43889.htm" />
+  <HelpKINode Title="Assert method" Url="html/cd655999-3f84-d594-c918-d9843e024067.htm" />
   <HelpKINode Title="ASSIGN enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
+  <HelpKINode Title="At method" Url="html/eed5655b-a9f7-60aa-d2bc-f8e065ff0ae5.htm" />
   <HelpKINode Title="Attributes class">
     <HelpKINode Title="Attributes Class" Url="html/ffe9eeaa-3749-120f-e300-82c364b37a1b.htm" />
     <HelpKINode Title="about Attributes class" Url="html/ffe9eeaa-3749-120f-e300-82c364b37a1b.htm" />
@@ -53,48 +67,81 @@
     <HelpKINode Title="constructor" Url="html/d8ef5475-4531-c9a3-e3a3-aeefae14bb76.htm" />
     <HelpKINode Title="fields" Url="html/7cbd60e9-4a89-6f64-fd6a-8bcfda6039d6.htm" />
     <HelpKINode Title="methods" Url="html/1dd9699b-3c5a-84a2-d901-e6b161ba4533.htm" />
+    <HelpKINode Title="properties" Url="html/85838cbb-0bb1-78a7-2afe-ccef34575090.htm" />
   </HelpKINode>
   <HelpKINode Title="Attributes.Add method" Url="html/2847a64f-32c6-3331-205c-84834c646d27.htm" />
   <HelpKINode Title="Attributes.AddDescription method" Url="html/d4f335ce-600c-b85b-d6ba-1fb8ab5bde30.htm" />
   <HelpKINode Title="Attributes.Attributes constructor">
-    <HelpKINode Title="Attributes Constructor " Url="html/d8ef5475-4531-c9a3-e3a3-aeefae14bb76.htm" />
     <HelpKINode Title="Attributes Constructor " Url="html/5c7e9363-f62c-d1d7-d4b8-233971373ea3.htm" />
+    <HelpKINode Title="Attributes Constructor " Url="html/d8ef5475-4531-c9a3-e3a3-aeefae14bb76.htm" />
   </HelpKINode>
+  <HelpKINode Title="Attributes.Initialize method" Url="html/83587c0c-604c-5d6c-555c-16eb0ead1596.htm" />
   <HelpKINode Title="Attributes.Instance field" Url="html/c36276bb-8856-2ad1-fe7b-adb12d1e630f.htm" />
   <HelpKINode Title="Attributes.Unload method" Url="html/df0d676f-40ab-1b21-ffdc-92334310c7ef.htm" />
+  <HelpKINode Title="AutoIncrementBaseLibrary class">
+    <HelpKINode Title="AutoIncrementBaseLibrary Class" Url="html/f9a804bd-e874-b911-6e72-0a095fde20fe.htm" />
+    <HelpKINode Title="about AutoIncrementBaseLibrary class" Url="html/f9a804bd-e874-b911-6e72-0a095fde20fe.htm" />
+    <HelpKINode Title="constructor" Url="html/344a6d4c-a660-1877-dbc8-35b47bfb658a.htm" />
+    <HelpKINode Title="fields" Url="html/b52e9841-5b13-b7d5-cfb0-b08da780a856.htm" />
+    <HelpKINode Title="methods" Url="html/5ed47fa7-a1d0-6ee7-03b6-c53dbfde9145.htm" />
+    <HelpKINode Title="properties" Url="html/4f2eb19e-1145-075d-e9ef-c3f32de5f50f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AutoIncrementBaseLibrary.Add method" Url="html/1164cf20-bb9e-9bad-c766-da8f5aa2d610.htm" />
+  <HelpKINode Title="AutoIncrementBaseLibrary.AutoIncrementBaseLibrary constructor" Url="html/344a6d4c-a660-1877-dbc8-35b47bfb658a.htm" />
+  <HelpKINode Title="AutoIncrementBaseLibrary.BaseId property" Url="html/a1ac554a-a1a7-ea15-4540-8a50918f23f4.htm" />
   <HelpKINode Title="Banner property" Url="html/4d3aecce-8a04-0712-fd0c-64f59b4411f7.htm" />
+  <HelpKINode Title="BaseId property">
+    <HelpKINode Title="AutoIncrementBaseLibrary.BaseId Property " Url="html/a1ac554a-a1a7-ea15-4540-8a50918f23f4.htm" />
+    <HelpKINode Title="Loops.BaseId Property " Url="html/90cfab84-3152-babf-7ecc-44697c35af08.htm" />
+    <HelpKINode Title="Tables.BaseId Property " Url="html/4ed38d6c-6e6b-5218-e4dd-52adcea89de0.htm" />
+  </HelpKINode>
   <HelpKINode Title="BaseLibrary class">
     <HelpKINode Title="BaseLibrary Class" Url="html/c2aeb486-06dc-a094-6e6d-7e149465676c.htm" />
     <HelpKINode Title="about BaseLibrary class" Url="html/c2aeb486-06dc-a094-6e6d-7e149465676c.htm" />
     <HelpKINode Title="constructor" Url="html/dad49b13-a146-d25c-b3c4-42cc7a5ae7e3.htm" />
     <HelpKINode Title="fields" Url="html/9770b82d-0a32-d6b3-60eb-4768076a5fe4.htm" />
     <HelpKINode Title="methods" Url="html/2d3a79b9-989d-76b4-5d30-5c5cc7c2169b.htm" />
+    <HelpKINode Title="properties" Url="html/362ec7d7-271d-f060-8efc-5524781578de.htm" />
   </HelpKINode>
   <HelpKINode Title="BaseLibrary.Add method" Url="html/f6fcab87-2d19-389a-5df0-2e2719cee50e.htm" />
   <HelpKINode Title="BaseLibrary.BaseLibrary constructor" Url="html/dad49b13-a146-d25c-b3c4-42cc7a5ae7e3.htm" />
+  <HelpKINode Title="BaseLibrary.Contains method" Url="html/424b1963-c155-0032-f8f7-de78bcb3bd45.htm" />
   <HelpKINode Title="BaseLibrary.descriptions field" Url="html/93f7ccac-9faa-c9a9-b795-6e2a5e296214.htm" />
   <HelpKINode Title="BaseLibrary.GetAllLibraries method" Url="html/789022bf-40ea-170b-a636-b4515e68b44b.htm" />
   <HelpKINode Title="BaseLibrary.GetLibrariesFromAssembly method" Url="html/d67f045b-79c4-6a91-787e-662c17966b67.htm" />
   <HelpKINode Title="BaseLibrary.handlers field" Url="html/a3f6af60-ecee-d59c-2586-a3a8c01edd91.htm" />
+  <HelpKINode Title="BaseLibrary.Handlers property" Url="html/5dc2744a-1929-8f8c-d8ae-ddd0254bff21.htm" />
+  <HelpKINode Title="BaseLibrary.Initialize method" Url="html/70056b00-10ae-eaad-c305-350effc91fb8.htm" />
   <HelpKINode Title="BaseLibrary.RaiseError method" Url="html/1c7fb74d-f6ad-b198-80a2-f329b5f1ff6f.htm" />
   <HelpKINode Title="BaseLibrary.ToString method" Url="html/3f87cf1f-6b29-b84c-94b0-4842eccba27d.htm" />
   <HelpKINode Title="BaseLibrary.Unload method" Url="html/94a4a571-de39-1413-ca78-bd7c9d93ea84.htm" />
   <HelpKINode Title="BeforeTriggerHandled event" Url="html/31b4b3ea-44e3-2b45-cd0e-9bc05b8efe1e.htm" />
   <HelpKINode Title="BlockCommentBeginSymbol property" Url="html/fd37af9e-a6c1-2ee5-bd81-55943cc112c9.htm" />
   <HelpKINode Title="BlockCommentEndSymbol property" Url="html/2cc60ad5-665f-fa3d-38e0-03fb0fbe44c1.htm" />
-  <HelpKINode Title="BuildMessage method" Url="html/e924563b-2cf4-6bf2-5a92-4647f59d0dfd.htm" />
+  <HelpKINode Title="BreakCurrentFlow method" Url="html/02a45656-b581-5184-3b2a-3317ac2940ba.htm" />
+  <HelpKINode Title="BuildMessage method" Url="html/dbfa6ed0-5fd2-da33-ebc1-424e0a54a3f0.htm" />
   <HelpKINode Title="CallJob method" Url="html/58d67e74-2014-778f-06ba-c9b680c9de81.htm" />
   <HelpKINode Title="CanOverrideTriggerHandlers property" Url="html/f3f26356-7cf3-f9b2-870c-805673fbbaf0.htm" />
   <HelpKINode Title="CanReadFile method" Url="html/3bcc6290-4c28-ab5d-7bb4-e4188497c541.htm" />
   <HelpKINode Title="CanWriteFile method" Url="html/3105472e-d8dc-4205-983f-4cea7598585a.htm" />
   <HelpKINode Title="Category property" Url="html/bf963045-e275-ef14-b706-da34463d90a5.htm" />
   <HelpKINode Title="Cause enumeration member" Url="html/74963bc8-b3f1-6b4b-b4a5-b7a6f6c34c27.htm" />
-  <HelpKINode Title="CheckEOF method" Url="html/4e34311d-19de-25dd-e4db-4c6fca963891.htm" />
-  <HelpKINode Title="CheckIsDigit method" Url="html/3371562e-1e2d-8ada-68a0-ec6c165c149b.htm" />
-  <HelpKINode Title="CheckMatch method" Url="html/0c21fa1c-58bc-2288-9ea9-35a7a1568774.htm" />
+  <HelpKINode Title="CheckEOF method">
+    <HelpKINode Title="AbstractLexer.CheckEOF Method " Url="html/c2538f9a-2c25-8497-4e1b-db4a0258c310.htm" />
+    <HelpKINode Title="Lexer.CheckEOF Method " Url="html/a9e4c120-bed1-ba48-b7c3-47bf6246f91c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CheckIsDigit method">
+    <HelpKINode Title="AbstractLexer.CheckIsDigit Method " Url="html/99475d1d-4295-abe4-f654-1826017d23c1.htm" />
+    <HelpKINode Title="Lexer.CheckIsDigit Method " Url="html/3371562e-1e2d-8ada-68a0-ec6c165c149b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CheckMatch method">
+    <HelpKINode Title="AbstractLexer.CheckMatch Method " Url="html/57dac450-ac96-3e01-8153-fe8b231df73c.htm" />
+    <HelpKINode Title="Lexer.CheckMatch Method " Url="html/0c21fa1c-58bc-2288-9ea9-35a7a1568774.htm" />
+  </HelpKINode>
   <HelpKINode Title="CheckType method">
     <HelpKINode Title="Page.CheckType Method " Url="html/93e31974-adcb-df9f-5e64-15a9d352f64f.htm" />
     <HelpKINode Title="Variable.CheckType Method " Url="html/1da300d9-9555-c0e4-ccbb-bda161891670.htm" />
+    <HelpKINode Title="VariableTable.CheckType Method " Url="html/03149807-4c7c-8dfc-c450-29bc41fcbaae.htm" />
   </HelpKINode>
   <HelpKINode Title="Clear method" Url="html/bea988fc-77ef-366a-fbc1-c7eaf1a3e978.htm" />
   <HelpKINode Title="Clone method">
@@ -134,18 +181,18 @@
   <HelpKINode Title="CONCAT enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="Condition enumeration member" Url="html/74963bc8-b3f1-6b4b-b4a5-b7a6f6c34c27.htm" />
   <HelpKINode Title="ConsoleLogOutput class">
-    <HelpKINode Title="ConsoleLogOutput Class" Url="html/1ad4093a-6970-0c09-c8b6-e614684f889e.htm" />
-    <HelpKINode Title="about ConsoleLogOutput class" Url="html/1ad4093a-6970-0c09-c8b6-e614684f889e.htm" />
-    <HelpKINode Title="constructor" Url="html/df1d355d-c1f2-2c92-ab55-90065fe91174.htm" />
-    <HelpKINode Title="constructor" Url="html/7a133178-d009-65f5-d7aa-58705db7e11a.htm" />
-    <HelpKINode Title="methods" Url="html/6681d5af-2a11-b7af-c385-272d97416e86.htm" />
+    <HelpKINode Title="ConsoleLogOutput Class" Url="html/a6bc85aa-99fb-b725-39af-e6cfa55cb65d.htm" />
+    <HelpKINode Title="about ConsoleLogOutput class" Url="html/a6bc85aa-99fb-b725-39af-e6cfa55cb65d.htm" />
+    <HelpKINode Title="constructor" Url="html/bf7bc3de-a7bc-19a9-d181-29e12062d271.htm" />
+    <HelpKINode Title="constructor" Url="html/5a4ae791-36c6-f68b-a203-ac2f4986b488.htm" />
+    <HelpKINode Title="methods" Url="html/61a0447c-2bfa-1836-404d-0152388949d4.htm" />
   </HelpKINode>
-  <HelpKINode Title="ConsoleLogOutput.BuildMessage method" Url="html/e924563b-2cf4-6bf2-5a92-4647f59d0dfd.htm" />
+  <HelpKINode Title="ConsoleLogOutput.BuildMessage method" Url="html/dbfa6ed0-5fd2-da33-ebc1-424e0a54a3f0.htm" />
   <HelpKINode Title="ConsoleLogOutput.ConsoleLogOutput constructor">
-    <HelpKINode Title="ConsoleLogOutput Constructor " Url="html/df1d355d-c1f2-2c92-ab55-90065fe91174.htm" />
-    <HelpKINode Title="ConsoleLogOutput Constructor " Url="html/7a133178-d009-65f5-d7aa-58705db7e11a.htm" />
+    <HelpKINode Title="ConsoleLogOutput Constructor " Url="html/bf7bc3de-a7bc-19a9-d181-29e12062d271.htm" />
+    <HelpKINode Title="ConsoleLogOutput Constructor " Url="html/5a4ae791-36c6-f68b-a203-ac2f4986b488.htm" />
   </HelpKINode>
-  <HelpKINode Title="ConsoleLogOutput.Log method" Url="html/27983496-2fed-7fcc-138f-79274248f70c.htm" />
+  <HelpKINode Title="ConsoleLogOutput.Log method" Url="html/a773e91a-3d85-f33d-7a09-cb1bb685729b.htm" />
   <HelpKINode Title="ConstantVariable class">
     <HelpKINode Title="ConstantVariable Class" Url="html/84579eca-2529-3f35-5d9b-36da52d1798e.htm" />
     <HelpKINode Title="about ConstantVariable class" Url="html/84579eca-2529-3f35-5d9b-36da52d1798e.htm" />
@@ -160,17 +207,31 @@
   <HelpKINode Title="ConstantVariable.SetValue method" Url="html/f4d081e4-fc0e-b5f5-7c51-8709c1877046.htm" />
   <HelpKINode Title="ConstantVariable.ToString method" Url="html/f497a2ba-1181-04f1-2014-13d4ad7c822b.htm" />
   <HelpKINode Title="ConstantVariable.Value property" Url="html/eada20d8-185e-7e98-979c-7974db247a0b.htm" />
+  <HelpKINode Title="Contains method">
+    <HelpKINode Title="BaseLibrary.Contains Method " Url="html/424b1963-c155-0032-f8f7-de78bcb3bd45.htm" />
+    <HelpKINode Title="VariableTable.Contains Method " Url="html/9f7700d9-9025-d8d7-6fd8-229516774e00.htm" />
+  </HelpKINode>
   <HelpKINode Title="ContainsTrigger method" Url="html/6349c49d-1abd-26fa-e952-3a6575f38b72.htm" />
   <HelpKINode Title="contents field" Url="html/48a26576-2e47-83b8-dcc3-7f01d724c1ce.htm" />
-  <HelpKINode Title="Contents property" Url="html/99c01ef9-7e29-7b86-7059-58a08fe72300.htm" />
-  <HelpKINode Title="Count property" Url="html/3b527120-b614-036d-b707-c0b4cb034ed5.htm" />
-  <HelpKINode Title="Create method" Url="html/a854c497-6040-0b12-9b56-8d6c5981ad13.htm" />
+  <HelpKINode Title="Contents property">
+    <HelpKINode Title="Trigger.Contents Property " Url="html/99c01ef9-7e29-7b86-7059-58a08fe72300.htm" />
+    <HelpKINode Title="VariableTable.Contents Property " Url="html/14106628-73f0-2e9f-8d22-e935b9104c65.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConvertToTable method" Url="html/d40537d4-369d-deb1-fc85-fcb739b9c196.htm" />
+  <HelpKINode Title="Count property" Url="html/b101c6c4-f727-1b6a-cdf0-1c6f76110416.htm" />
+  <HelpKINode Title="Create method">
+    <HelpKINode Title="ITokenDefinition.Create Method " Url="html/a854c497-6040-0b12-9b56-8d6c5981ad13.htm" />
+    <HelpKINode Title="VariableDefinition.Create Method " Url="html/82979995-95a1-2144-f2f1-0953f0fd5e2f.htm" />
+  </HelpKINode>
   <HelpKINode Title="CreateBreakPoint method" Url="html/848487cc-cb53-dff9-946c-55f4bf5a2595.htm" />
   <HelpKINode Title="CreateFile method" Url="html/f489615a-f095-d89a-a467-01b80473dd4a.htm" />
+  <HelpKINode Title="CreateTable method" Url="html/bb8841f8-f72e-aeb0-5a2e-aaf7167d8f41.htm" />
   <HelpKINode Title="CreateTimer method" Url="html/140b71dc-8bd7-4493-c85c-68f7ff931f2b.htm" />
   <HelpKINode Title="CreateToken method" Url="html/0246b29c-38d7-a504-410c-612eb9c5bfa9.htm" />
   <HelpKINode Title="CurrentBlock property" Url="html/c824db16-ba28-45c3-2657-0e9696ec4dd6.htm" />
   <HelpKINode Title="CurrentBlockIndex property" Url="html/51163ce8-37a6-3630-bd35-336d5810900b.htm" />
+  <HelpKINode Title="CurrentCharacter property" Url="html/d9e8e376-3404-4447-467a-f5ed12e8a29f.htm" />
+  <HelpKINode Title="CurrentElementIndex property" Url="html/2cead654-1509-c0c8-7e81-7e3594763b6d.htm" />
   <HelpKINode Title="CurrentSourcePosition property">
     <HelpKINode Title="AbstractLexer.CurrentSourcePosition Property " Url="html/fc76a227-acb7-6f47-b5aa-5692e3b179e0.htm" />
     <HelpKINode Title="Lexer.CurrentSourcePosition Property " Url="html/32395e43-28b0-b9f3-5b9d-e33348b5ae96.htm" />
@@ -182,27 +243,29 @@
     <HelpKINode Title="constructor" Url="html/70b89102-6da4-c71b-c20f-e79191388146.htm" />
     <HelpKINode Title="fields" Url="html/613a2c0e-aae7-3534-1f88-99e10744c02e.htm" />
     <HelpKINode Title="methods" Url="html/a35ae854-adf4-70e5-0c0a-bc445242437e.htm" />
+    <HelpKINode Title="properties" Url="html/0d5494e5-835a-eaaa-d0fe-ef7fbadaea60.htm" />
   </HelpKINode>
-  <HelpKINode Title="Debug enumeration member" Url="html/18b04b4c-b212-82f9-abc2-0bef2b31a43e.htm" />
-  <HelpKINode Title="Debug method" Url="html/c8a663ce-c3f1-d861-72dd-4d22058a4626.htm" />
+  <HelpKINode Title="Debug enumeration member" Url="html/78b5a090-9618-8a97-fa78-1c430c6857e4.htm" />
+  <HelpKINode Title="Debug method" Url="html/03da97e0-e10c-94eb-0ecb-0bae27ee78f7.htm" />
   <HelpKINode Title="Debug property">
     <HelpKINode Title="Options.Debug Property " Url="html/db37a4e2-2cc0-599d-0683-09369a095906.htm" />
     <HelpKINode Title="Page.Debug Property " Url="html/bbc8688c-de87-4a9c-9a0d-3082a992e916.htm" />
   </HelpKINode>
   <HelpKINode Title="Debug.CreateBreakPoint method" Url="html/848487cc-cb53-dff9-946c-55f4bf5a2595.htm" />
   <HelpKINode Title="Debug.Debug constructor" Url="html/70b89102-6da4-c71b-c20f-e79191388146.htm" />
+  <HelpKINode Title="Debug.Initialize method" Url="html/f7381484-5d1c-5879-abdc-de3d548b831c.htm" />
   <HelpKINode Title="Debug.Unload method" Url="html/972b7fc9-b065-f6ad-d446-746d807e714a.htm" />
   <HelpKINode Title="Debug.WhenBreakpointHit method" Url="html/0a656dae-7806-36ad-8853-28a580a90566.htm" />
-  <HelpKINode Title="DebugEnabled property" Url="html/5d063883-6ffe-11e1-a9d1-7ddb2c1b588c.htm" />
-  <HelpKINode Title="DebugFormat method" Url="html/95bad49f-933a-528c-bb00-dba028b4d9a3.htm" />
+  <HelpKINode Title="DebugEnabled property" Url="html/cf228fba-b7c0-da23-a197-988f125841cb.htm" />
+  <HelpKINode Title="DebugFormat method" Url="html/bf39550d-8dc6-92f0-6ab6-2c4b55499a7a.htm" />
   <HelpKINode Title="DebuggerLogOutput class">
-    <HelpKINode Title="DebuggerLogOutput Class" Url="html/e9f1b4e3-3606-460f-cf35-3b20f40e5918.htm" />
-    <HelpKINode Title="about DebuggerLogOutput class" Url="html/e9f1b4e3-3606-460f-cf35-3b20f40e5918.htm" />
-    <HelpKINode Title="constructor" Url="html/6d13a7ac-8db0-bc7a-dc33-974c6932422d.htm" />
-    <HelpKINode Title="methods" Url="html/22cfb500-b70b-102a-dd77-655d733076c0.htm" />
+    <HelpKINode Title="DebuggerLogOutput Class" Url="html/d8ceff71-106a-61ea-ca90-a1780f4892d6.htm" />
+    <HelpKINode Title="about DebuggerLogOutput class" Url="html/d8ceff71-106a-61ea-ca90-a1780f4892d6.htm" />
+    <HelpKINode Title="constructor" Url="html/67dfcb24-e3bb-b41e-9d9f-e6ec031e6333.htm" />
+    <HelpKINode Title="methods" Url="html/d07bb03d-d391-daae-5517-6d2e0a92a1bb.htm" />
   </HelpKINode>
-  <HelpKINode Title="DebuggerLogOutput.DebuggerLogOutput constructor" Url="html/6d13a7ac-8db0-bc7a-dc33-974c6932422d.htm" />
-  <HelpKINode Title="DebuggerLogOutput.Log method" Url="html/5438c3f5-fbc9-11e8-4b01-1cc9d1c7f2a1.htm" />
+  <HelpKINode Title="DebuggerLogOutput.DebuggerLogOutput constructor" Url="html/67dfcb24-e3bb-b41e-9d9f-e6ec031e6333.htm" />
+  <HelpKINode Title="DebuggerLogOutput.Log method" Url="html/f26d90e0-fca7-665d-957a-f6772dd0839e.htm" />
   <HelpKINode Title="DecompileFromStream method" Url="html/3b3b931b-47d5-bbbf-e274-31bec660611b.htm" />
   <HelpKINode Title="Delay property" Url="html/1b92efe8-f3bd-6ac2-6dc1-7cd28d73e3c6.htm" />
   <HelpKINode Title="DeleteFile method" Url="html/cc44978d-1f81-959c-1af1-8147ab7c1cf8.htm" />
@@ -225,6 +288,7 @@
   <HelpKINode Title="Engine property">
     <HelpKINode Title="AbstractLexer.Engine Property " Url="html/b056bd3b-2a0d-537b-ad45-4c0347414747.htm" />
     <HelpKINode Title="Page.Engine Property " Url="html/e7cf7e87-e3d3-de6e-cfa7-12b34a43051d.htm" />
+    <HelpKINode Title="TriggerReader.Engine Property " Url="html/dcbfefad-ca2d-acb7-252b-e3d45977f31a.htm" />
   </HelpKINode>
   <HelpKINode Title="EQUAL enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="Equality operator">
@@ -236,21 +300,23 @@
     <HelpKINode Title="ConstantVariable.Equals Method " Url="html/cf41b232-801e-d9ff-097f-acf4f8589d1e.htm" />
     <HelpKINode Title="Expression(T).Equals Method " Url="html/2d7fb0d4-4ac3-e56a-57cf-16b5db349eac.htm" />
     <HelpKINode Title="Expression.Equals Method " Url="html/fb1f9f5f-8f2a-cff2-d839-fe13f989b4f0.htm" />
-    <HelpKINode Title="LogMessage.Equals Method " Url="html/471934d5-f725-8086-4f0a-0b0d4a4ed24f.htm" />
+    <HelpKINode Title="LogMessage.Equals Method " Url="html/63c0515e-f09b-3d20-5ff5-3a242707a51e.htm" />
     <HelpKINode Title="SourcePosition.Equals Method " Url="html/a949e47b-9727-264d-7059-fa900ed3bb96.htm" />
     <HelpKINode Title="Trigger.Equals Method " Url="html/11a8bb8c-e9e8-d83a-a905-dc10a8ddbea1.htm" />
     <HelpKINode Title="Variable.Equals Method " Url="html/5a86b50d-1de3-4e79-4fc3-4c057e72d663.htm" />
     <HelpKINode Title="VariableEqualityComparer.Equals Method " Url="html/7037cd98-da29-2b75-4f4e-b647bb185fdc.htm" />
-    <HelpKINode Title="VariableList.Equals Method " Url="html/98e40db4-1900-df45-8e65-5ec3a8ef1715.htm" />
+    <HelpKINode Title="VariableTable.Equals Method " Url="html/fb379a3c-1300-0fe0-9032-c4fe2e57782d.htm" />
   </HelpKINode>
-  <HelpKINode Title="Error enumeration member" Url="html/18b04b4c-b212-82f9-abc2-0bef2b31a43e.htm" />
+  <HelpKINode Title="Error enumeration member" Url="html/78b5a090-9618-8a97-fa78-1c430c6857e4.htm" />
   <HelpKINode Title="Error event" Url="html/cd6c3616-b0f6-c5fd-7a90-e520a1ae8d64.htm" />
-  <HelpKINode Title="Error method" Url="html/3f346b24-57a2-b87a-d53d-bd105c355795.htm" />
-  <HelpKINode Title="ErrorEnabled property" Url="html/c49b0a9c-5963-2baa-9622-139dd0d0f229.htm" />
-  <HelpKINode Title="ErrorFormat method" Url="html/7fa279c7-aebd-b1dd-4cbd-8ad44c46b5b8.htm" />
+  <HelpKINode Title="Error method" Url="html/38aed39e-9d13-6382-f03d-69166889b9be.htm" />
+  <HelpKINode Title="ErrorEnabled property" Url="html/1c30c1d2-34e0-ce46-6fbf-085b711fa802.htm" />
+  <HelpKINode Title="ErrorFormat method" Url="html/5919999e-b87c-c1c8-c93f-3df9db894e19.htm" />
+  <HelpKINode Title="EscapeForCSharp method" Url="html/03033dc1-1ec1-e85b-b564-577f55893cff.htm" />
   <HelpKINode Title="Execute method" Url="html/e1c95c73-76a2-5856-1bcd-2a0175cd2065.htm" />
   <HelpKINode Title="ExecuteAsync method" Url="html/cd45acec-df65-0af4-1352-5f9bb2668819.htm" />
   <HelpKINode Title="ExecuteBlock method" Url="html/84c28faa-1874-f9b4-297a-0022828ccbf2.htm" />
+  <HelpKINode Title="ExecuteTrigger method" Url="html/593f67b8-3dbd-a5f0-8575-87af83de8549.htm" />
   <HelpKINode Title="Expression class">
     <HelpKINode Title="Expression Class" Url="html/e33e1a8b-22e7-53f6-900b-884eaf3fbf26.htm" />
     <HelpKINode Title="about Expression class" Url="html/e33e1a8b-22e7-53f6-900b-884eaf3fbf26.htm" />
@@ -268,6 +334,7 @@
   <HelpKINode Title="Expression(Of T).CompareTo method" Url="html/4eb460da-6be7-8ca3-e933-25febc87db0f.htm" />
   <HelpKINode Title="Expression(Of T).Equals method" Url="html/2d7fb0d4-4ac3-e56a-57cf-16b5db349eac.htm" />
   <HelpKINode Title="Expression(Of T).Expression constructor" Url="html/54a4d29e-a533-d064-8399-939f45c72911.htm" />
+  <HelpKINode Title="Expression(Of T).ToString method" Url="html/1be88544-aaf8-0a42-8b00-acad8a014114.htm" />
   <HelpKINode Title="Expression(Of T).Value property" Url="html/29bde4bd-0953-9733-8086-b15b6d4a4b6c.htm" />
   <HelpKINode Title="Expression.CompareTo method" Url="html/700f86e1-cb6c-28dd-3118-2f71b7f07cb0.htm" />
   <HelpKINode Title="Expression.Equals method" Url="html/fb1f9f5f-8f2a-cff2-d839-fe13f989b4f0.htm" />
@@ -285,20 +352,25 @@
   <HelpKINode Title="Expression&lt;T&gt;.CompareTo method" Url="html/4eb460da-6be7-8ca3-e933-25febc87db0f.htm" />
   <HelpKINode Title="Expression&lt;T&gt;.Equals method" Url="html/2d7fb0d4-4ac3-e56a-57cf-16b5db349eac.htm" />
   <HelpKINode Title="Expression&lt;T&gt;.Expression constructor" Url="html/54a4d29e-a533-d064-8399-939f45c72911.htm" />
+  <HelpKINode Title="Expression&lt;T&gt;.ToString method" Url="html/1be88544-aaf8-0a42-8b00-acad8a014114.htm" />
   <HelpKINode Title="Expression&lt;T&gt;.Value property" Url="html/29bde4bd-0953-9733-8086-b15b6d4a4b6c.htm" />
-  <HelpKINode Title="Fails method" Url="html/693c7abc-26f5-e9c8-954a-b6c647c021db.htm" />
+  <HelpKINode Title="Fails method" Url="html/b675dab4-4003-71c2-33e8-41cc2055857a.htm" />
   <HelpKINode Title="FALSE enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="FileExists method" Url="html/aeef0b11-88ba-36b5-76d3-791b4a891c50.htm" />
   <HelpKINode Title="FileNotExists method" Url="html/242590bc-a25f-1b85-c4b4-9e8a218f1512.htm" />
   <HelpKINode Title="FirstRun property" Url="html/ec381188-51fb-875f-d838-933876caf3a3.htm" />
-  <HelpKINode Title="From method" Url="html/2afc9001-29c4-edf0-13f0-ff29f1c6de20.htm" />
+  <HelpKINode Title="Flow enumeration member" Url="html/74963bc8-b3f1-6b4b-b4a5-b7a6f6c34c27.htm" />
+  <HelpKINode Title="ForEntryInTable method" Url="html/8310cb01-ebd2-afdd-e224-20c6d66b9128.htm" />
+  <HelpKINode Title="From method" Url="html/8f523e98-bd35-75e8-0595-15369adfbd52.htm" />
   <HelpKINode Title="GenerateBlocks method" Url="html/391c8d47-4023-5742-820e-3caa20806005.htm" />
-  <HelpKINode Title="GetAllAttributesFromMethod(Of T) method" Url="html/53ece40b-98da-bf4e-af13-1c5abcdbdbfc.htm" />
-  <HelpKINode Title="GetAllAttributesFromMethod&lt;T&gt; method" Url="html/53ece40b-98da-bf4e-af13-1c5abcdbdbfc.htm" />
+  <HelpKINode Title="GetAllAttributesFromMethod(Of T) method" Url="html/65ebcffa-e1c9-c86f-291a-cca6909b39f7.htm" />
+  <HelpKINode Title="GetAllAttributesFromMethod&lt;T&gt; method" Url="html/65ebcffa-e1c9-c86f-291a-cca6909b39f7.htm" />
   <HelpKINode Title="GetAllLibraries method" Url="html/789022bf-40ea-170b-a636-b4515e68b44b.htm" />
-  <HelpKINode Title="GetAllMethods method" Url="html/98d02dc9-ec0b-8273-b83a-adde7b9de92e.htm" />
-  <HelpKINode Title="GetAllTypesWithAttributeInMembers(Of T) method" Url="html/93cf2f09-aa65-1149-31fe-a0703f7ba5b1.htm" />
-  <HelpKINode Title="GetAllTypesWithAttributeInMembers&lt;T&gt; method" Url="html/93cf2f09-aa65-1149-31fe-a0703f7ba5b1.htm" />
+  <HelpKINode Title="GetAllMethods method" Url="html/399abbd3-e280-d911-6105-be76704e4254.htm" />
+  <HelpKINode Title="GetAllTypesWithAttributeInMembers(Of T) method" Url="html/96af270a-694f-7cf5-2ffb-cfa1c351dd7a.htm" />
+  <HelpKINode Title="GetAllTypesWithAttributeInMembers&lt;T&gt; method" Url="html/96af270a-694f-7cf5-2ffb-cfa1c351dd7a.htm" />
+  <HelpKINode Title="GetAllTypesWithBaseClass(Of T) method" Url="html/c2c64fa6-ccfd-ef40-f4a0-0f36d18f37f9.htm" />
+  <HelpKINode Title="GetAllTypesWithBaseClass&lt;T&gt; method" Url="html/c2c64fa6-ccfd-ef40-f4a0-0f36d18f37f9.htm" />
   <HelpKINode Title="GetCurrentDayOfMonthIntoVar method" Url="html/aa094616-0444-1036-47a8-e78ef5b300f4.htm" />
   <HelpKINode Title="GetCurrentHourIntoVar method" Url="html/8c4dd97b-f15b-4cb2-a6ef-b042e112d6f1.htm" />
   <HelpKINode Title="GetCurrentMinutesIntoVar method" Url="html/0aeb5860-f6cd-bc69-edf5-3936bd328b47.htm" />
@@ -309,23 +381,32 @@
   <HelpKINode Title="GetCurrentYearIntoVar method" Url="html/b3e68e1a-2117-950b-d25a-f68a3ee165e1.htm" />
   <HelpKINode Title="GetEnvVariable method" Url="html/11163a67-a22b-fe82-5df1-4047fb7da6c2.htm" />
   <HelpKINode Title="GetHashCode method">
-    <HelpKINode Title="LogMessage.GetHashCode Method " Url="html/b93f53a5-b608-1342-3722-7bcfaf64aac0.htm" />
+    <HelpKINode Title="LogMessage.GetHashCode Method " Url="html/233a8d06-63bd-9dc9-c197-7b27745b8e2a.htm" />
     <HelpKINode Title="Trigger.GetHashCode Method " Url="html/a5b1b676-015f-cd15-fdc5-0fa40c478129.htm" />
     <HelpKINode Title="Variable.GetHashCode Method " Url="html/7f333d8d-a205-c8b6-c45f-4ea2e8ce3388.htm" />
     <HelpKINode Title="VariableEqualityComparer.GetHashCode Method " Url="html/a13337b9-ed20-9806-f85d-ee8778cfd64a.htm" />
-    <HelpKINode Title="VariableList.GetHashCode Method " Url="html/e3ca03f9-7158-613d-a265-ef7783960ed9.htm" />
+    <HelpKINode Title="VariableTable.GetHashCode Method " Url="html/e060a0d5-188b-bbad-c23f-b60b678ae110.htm" />
   </HelpKINode>
   <HelpKINode Title="GetLibrariesFromAssembly method" Url="html/d67f045b-79c4-6a91-787e-662c17966b67.htm" />
   <HelpKINode Title="GetLibrary(Of T) method" Url="html/79a95f5a-0449-330e-0075-41b6454d6861.htm" />
   <HelpKINode Title="GetLibrary&lt;T&gt; method" Url="html/79a95f5a-0449-330e-0075-41b6454d6861.htm" />
   <HelpKINode Title="GetParameter(Of T) method" Url="html/c3f8b9f9-c3c9-655b-b5ca-b105e580544f.htm" />
   <HelpKINode Title="GetParameter&lt;T&gt; method" Url="html/c3f8b9f9-c3c9-655b-b5ca-b105e580544f.htm" />
+  <HelpKINode Title="GetSubBlock method" Url="html/0e62a2cd-ac6c-ace7-34bd-d8120eed8550.htm" />
+  <HelpKINode Title="GetTableKeyIntoVar method" Url="html/b5025d52-7c03-8536-e226-08906578b00e.htm" />
+  <HelpKINode Title="GetTriggerDescription method" Url="html/de88be48-3ca9-256f-6c76-994ea52e3830.htm" />
   <HelpKINode Title="GetTriggerDescriptions method" Url="html/6178d8a2-adb0-99c8-b84f-5b86f9156fef.htm" />
   <HelpKINode Title="GetValue method" Url="html/9e4d4941-1fa9-aff3-0b3c-bb82be8409bd.htm" />
   <HelpKINode Title="GetVariable method" Url="html/29c2de06-00a7-83fc-b8fe-37ed6ddd07b9.htm" />
   <HelpKINode Title="GREATER_EQUAL enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="GREATER_THEN enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
-  <HelpKINode Title="handlers field" Url="html/a3f6af60-ecee-d59c-2586-a3a8c01edd91.htm" />
+  <HelpKINode Title="handlers field">
+    <HelpKINode Title="BaseLibrary.handlers Field" Url="html/a3f6af60-ecee-d59c-2586-a3a8c01edd91.htm" />
+    <HelpKINode Title="Page.handlers Field" Url="html/1b18507d-e184-9b74-47d3-47cdbbdc5adf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Handlers property" Url="html/5dc2744a-1929-8f8c-d8ae-ddd0254bff21.htm" />
+  <HelpKINode Title="HasIndex property" Url="html/4aabdc64-6c2e-81d2-ca4e-3b151f015179.htm" />
+  <HelpKINode Title="HasNoArgConstructor method" Url="html/3a7ad887-8296-c571-816e-c989c739c4a5.htm" />
   <HelpKINode Title="HasVariable method" Url="html/df22e504-51bd-8578-ba84-3fd536ec945b.htm" />
   <HelpKINode Title="Id property">
     <HelpKINode Title="TimerTask.Id Property " Url="html/74e30143-ceb8-c198-8718-c23b15b9294c.htm" />
@@ -338,11 +419,12 @@
   </HelpKINode>
   <HelpKINode Title="IExpression.Position property" Url="html/7a57f5ff-e011-0fad-34aa-762818135601.htm" />
   <HelpKINode Title="ILogOutput interface">
-    <HelpKINode Title="ILogOutput Interface" Url="html/36a8efb0-5da1-7f73-8f7e-3ee26365066a.htm" />
-    <HelpKINode Title="about ILogOutput interface" Url="html/36a8efb0-5da1-7f73-8f7e-3ee26365066a.htm" />
-    <HelpKINode Title="methods" Url="html/6b0f4528-3f0f-1a70-ae2c-2cb2b72db14a.htm" />
+    <HelpKINode Title="ILogOutput Interface" Url="html/37c661f1-4bca-1c0d-6f4b-891df041b2b3.htm" />
+    <HelpKINode Title="about ILogOutput interface" Url="html/37c661f1-4bca-1c0d-6f4b-891df041b2b3.htm" />
+    <HelpKINode Title="methods" Url="html/ff1b2095-f129-6658-93ea-7102d76ebfc0.htm" />
   </HelpKINode>
-  <HelpKINode Title="ILogOutput.Log method" Url="html/3917c856-e19e-986a-158b-d4dba5f263ac.htm" />
+  <HelpKINode Title="ILogOutput.Log method" Url="html/3151e3a8-5752-d489-086f-6ee097eb2ca4.htm" />
+  <HelpKINode Title="Indexer property" Url="html/ee56543c-11d8-6faf-8793-bcfb45b9ca0a.htm" />
   <HelpKINode Title="IndexOfStringToVar method" Url="html/81621d7f-4e34-813a-b3e3-1d91e78c397d.htm" />
   <HelpKINode Title="IndexOfTrigger method" Url="html/f01ea1c4-88ee-fd1c-97e8-0285a6fbbe9b.htm" />
   <HelpKINode Title="Inequality operator">
@@ -350,10 +432,22 @@
     <HelpKINode Title="Trigger.Inequality Operator " Url="html/d98b4c46-9c2e-27d1-ef59-fa129418ac31.htm" />
     <HelpKINode Title="Variable.Inequality Operator " Url="html/151b8ba5-8cf3-6233-34fc-d563a9d14f14.htm" />
   </HelpKINode>
-  <HelpKINode Title="Info enumeration member" Url="html/18b04b4c-b212-82f9-abc2-0bef2b31a43e.htm" />
-  <HelpKINode Title="Info method" Url="html/13e148ca-5133-c2b3-1a51-899b9477eeda.htm" />
-  <HelpKINode Title="InfoEnabled property" Url="html/68b44d83-87da-c91b-4ce4-d3ddf99aec42.htm" />
-  <HelpKINode Title="InfoFormat method" Url="html/c7cffcf7-233e-4ebe-a585-f5aa85a57ece.htm" />
+  <HelpKINode Title="Info enumeration member" Url="html/78b5a090-9618-8a97-fa78-1c430c6857e4.htm" />
+  <HelpKINode Title="Info method" Url="html/03d0dfec-a537-58d4-860a-62c569e58041.htm" />
+  <HelpKINode Title="InfoEnabled property" Url="html/c8ec36dc-7929-6a20-94e3-5282433fbd3b.htm" />
+  <HelpKINode Title="InfoFormat method" Url="html/62c65ac7-2d6d-40d9-eb12-6a1285dc1073.htm" />
+  <HelpKINode Title="Initialize method">
+    <HelpKINode Title="Attributes.Initialize Method " Url="html/83587c0c-604c-5d6c-555c-16eb0ead1596.htm" />
+    <HelpKINode Title="BaseLibrary.Initialize Method " Url="html/70056b00-10ae-eaad-c305-350effc91fb8.htm" />
+    <HelpKINode Title="Debug.Initialize Method " Url="html/f7381484-5d1c-5879-abdc-de3d548b831c.htm" />
+    <HelpKINode Title="IO.Initialize Method " Url="html/7dcf4f3c-0ae8-7344-5d9f-6a0333e18aa0.htm" />
+    <HelpKINode Title="Loops.Initialize Method " Url="html/b57bb00a-1824-2240-990d-a4c3c8b5e1cc.htm" />
+    <HelpKINode Title="Math.Initialize Method " Url="html/4f70bf50-d6f2-b390-db93-e4c5f161c312.htm" />
+    <HelpKINode Title="StringOperations.Initialize Method " Url="html/4314477d-d1a3-0852-38be-688011b003c2.htm" />
+    <HelpKINode Title="Sys.Initialize Method " Url="html/1622eb9b-8a53-37af-1bbb-3bba5ac488b2.htm" />
+    <HelpKINode Title="Tables.Initialize Method " Url="html/4988112a-c644-fab7-8e29-c595777b9a8c.htm" />
+    <HelpKINode Title="Timers.Initialize Method " Url="html/a635aff8-f353-a417-e7e1-d4748ed3f3a3.htm" />
+  </HelpKINode>
   <HelpKINode Title="Initiate method" Url="html/803d6695-0a01-a0d3-a0d3-ae0b14bbde1b.htm" />
   <HelpKINode Title="Initiating event" Url="html/58ab5345-6cf9-f0cf-2f8e-c2d58e343335.htm" />
   <HelpKINode Title="Instance field" Url="html/c36276bb-8856-2ad1-fe7b-adb12d1e630f.htm" />
@@ -366,6 +460,7 @@
     <HelpKINode Title="constructor" Url="html/78632402-fcde-774e-83fb-1af5f91c68ea.htm" />
     <HelpKINode Title="fields" Url="html/013feb4c-b80a-38c4-678f-de6de55c2bc9.htm" />
     <HelpKINode Title="methods" Url="html/0f2e5bcb-9f26-0177-3382-a66107534b91.htm" />
+    <HelpKINode Title="properties" Url="html/99b670eb-d8e1-92e3-1876-d8ba9470e6bd.htm" />
   </HelpKINode>
   <HelpKINode Title="IO.AppendToFile method" Url="html/676b0c4b-449a-419b-1aeb-b4932195276d.htm" />
   <HelpKINode Title="IO.CanReadFile method" Url="html/3bcc6290-4c28-ab5d-7bb4-e4188497c541.htm" />
@@ -374,6 +469,7 @@
   <HelpKINode Title="IO.DeleteFile method" Url="html/cc44978d-1f81-959c-1af1-8147ab7c1cf8.htm" />
   <HelpKINode Title="IO.FileExists method" Url="html/aeef0b11-88ba-36b5-76d3-791b4a891c50.htm" />
   <HelpKINode Title="IO.FileNotExists method" Url="html/242590bc-a25f-1b85-c4b4-9e8a218f1512.htm" />
+  <HelpKINode Title="IO.Initialize method" Url="html/7dcf4f3c-0ae8-7344-5d9f-6a0333e18aa0.htm" />
   <HelpKINode Title="IO.IO constructor" Url="html/78632402-fcde-774e-83fb-1af5f91c68ea.htm" />
   <HelpKINode Title="IO.ReadFileIntoVariable method" Url="html/949f5e3e-4e22-2803-8ad1-db01e20e793a.htm" />
   <HelpKINode Title="IO.Unload method" Url="html/c9504223-0304-1321-d604-1e12715a70af.htm" />
@@ -381,18 +477,19 @@
     <HelpKINode Title="ConstantVariable.IsConstant Property " Url="html/a4a18c02-0ebe-5290-856b-0587324924e7.htm" />
     <HelpKINode Title="IVariable.IsConstant Property " Url="html/6240097e-19d6-b3fb-4bec-e25174833892.htm" />
     <HelpKINode Title="Variable.IsConstant Property " Url="html/8547987b-67d2-d114-2991-7c5f673ab645.htm" />
-    <HelpKINode Title="VariableList.IsConstant Property " Url="html/e4a2222e-43ec-90f5-3088-1b0776588b41.htm" />
+    <HelpKINode Title="VariableTable.IsConstant Property " Url="html/902259ec-a7ea-32d7-97ae-482577b827b0.htm" />
   </HelpKINode>
-  <HelpKINode Title="IsEmpty property" Url="html/8b2782b8-6bbe-311a-95ce-a770d5f2aeb5.htm" />
+  <HelpKINode Title="IsEmpty property" Url="html/e8b9f908-cefd-a067-b9a6-7d14711e6fde.htm" />
+  <HelpKINode Title="IsMatch method" Url="html/f2682267-d92e-eede-33fd-ad8835443dd5.htm" />
   <HelpKINode Title="IsPreamble method" Url="html/1811eca9-40c6-e96a-e5b7-268ed959ffa6.htm" />
-  <HelpKINode Title="IsSpam property" Url="html/79b112a4-eeb5-df70-988a-77658db873a5.htm" />
+  <HelpKINode Title="IsSpam property" Url="html/fea8d3c0-11be-0fa2-d6a6-32ffd443e7a2.htm" />
   <HelpKINode Title="IsVariableDefined method" Url="html/453cfa94-2d69-c6fd-9ea9-a2636e7c6cfa.htm" />
   <HelpKINode Title="IsVariableEqualToNumberOrVar method" Url="html/637a595a-7eea-9924-cce0-73c0f72109eb.htm" />
   <HelpKINode Title="IsVariableEqualToString method" Url="html/2ccb9789-3e3b-3af3-0db5-865c78f1fc4c.htm" />
   <HelpKINode Title="IsVariableNotDefined method" Url="html/e2fa17a9-d7c1-6750-b8a8-f34266468282.htm" />
   <HelpKINode Title="IsVariableNotEqualToNumberOrVar method" Url="html/a2ec8075-5c30-c6e4-8b7b-907cd0e52489.htm" />
   <HelpKINode Title="IsVariableNotEqualToString method" Url="html/8b9d1af7-5221-9859-cc6b-075671bbe5a8.htm" />
-  <HelpKINode Title="Item property" Url="html/ec8c9e0d-91a4-fa8a-f2fd-7fe8414d32ca.htm" />
+  <HelpKINode Title="Item property" Url="html/49a7c840-4c06-2d96-c693-4bc30e25b1ea.htm" />
   <HelpKINode Title="ITokenDefinition interface">
     <HelpKINode Title="ITokenDefinition Interface" Url="html/31939781-0a87-5eb1-8428-3f0fd599fd9b.htm" />
     <HelpKINode Title="about ITokenDefinition interface" Url="html/31939781-0a87-5eb1-8428-3f0fd599fd9b.htm" />
@@ -400,10 +497,12 @@
     <HelpKINode Title="properties" Url="html/6185794a-74a4-e26e-9557-55c630256784.htm" />
   </HelpKINode>
   <HelpKINode Title="ITokenDefinition.Create method" Url="html/a854c497-6040-0b12-9b56-8d6c5981ad13.htm" />
+  <HelpKINode Title="ITokenDefinition.StartCharacter property" Url="html/0ed4574d-ae02-9bf6-d900-bf743d407f19.htm" />
   <HelpKINode Title="ITokenDefinition.Type property" Url="html/74536c8f-4d04-72d0-cff5-bb63bc90ced1.htm" />
   <HelpKINode Title="IVariable interface">
     <HelpKINode Title="IVariable Interface" Url="html/cb9a7a53-5e9f-88dc-df5b-48067cc89c3c.htm" />
     <HelpKINode Title="about IVariable interface" Url="html/cb9a7a53-5e9f-88dc-df5b-48067cc89c3c.htm" />
+    <HelpKINode Title="methods" Url="html/46596e28-85c0-0978-6eaf-237a78422601.htm" />
     <HelpKINode Title="properties" Url="html/804e5185-c968-aefc-f672-e839df1ea7ce.htm" />
   </HelpKINode>
   <HelpKINode Title="IVariable.IsConstant property" Url="html/6240097e-19d6-b3fb-4bec-e25174833892.htm" />
@@ -415,8 +514,8 @@
   <HelpKINode Title="Length property" Url="html/f5254083-fb24-15fb-9472-826916db0e1e.htm" />
   <HelpKINode Title="LESS_EQUAL enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="LESS_THEN enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
-  <HelpKINode Title="Level enumeration" Url="html/18b04b4c-b212-82f9-abc2-0bef2b31a43e.htm" />
-  <HelpKINode Title="Level property" Url="html/52f6cbc0-c77b-c75a-3fa4-5424885527cb.htm" />
+  <HelpKINode Title="Level enumeration" Url="html/78b5a090-9618-8a97-fa78-1c430c6857e4.htm" />
+  <HelpKINode Title="Level property" Url="html/1cd16ce6-df88-94a8-3714-757827b99e56.htm" />
   <HelpKINode Title="Lexer class">
     <HelpKINode Title="Lexer Class" Url="html/6525f7ea-0771-7698-fb2a-2718d011a139.htm" />
     <HelpKINode Title="about Lexer class" Url="html/6525f7ea-0771-7698-fb2a-2718d011a139.htm" />
@@ -425,24 +524,27 @@
     <HelpKINode Title="methods" Url="html/4fdc590c-4c5c-61a7-f5d3-035cbacc9cc9.htm" />
     <HelpKINode Title="properties" Url="html/d033bb80-a769-a360-9038-d447a25dc395.htm" />
   </HelpKINode>
-  <HelpKINode Title="Lexer.CheckEOF method" Url="html/4e34311d-19de-25dd-e4db-4c6fca963891.htm" />
+  <HelpKINode Title="Lexer.CheckEOF method" Url="html/a9e4c120-bed1-ba48-b7c3-47bf6246f91c.htm" />
   <HelpKINode Title="Lexer.CheckIsDigit method" Url="html/3371562e-1e2d-8ada-68a0-ec6c165c149b.htm" />
   <HelpKINode Title="Lexer.CheckMatch method" Url="html/0c21fa1c-58bc-2288-9ea9-35a7a1568774.htm" />
   <HelpKINode Title="Lexer.CreateToken method" Url="html/0246b29c-38d7-a504-410c-612eb9c5bfa9.htm" />
+  <HelpKINode Title="Lexer.CurrentCharacter property" Url="html/d9e8e376-3404-4447-467a-f5ed12e8a29f.htm" />
   <HelpKINode Title="Lexer.CurrentSourcePosition property" Url="html/32395e43-28b0-b9f3-5b9d-e33348b5ae96.htm" />
+  <HelpKINode Title="Lexer.IsMatch method" Url="html/f2682267-d92e-eede-33fd-ad8835443dd5.htm" />
   <HelpKINode Title="Lexer.Lexer constructor" Url="html/05bb9bbf-0bae-dcef-8e48-a11ebefa9052.htm" />
   <HelpKINode Title="Lexer.LookAhead method" Url="html/c9303c60-ed8f-5def-5839-23bf3de57efe.htm" />
   <HelpKINode Title="Lexer.LookBack method" Url="html/159d6d4f-4641-75ef-7cdf-6f52432a7fed.htm" />
   <HelpKINode Title="Lexer.MatchNumber method" Url="html/976660d1-1829-c5e3-6fa0-31253e489f21.htm" />
   <HelpKINode Title="Lexer.MatchString method" Url="html/6bc28dd6-16a4-8e8a-6a85-28e44b80f433.htm" />
   <HelpKINode Title="Lexer.MatchTrigger method" Url="html/d4c3afe8-211e-b217-3298-eba34c387f37.htm" />
-  <HelpKINode Title="Lexer.MatchVariable method" Url="html/ea056726-9d45-09c5-416b-4d5dcc441e3c.htm" />
+  <HelpKINode Title="Lexer.MatchVariable method" Url="html/11322dd9-ddcb-a3bc-164c-c5e3e36e36a9.htm" />
   <HelpKINode Title="Lexer.Next method" Url="html/83323ad3-f55e-8c1e-68d3-036c74d6bc0a.htm" />
   <HelpKINode Title="Lexer.Read method" Url="html/b5078b15-0451-6dd1-17d2-37f81edf5da0.htm" />
   <HelpKINode Title="Lexer.Reset method" Url="html/e3aeb4bd-562e-c3a5-8b19-33e08122be26.htm" />
   <HelpKINode Title="Lexer.SkipBlockComment method" Url="html/bf10701b-bd25-2346-dd77-d9c6959ddf1a.htm" />
   <HelpKINode Title="Lexer.SkipLineComment method" Url="html/20c27239-56dd-e4c8-4e18-06c26505149a.htm" />
   <HelpKINode Title="Libraries property" Url="html/06933953-b17f-ef96-1b04-ec80230f54e5.htm" />
+  <HelpKINode Title="Limit property" Url="html/953e4094-9243-6d12-feb5-45b5ab1d397e.htm" />
   <HelpKINode Title="Line property" Url="html/fcdea6c1-8c3e-934b-8e40-950dab3428e2.htm" />
   <HelpKINode Title="LineCommentSymbol property" Url="html/65cdeaf6-c81e-ebec-56bf-a3a7d88bd8d7.htm" />
   <HelpKINode Title="LITERAL enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
@@ -467,61 +569,61 @@
   <HelpKINode Title="LoadSysLibrary method" Url="html/6bd3d3fe-92b9-f9f8-3cd4-2b4b61033138.htm" />
   <HelpKINode Title="LoadTimerLibrary method" Url="html/0873afd8-896d-e171-7b42-3279c2a20db2.htm" />
   <HelpKINode Title="Log method">
-    <HelpKINode Title="ConsoleLogOutput.Log Method " Url="html/27983496-2fed-7fcc-138f-79274248f70c.htm" />
-    <HelpKINode Title="DebuggerLogOutput.Log Method " Url="html/5438c3f5-fbc9-11e8-4b01-1cc9d1c7f2a1.htm" />
-    <HelpKINode Title="ILogOutput.Log Method " Url="html/3917c856-e19e-986a-158b-d4dba5f263ac.htm" />
-    <HelpKINode Title="Logger.Log Method " Url="html/33696a9b-08a4-6b83-9b9c-e9b5234b38f9.htm" />
+    <HelpKINode Title="ConsoleLogOutput.Log Method " Url="html/a773e91a-3d85-f33d-7a09-cb1bb685729b.htm" />
+    <HelpKINode Title="DebuggerLogOutput.Log Method " Url="html/f26d90e0-fca7-665d-957a-f6772dd0839e.htm" />
+    <HelpKINode Title="ILogOutput.Log Method " Url="html/3151e3a8-5752-d489-086f-6ee097eb2ca4.htm" />
+    <HelpKINode Title="Logger.Log Method " Url="html/c46638a0-5c2f-c0f4-4bad-77ea504f59eb.htm" />
   </HelpKINode>
   <HelpKINode Title="Logger class">
-    <HelpKINode Title="Logger Class" Url="html/27636736-6235-c160-cb48-c37ccdc195af.htm" />
-    <HelpKINode Title="about Logger class" Url="html/27636736-6235-c160-cb48-c37ccdc195af.htm" />
-    <HelpKINode Title="constructor" Url="html/d3a81114-628d-09e4-c628-dfe9a444e4d8.htm" />
-    <HelpKINode Title="fields" Url="html/01779b0b-3671-ec76-2ed2-94c0421cfb56.htm" />
-    <HelpKINode Title="methods" Url="html/89f5383e-0491-4dfe-1c43-47b7f3eed607.htm" />
-    <HelpKINode Title="properties" Url="html/856bdf50-a3e1-7e99-d303-bcf15bc8cc39.htm" />
+    <HelpKINode Title="Logger Class" Url="html/c888cbfb-1da2-fe33-3338-9382d8a5d9a5.htm" />
+    <HelpKINode Title="about Logger class" Url="html/c888cbfb-1da2-fe33-3338-9382d8a5d9a5.htm" />
+    <HelpKINode Title="constructor" Url="html/b1328e69-d4e6-8717-7fd3-bd114497287c.htm" />
+    <HelpKINode Title="fields" Url="html/4438cce1-d75c-5ed6-e9ac-d65511f77427.htm" />
+    <HelpKINode Title="methods" Url="html/578f5c02-0834-3b7d-e30b-8f837c1e4448.htm" />
+    <HelpKINode Title="properties" Url="html/c84d513c-8df7-d9c5-a039-b76abc95ef5b.htm" />
   </HelpKINode>
-  <HelpKINode Title="Logger.Assert method" Url="html/2e1e3fd0-8033-b732-875e-11ccc3eaeb1f.htm" />
-  <HelpKINode Title="Logger.Debug method" Url="html/c8a663ce-c3f1-d861-72dd-4d22058a4626.htm" />
-  <HelpKINode Title="Logger.DebugEnabled property" Url="html/5d063883-6ffe-11e1-a9d1-7ddb2c1b588c.htm" />
-  <HelpKINode Title="Logger.DebugFormat method" Url="html/95bad49f-933a-528c-bb00-dba028b4d9a3.htm" />
-  <HelpKINode Title="Logger.Error method" Url="html/3f346b24-57a2-b87a-d53d-bd105c355795.htm" />
-  <HelpKINode Title="Logger.ErrorEnabled property" Url="html/c49b0a9c-5963-2baa-9622-139dd0d0f229.htm" />
-  <HelpKINode Title="Logger.ErrorFormat method" Url="html/7fa279c7-aebd-b1dd-4cbd-8ad44c46b5b8.htm" />
-  <HelpKINode Title="Logger.Fails method" Url="html/693c7abc-26f5-e9c8-954a-b6c647c021db.htm" />
-  <HelpKINode Title="Logger.Info method" Url="html/13e148ca-5133-c2b3-1a51-899b9477eeda.htm" />
-  <HelpKINode Title="Logger.InfoEnabled property" Url="html/68b44d83-87da-c91b-4ce4-d3ddf99aec42.htm" />
-  <HelpKINode Title="Logger.InfoFormat method" Url="html/c7cffcf7-233e-4ebe-a585-f5aa85a57ece.htm" />
-  <HelpKINode Title="Logger.Log method" Url="html/33696a9b-08a4-6b83-9b9c-e9b5234b38f9.htm" />
-  <HelpKINode Title="Logger.Logger constructor" Url="html/d3a81114-628d-09e4-c628-dfe9a444e4d8.htm" />
-  <HelpKINode Title="Logger.LogOutput property" Url="html/9cbbbd7f-a6db-e60d-e0ce-0fbee587f4b7.htm" />
-  <HelpKINode Title="Logger.MessagesExpire property" Url="html/5735584f-b9bc-c9f1-72be-028714f7615f.htm" />
-  <HelpKINode Title="Logger.queue field" Url="html/07bfd784-8ff2-ed45-ddb8-9beb4439338d.htm" />
-  <HelpKINode Title="Logger.SuppressSpam property" Url="html/fc36e3eb-f87d-7739-cb49-afe8f1d8cd1b.htm" />
-  <HelpKINode Title="Logger.Warn method" Url="html/154fc252-7370-cc56-13cc-f371cabe403f.htm" />
-  <HelpKINode Title="Logger.WarnFormat method" Url="html/6a7297ee-1760-8715-21d4-010d0768b8c7.htm" />
-  <HelpKINode Title="Logger.WarningEnabled property" Url="html/5b4299e8-536f-dde1-5db4-9e45c3da881f.htm" />
+  <HelpKINode Title="Logger.Assert method" Url="html/cd655999-3f84-d594-c918-d9843e024067.htm" />
+  <HelpKINode Title="Logger.Debug method" Url="html/03da97e0-e10c-94eb-0ecb-0bae27ee78f7.htm" />
+  <HelpKINode Title="Logger.DebugEnabled property" Url="html/cf228fba-b7c0-da23-a197-988f125841cb.htm" />
+  <HelpKINode Title="Logger.DebugFormat method" Url="html/bf39550d-8dc6-92f0-6ab6-2c4b55499a7a.htm" />
+  <HelpKINode Title="Logger.Error method" Url="html/38aed39e-9d13-6382-f03d-69166889b9be.htm" />
+  <HelpKINode Title="Logger.ErrorEnabled property" Url="html/1c30c1d2-34e0-ce46-6fbf-085b711fa802.htm" />
+  <HelpKINode Title="Logger.ErrorFormat method" Url="html/5919999e-b87c-c1c8-c93f-3df9db894e19.htm" />
+  <HelpKINode Title="Logger.Fails method" Url="html/b675dab4-4003-71c2-33e8-41cc2055857a.htm" />
+  <HelpKINode Title="Logger.Info method" Url="html/03d0dfec-a537-58d4-860a-62c569e58041.htm" />
+  <HelpKINode Title="Logger.InfoEnabled property" Url="html/c8ec36dc-7929-6a20-94e3-5282433fbd3b.htm" />
+  <HelpKINode Title="Logger.InfoFormat method" Url="html/62c65ac7-2d6d-40d9-eb12-6a1285dc1073.htm" />
+  <HelpKINode Title="Logger.Log method" Url="html/c46638a0-5c2f-c0f4-4bad-77ea504f59eb.htm" />
+  <HelpKINode Title="Logger.Logger constructor" Url="html/b1328e69-d4e6-8717-7fd3-bd114497287c.htm" />
+  <HelpKINode Title="Logger.LogOutput property" Url="html/198ad40e-1813-6f83-1599-376d21e551ff.htm" />
+  <HelpKINode Title="Logger.MessagesExpire property" Url="html/464ba89f-ad67-d944-8513-b98978bebbd9.htm" />
+  <HelpKINode Title="Logger.queue field" Url="html/70f0ba1c-4505-ca3b-a7b5-df0eee2f7a0e.htm" />
+  <HelpKINode Title="Logger.SuppressSpam property" Url="html/d3910947-310a-66f4-1437-a4566d0af89d.htm" />
+  <HelpKINode Title="Logger.Warn method" Url="html/9f166032-7f67-99bd-cac8-38f517b1bbeb.htm" />
+  <HelpKINode Title="Logger.WarnFormat method" Url="html/f4b8160f-080b-8a4d-bd75-4fc629f3f697.htm" />
+  <HelpKINode Title="Logger.WarningEnabled property" Url="html/d35088e4-3bdf-a890-b844-715678f1cea3.htm" />
   <HelpKINode Title="LogMessage structure">
-    <HelpKINode Title="LogMessage Structure" Url="html/d17acaa9-6643-8c86-9a87-acaaf5c4858a.htm" />
-    <HelpKINode Title="about LogMessage structure" Url="html/d17acaa9-6643-8c86-9a87-acaaf5c4858a.htm" />
-    <HelpKINode Title="constructor" Url="html/6b0721ab-ebb4-6d3c-730e-658ed610dcd3.htm" />
-    <HelpKINode Title="constructor" Url="html/a238996f-ee06-570b-43b7-edd24ac5c10a.htm" />
-    <HelpKINode Title="fields" Url="html/adcf291b-9361-cf1e-5685-4e8104495dcf.htm" />
-    <HelpKINode Title="methods" Url="html/f0508a65-ff2d-a4b0-b13d-c19203893e23.htm" />
-    <HelpKINode Title="properties" Url="html/5a9841b2-3153-2b33-8066-081fb7d31913.htm" />
+    <HelpKINode Title="LogMessage Structure" Url="html/421d529e-390a-e28e-2f5b-4dd8dccbe9cd.htm" />
+    <HelpKINode Title="about LogMessage structure" Url="html/421d529e-390a-e28e-2f5b-4dd8dccbe9cd.htm" />
+    <HelpKINode Title="constructor" Url="html/d35b40a3-4ed1-b3aa-01a9-525606e46e1c.htm" />
+    <HelpKINode Title="constructor" Url="html/de21914e-71b8-3201-20f9-fd4ed4a79d53.htm" />
+    <HelpKINode Title="fields" Url="html/271cf274-4656-384c-f80d-a6a14f799932.htm" />
+    <HelpKINode Title="methods" Url="html/4490211a-6c70-0e7a-a735-191a0e55f827.htm" />
+    <HelpKINode Title="properties" Url="html/2341265c-d8f0-dcb7-e70f-257a65543f38.htm" />
   </HelpKINode>
-  <HelpKINode Title="LogMessage.Equals method" Url="html/471934d5-f725-8086-4f0a-0b0d4a4ed24f.htm" />
-  <HelpKINode Title="LogMessage.From method" Url="html/2afc9001-29c4-edf0-13f0-ff29f1c6de20.htm" />
-  <HelpKINode Title="LogMessage.GetHashCode method" Url="html/b93f53a5-b608-1342-3722-7bcfaf64aac0.htm" />
-  <HelpKINode Title="LogMessage.IsEmpty property" Url="html/8b2782b8-6bbe-311a-95ce-a770d5f2aeb5.htm" />
-  <HelpKINode Title="LogMessage.IsSpam property" Url="html/79b112a4-eeb5-df70-988a-77658db873a5.htm" />
-  <HelpKINode Title="LogMessage.Level property" Url="html/52f6cbc0-c77b-c75a-3fa4-5424885527cb.htm" />
+  <HelpKINode Title="LogMessage.Equals method" Url="html/63c0515e-f09b-3d20-5ff5-3a242707a51e.htm" />
+  <HelpKINode Title="LogMessage.From method" Url="html/8f523e98-bd35-75e8-0595-15369adfbd52.htm" />
+  <HelpKINode Title="LogMessage.GetHashCode method" Url="html/233a8d06-63bd-9dc9-c197-7b27745b8e2a.htm" />
+  <HelpKINode Title="LogMessage.IsEmpty property" Url="html/e8b9f908-cefd-a067-b9a6-7d14711e6fde.htm" />
+  <HelpKINode Title="LogMessage.IsSpam property" Url="html/fea8d3c0-11be-0fa2-d6a6-32ffd443e7a2.htm" />
+  <HelpKINode Title="LogMessage.Level property" Url="html/1cd16ce6-df88-94a8-3714-757827b99e56.htm" />
   <HelpKINode Title="LogMessage.LogMessage constructor">
-    <HelpKINode Title="LogMessage Constructor " Url="html/a238996f-ee06-570b-43b7-edd24ac5c10a.htm" />
-    <HelpKINode Title="LogMessage Constructor " Url="html/6b0721ab-ebb4-6d3c-730e-658ed610dcd3.htm" />
+    <HelpKINode Title="LogMessage Constructor " Url="html/de21914e-71b8-3201-20f9-fd4ed4a79d53.htm" />
+    <HelpKINode Title="LogMessage Constructor " Url="html/d35b40a3-4ed1-b3aa-01a9-525606e46e1c.htm" />
   </HelpKINode>
-  <HelpKINode Title="LogMessage.message field" Url="html/62b99610-a0b9-f498-ac97-1102914ef91c.htm" />
-  <HelpKINode Title="LogMessage.ToString method" Url="html/d43aa734-c27f-1e06-8ad8-0c78604fbf02.htm" />
-  <HelpKINode Title="LogOutput property" Url="html/9cbbbd7f-a6db-e60d-e0ce-0fbee587f4b7.htm" />
+  <HelpKINode Title="LogMessage.message field" Url="html/96cd2ac7-412c-f496-23b1-a90107bb0f0e.htm" />
+  <HelpKINode Title="LogMessage.ToString method" Url="html/4553488b-10e2-79e7-c8d1-c8f471ae9873.htm" />
+  <HelpKINode Title="LogOutput property" Url="html/198ad40e-1813-6f83-1599-376d21e551ff.htm" />
   <HelpKINode Title="LookAhead method">
     <HelpKINode Title="AbstractLexer.LookAhead Method " Url="html/16593d3a-67b8-4cc1-0c3f-adbda977358e.htm" />
     <HelpKINode Title="Lexer.LookAhead Method " Url="html/c9303c60-ed8f-5def-5839-23bf3de57efe.htm" />
@@ -530,20 +632,41 @@
     <HelpKINode Title="AbstractLexer.LookBack Method " Url="html/e343e575-5f21-d8a5-ef6d-a1684eadf0af.htm" />
     <HelpKINode Title="Lexer.LookBack Method " Url="html/159d6d4f-4641-75ef-7cdf-6f52432a7fed.htm" />
   </HelpKINode>
+  <HelpKINode Title="LoopLimit property" Url="html/60be7e61-4a32-523f-fb39-95f8eef72db0.htm" />
+  <HelpKINode Title="Loops class">
+    <HelpKINode Title="Loops Class" Url="html/83244f00-6106-1291-5710-527fbe3ef068.htm" />
+    <HelpKINode Title="about Loops class" Url="html/83244f00-6106-1291-5710-527fbe3ef068.htm" />
+    <HelpKINode Title="constructor" Url="html/060cecd7-c2bb-a192-45fc-c2ee89e91aba.htm" />
+    <HelpKINode Title="fields" Url="html/9d82684e-30aa-4516-6bed-4adf0546f386.htm" />
+    <HelpKINode Title="methods" Url="html/2ab9d358-eedf-23f6-2b6b-d46459628738.htm" />
+    <HelpKINode Title="properties" Url="html/31d3e7f4-e561-4f14-e51a-ef07bd509ce6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Loops.AfterLoopIsDone method" Url="html/0a39fc92-5a37-ec30-996c-3666fcfd3edb.htm" />
+  <HelpKINode Title="Loops.BaseId property" Url="html/90cfab84-3152-babf-7ecc-44697c35af08.htm" />
+  <HelpKINode Title="Loops.BreakCurrentFlow method" Url="html/02a45656-b581-5184-3b2a-3317ac2940ba.htm" />
+  <HelpKINode Title="Loops.Initialize method" Url="html/b57bb00a-1824-2240-990d-a4c3c8b5e1cc.htm" />
+  <HelpKINode Title="Loops.Loops constructor" Url="html/060cecd7-c2bb-a192-45fc-c2ee89e91aba.htm" />
+  <HelpKINode Title="Loops.Unload method" Url="html/bc80d9b3-4cd3-def2-69c2-3178e9251b8c.htm" />
+  <HelpKINode Title="Loops.WhileVarIsNotString method" Url="html/d59da7fc-0a1d-3d84-0e81-62ff2ba17e70.htm" />
+  <HelpKINode Title="Loops.WhileVarIsNotValue method" Url="html/1370fe84-219a-8be4-3876-ad6df50ff284.htm" />
+  <HelpKINode Title="Loops.WhileVarIsString method" Url="html/1912deb1-a3d2-fa2f-5e8b-86a3bd4492db.htm" />
+  <HelpKINode Title="Loops.WhileVarIsValue method" Url="html/a262f85e-c288-d847-c000-c60704eadcda.htm" />
   <HelpKINode Title="LPAREN enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="MatchNumber method" Url="html/976660d1-1829-c5e3-6fa0-31253e489f21.htm" />
   <HelpKINode Title="MatchString method" Url="html/6bc28dd6-16a4-8e8a-6a85-28e44b80f433.htm" />
   <HelpKINode Title="MatchTrigger method" Url="html/d4c3afe8-211e-b217-3298-eba34c387f37.htm" />
-  <HelpKINode Title="MatchVariable method" Url="html/ea056726-9d45-09c5-416b-4d5dcc441e3c.htm" />
+  <HelpKINode Title="MatchVariable method" Url="html/11322dd9-ddcb-a3bc-164c-c5e3e36e36a9.htm" />
   <HelpKINode Title="Math class">
     <HelpKINode Title="Math Class" Url="html/a38464df-db57-14fa-018d-f18a35b18964.htm" />
     <HelpKINode Title="about Math class" Url="html/a38464df-db57-14fa-018d-f18a35b18964.htm" />
     <HelpKINode Title="constructor" Url="html/b43875ac-b273-d1b4-b8dd-6a6a634dd04a.htm" />
     <HelpKINode Title="fields" Url="html/f84f81d9-997b-6d58-14ab-b342c4ded1eb.htm" />
     <HelpKINode Title="methods" Url="html/00a30d1a-59f3-e937-4975-7a1a9914d1b2.htm" />
+    <HelpKINode Title="properties" Url="html/4304f0a9-3002-fc51-7997-706003ea3eae.htm" />
   </HelpKINode>
   <HelpKINode Title="Math.AddToVariable method" Url="html/89e9524b-7008-ede7-48aa-831b99ba2349.htm" />
   <HelpKINode Title="Math.DivideByVariable method" Url="html/4dc0d33c-2534-1c94-d579-0372020a7442.htm" />
+  <HelpKINode Title="Math.Initialize method" Url="html/4f70bf50-d6f2-b390-db93-e4c5f161c312.htm" />
   <HelpKINode Title="Math.Math constructor" Url="html/b43875ac-b273-d1b4-b8dd-6a6a634dd04a.htm" />
   <HelpKINode Title="Math.MultiplyByVariable method" Url="html/4c8284f2-14a2-8b1b-0119-71165534d1d9.htm" />
   <HelpKINode Title="Math.SubtractFromVariable method" Url="html/1e9dec3d-6c38-7a7c-04c0-50a8a50c32a7.htm" />
@@ -552,15 +675,18 @@
   <HelpKINode Title="Math.VariableGreaterThanOrEqual method" Url="html/530bcdb4-16fb-17e8-9ff4-9431c65e73f9.htm" />
   <HelpKINode Title="Math.VariableLessThan method" Url="html/ed35c70f-7367-38d0-c2ac-f6e5d0bc26b2.htm" />
   <HelpKINode Title="Math.VariableLessThanOrEqual method" Url="html/a8b1a57f-56ef-0379-7db5-c2772e067026.htm" />
-  <HelpKINode Title="message field" Url="html/62b99610-a0b9-f498-ac97-1102914ef91c.htm" />
-  <HelpKINode Title="MessagesExpire property" Url="html/5735584f-b9bc-c9f1-72be-028714f7615f.htm" />
+  <HelpKINode Title="message field" Url="html/96cd2ac7-412c-f496-23b1-a90107bb0f0e.htm" />
+  <HelpKINode Title="MessagesExpire property" Url="html/464ba89f-ad67-d944-8513-b98978bebbd9.htm" />
   <HelpKINode Title="MINUS enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="MOD enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="Monkeyspeak namespace" Url="html/6685a11f-1648-62a4-c381-3d9dbddeac86.htm" />
   <HelpKINode Title="Monkeyspeak.AbstractLexer class" Url="html/e2b8b864-c755-3f72-0e83-56219b03ce44.htm" />
   <HelpKINode Title="Monkeyspeak.ConstantVariable class" Url="html/84579eca-2529-3f35-5d9b-36da52d1798e.htm" />
   <HelpKINode Title="Monkeyspeak.Extensions namespace" Url="html/8cbde3c3-ce5f-44e4-09dd-0c34c9ca1c45.htm" />
+  <HelpKINode Title="Monkeyspeak.Extensions.ArrayExtensions class" Url="html/482bec33-c44b-cf87-dc4a-f655b25d92a8.htm" />
   <HelpKINode Title="Monkeyspeak.Extensions.ObjectExtensions class" Url="html/b9abf16c-6ffe-8d3a-c0e9-62d24d984a5d.htm" />
+  <HelpKINode Title="Monkeyspeak.Extensions.StringExtensions class" Url="html/3678bf04-e2a8-20b9-e3e7-97baf883fcf2.htm" />
+  <HelpKINode Title="Monkeyspeak.Extensions.VariablesExtension class" Url="html/e8b189cf-f23a-9c12-13b4-f8317b8c7d0b.htm" />
   <HelpKINode Title="Monkeyspeak.IVariable interface" Url="html/cb9a7a53-5e9f-88dc-df5b-48067cc89c3c.htm" />
   <HelpKINode Title="Monkeyspeak.Lexer class" Url="html/6525f7ea-0771-7698-fb2a-2718d011a139.htm" />
   <HelpKINode Title="Monkeyspeak.lexical namespace" Url="html/19e5c655-5468-b9c0-1fae-40f573e9ef79.htm" />
@@ -575,25 +701,36 @@
   <HelpKINode Title="Monkeyspeak.lexical.Expressions.NumberExpression class" Url="html/39d1fa4b-f423-961a-f98f-b470292aa246.htm" />
   <HelpKINode Title="Monkeyspeak.lexical.Expressions.StringExpression class" Url="html/3f87c255-f981-3d57-af73-5bd83459f3c2.htm" />
   <HelpKINode Title="Monkeyspeak.lexical.Expressions.VariableExpression class" Url="html/99cf1d92-707d-25cd-2da1-ffdd52cdf070.htm" />
+  <HelpKINode Title="Monkeyspeak.lexical.Expressions.VariableTableExpression class" Url="html/37febb34-6ff1-268e-cfe4-6ff0c1bc2a90.htm" />
   <HelpKINode Title="Monkeyspeak.lexical.SourcePosition structure" Url="html/eb80511a-5ffd-bb7f-5505-4a8029595d5f.htm" />
   <HelpKINode Title="Monkeyspeak.lexical.TokenDefinitions namespace" Url="html/cc663d1e-0944-03c3-67c1-5813b991f0c8.htm" />
   <HelpKINode Title="Monkeyspeak.lexical.TokenDefinitions.ITokenDefinition interface" Url="html/31939781-0a87-5eb1-8428-3f0fd599fd9b.htm" />
+  <HelpKINode Title="Monkeyspeak.lexical.TokenDefinitions.VariableDefinition class" Url="html/4e79c741-a883-7513-6cb7-e401f9f95143.htm" />
   <HelpKINode Title="Monkeyspeak.Libraries namespace" Url="html/f0801825-eba4-44b1-4629-82ca22d81e8a.htm" />
   <HelpKINode Title="Monkeyspeak.Libraries.Attributes class" Url="html/ffe9eeaa-3749-120f-e300-82c364b37a1b.htm" />
+  <HelpKINode Title="Monkeyspeak.Libraries.AutoIncrementBaseLibrary class" Url="html/f9a804bd-e874-b911-6e72-0a095fde20fe.htm" />
   <HelpKINode Title="Monkeyspeak.Libraries.BaseLibrary class" Url="html/c2aeb486-06dc-a094-6e6d-7e149465676c.htm" />
   <HelpKINode Title="Monkeyspeak.Libraries.Debug class" Url="html/b0ec140d-3d00-e4a0-5b08-651ea0500ebc.htm" />
   <HelpKINode Title="Monkeyspeak.Libraries.IO class" Url="html/116ec0e0-45ff-2aa8-8c58-3749cd52483b.htm" />
+  <HelpKINode Title="Monkeyspeak.Libraries.Loops class" Url="html/83244f00-6106-1291-5710-527fbe3ef068.htm" />
   <HelpKINode Title="Monkeyspeak.Libraries.Math class" Url="html/a38464df-db57-14fa-018d-f18a35b18964.htm" />
   <HelpKINode Title="Monkeyspeak.Libraries.StringOperations class" Url="html/ac738172-587c-e132-63b1-ce549013152f.htm" />
   <HelpKINode Title="Monkeyspeak.Libraries.Sys class" Url="html/75de3ab9-d402-b38c-17aa-ce62eb9e70dd.htm" />
+  <HelpKINode Title="Monkeyspeak.Libraries.Tables class" Url="html/e0affdfe-b866-90cd-c633-90096ba67348.htm" />
   <HelpKINode Title="Monkeyspeak.Libraries.Timers class" Url="html/f228e447-db0e-b00f-355c-d1c2e1b2008d.htm" />
   <HelpKINode Title="Monkeyspeak.Libraries.TimerTask class" Url="html/97a91d38-951e-fc0d-bb8d-223f75aecc31.htm" />
+  <HelpKINode Title="Monkeyspeak.Logging namespace" Url="html/37ce7978-d647-e83c-c8c1-d07feef9ab33.htm" />
+  <HelpKINode Title="Monkeyspeak.Logging.ConsoleLogOutput class" Url="html/a6bc85aa-99fb-b725-39af-e6cfa55cb65d.htm" />
+  <HelpKINode Title="Monkeyspeak.Logging.DebuggerLogOutput class" Url="html/d8ceff71-106a-61ea-ca90-a1780f4892d6.htm" />
+  <HelpKINode Title="Monkeyspeak.Logging.ILogOutput interface" Url="html/37c661f1-4bca-1c0d-6f4b-891df041b2b3.htm" />
+  <HelpKINode Title="Monkeyspeak.Logging.Level enumeration" Url="html/78b5a090-9618-8a97-fa78-1c430c6857e4.htm" />
+  <HelpKINode Title="Monkeyspeak.Logging.Logger class" Url="html/c888cbfb-1da2-fe33-3338-9382d8a5d9a5.htm" />
+  <HelpKINode Title="Monkeyspeak.Logging.LogMessage structure" Url="html/421d529e-390a-e28e-2f5b-4dd8dccbe9cd.htm" />
   <HelpKINode Title="Monkeyspeak.MonkeyspeakEngine class" Url="html/f61ba842-df88-fea1-8f8b-d9cb0c9eef43.htm" />
   <HelpKINode Title="Monkeyspeak.MonkeyspeakException class" Url="html/e590c916-af7d-6918-a4f0-710f8c26cf3a.htm" />
   <HelpKINode Title="Monkeyspeak.Options class" Url="html/ee348dcd-893e-f43f-2f76-89fe8601a48b.htm" />
   <HelpKINode Title="Monkeyspeak.Page class" Url="html/580bbd9b-702a-48b0-e9c0-92340d6b80db.htm" />
   <HelpKINode Title="Monkeyspeak.Parser class" Url="html/3d463889-0e47-82d7-3388-7f4243edf040.htm" />
-  <HelpKINode Title="Monkeyspeak.ReflectionHelper class" Url="html/a0c52496-051f-e6f9-32ca-4123e546ff49.htm" />
   <HelpKINode Title="Monkeyspeak.SStreamReader class" Url="html/3821ba4d-b78a-8556-236e-6134a99ec2b5.htm" />
   <HelpKINode Title="Monkeyspeak.Token structure" Url="html/42d23601-a01f-ddcb-3b47-9aa79fdbb0ad.htm" />
   <HelpKINode Title="Monkeyspeak.TokenType enumeration" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
@@ -610,11 +747,12 @@
   <HelpKINode Title="Monkeyspeak.TriggerReaderException class" Url="html/02da710c-780d-0462-3d8a-3ca72720a6ed.htm" />
   <HelpKINode Title="Monkeyspeak.TypeNotSupportedException class" Url="html/368b2b69-ed0f-5d2e-a42d-213d8faf6817.htm" />
   <HelpKINode Title="Monkeyspeak.Utils namespace" Url="html/54d12944-ab50-f619-c7a6-ab5cad86e781.htm" />
+  <HelpKINode Title="Monkeyspeak.Utils.ReflectionHelper class" Url="html/054ff3a7-48da-729b-9913-04b511ea9964.htm" />
   <HelpKINode Title="Monkeyspeak.Utils.TriggerIntegrityUpdater class" Url="html/fcd4e64c-34cf-4f49-a36d-048c3f403f5e.htm" />
   <HelpKINode Title="Monkeyspeak.Variable class" Url="html/be56b42f-0044-e7c0-6857-dd782233246a.htm" />
   <HelpKINode Title="Monkeyspeak.VariableEqualityComparer class" Url="html/580c7aa2-b443-59fe-d5c9-4d3107529651.htm" />
   <HelpKINode Title="Monkeyspeak.VariableIsConstantException class" Url="html/02ce6b1e-d9af-3f83-a814-9115ff4c6758.htm" />
-  <HelpKINode Title="Monkeyspeak.VariableList class" Url="html/ca476d42-12bf-ebec-a6c3-35f14cda98af.htm" />
+  <HelpKINode Title="Monkeyspeak.VariableTable class" Url="html/0ab1b876-a836-07e8-ea5d-65c09510e76a.htm" />
   <HelpKINode Title="MonkeyspeakEngine class">
     <HelpKINode Title="MonkeyspeakEngine Class" Url="html/f61ba842-df88-fea1-8f8b-d9cb0c9eef43.htm" />
     <HelpKINode Title="about MonkeyspeakEngine class" Url="html/f61ba842-df88-fea1-8f8b-d9cb0c9eef43.htm" />
@@ -653,13 +791,15 @@
     <HelpKINode Title="ConstantVariable.Name Property " Url="html/85235a90-17c8-0366-6e64-75756541f328.htm" />
     <HelpKINode Title="IVariable.Name Property " Url="html/971db1fc-45c4-b01f-f219-ccf39fa6692a.htm" />
     <HelpKINode Title="Variable.Name Property " Url="html/36b0fdb2-95b9-1d9a-3289-04b8343a5039.htm" />
-    <HelpKINode Title="VariableList.Name Property " Url="html/cdd909a3-cb41-0909-adaf-1962f3ff22d8.htm" />
+    <HelpKINode Title="VariableTable.Name Property " Url="html/b954a6af-2a01-db0f-1a27-a9ffaf5e51b5.htm" />
   </HelpKINode>
   <HelpKINode Title="Next method">
     <HelpKINode Title="AbstractLexer.Next Method " Url="html/db92605e-1a29-af84-7eb7-b5178577af7b.htm" />
     <HelpKINode Title="Lexer.Next Method " Url="html/83323ad3-f55e-8c1e-68d3-036c74d6bc0a.htm" />
+    <HelpKINode Title="VariableTable.Next Method " Url="html/6648c738-e533-07b8-92c7-36b88cb92e73.htm" />
   </HelpKINode>
   <HelpKINode Title="NONE enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
+  <HelpKINode Title="None field" Url="html/976bf0e6-e6d8-fbd8-3cbf-3e99276e3086.htm" />
   <HelpKINode Title="NOT enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="NOT_EQUAL enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="NoValue field" Url="html/eaaa5a74-4cb8-9a79-3183-9c13adfbe83c.htm" />
@@ -690,8 +830,8 @@
     <HelpKINode Title="about ObjectExtensions class" Url="html/b9abf16c-6ffe-8d3a-c0e9-62d24d984a5d.htm" />
     <HelpKINode Title="methods" Url="html/916b0f74-87b6-a69b-b9a3-2ed9c7f30c19.htm" />
   </HelpKINode>
-  <HelpKINode Title="ObjectExtensions.As(Of T) method" Url="html/9383705e-82ee-a0a6-565c-6db3d3af1247.htm" />
-  <HelpKINode Title="ObjectExtensions.As&lt;T&gt; method" Url="html/9383705e-82ee-a0a6-565c-6db3d3af1247.htm" />
+  <HelpKINode Title="ObjectExtensions.As(Of T) method" Url="html/a32a32a6-8ee7-dd4b-29c8-65fef8a43889.htm" />
+  <HelpKINode Title="ObjectExtensions.As&lt;T&gt; method" Url="html/a32a32a6-8ee7-dd4b-29c8-65fef8a43889.htm" />
   <HelpKINode Title="Options class">
     <HelpKINode Title="Options Class" Url="html/ee348dcd-893e-f43f-2f76-89fe8601a48b.htm" />
     <HelpKINode Title="about Options class" Url="html/ee348dcd-893e-f43f-2f76-89fe8601a48b.htm" />
@@ -706,6 +846,7 @@
   <HelpKINode Title="Options.CanOverrideTriggerHandlers property" Url="html/f3f26356-7cf3-f9b2-870c-805673fbbaf0.htm" />
   <HelpKINode Title="Options.Debug property" Url="html/db37a4e2-2cc0-599d-0683-09369a095906.htm" />
   <HelpKINode Title="Options.LineCommentSymbol property" Url="html/65cdeaf6-c81e-ebec-56bf-a3a7d88bd8d7.htm" />
+  <HelpKINode Title="Options.LoopLimit property" Url="html/60be7e61-4a32-523f-fb39-95f8eef72db0.htm" />
   <HelpKINode Title="Options.Options constructor" Url="html/260f1e64-980d-82b6-e7e0-833e98273d30.htm" />
   <HelpKINode Title="Options.StringBeginSymbol property" Url="html/f19f77cc-5fae-09b1-30c5-54db0722d25d.htm" />
   <HelpKINode Title="Options.StringEndSymbol property" Url="html/859d6535-3f57-8555-4c22-d9f1d1a79452.htm" />
@@ -713,6 +854,7 @@
   <HelpKINode Title="Options.TriggerLimit property" Url="html/0639e725-7220-0324-ac77-4b8349647629.htm" />
   <HelpKINode Title="Options.VariableCountLimit property" Url="html/d25c54b3-34ec-f907-82b4-34b7843d1c88.htm" />
   <HelpKINode Title="Options.VariableDeclarationSymbol property" Url="html/174293fb-cec2-cb80-1fc0-a8b5e1d1e28a.htm" />
+  <HelpKINode Title="Options.VariableTableCountLimit property" Url="html/78806ce0-88fd-e297-6fa4-361c8e19722a.htm" />
   <HelpKINode Title="Options.Version property" Url="html/df636215-29c1-f669-0260-77e2763cef40.htm" />
   <HelpKINode Title="OR enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="owner field" Url="html/59b07256-5758-e038-cb74-8d1a46f3b3ea.htm" />
@@ -741,11 +883,14 @@
   <HelpKINode Title="Page.Execute method" Url="html/e1c95c73-76a2-5856-1bcd-2a0175cd2065.htm" />
   <HelpKINode Title="Page.ExecuteAsync method" Url="html/cd45acec-df65-0af4-1352-5f9bb2668819.htm" />
   <HelpKINode Title="Page.ExecuteBlock method" Url="html/84c28faa-1874-f9b4-297a-0022828ccbf2.htm" />
+  <HelpKINode Title="Page.ExecuteTrigger method" Url="html/593f67b8-3dbd-a5f0-8575-87af83de8549.htm" />
   <HelpKINode Title="Page.GenerateBlocks method" Url="html/391c8d47-4023-5742-820e-3caa20806005.htm" />
   <HelpKINode Title="Page.GetLibrary(Of T) method" Url="html/79a95f5a-0449-330e-0075-41b6454d6861.htm" />
   <HelpKINode Title="Page.GetLibrary&lt;T&gt; method" Url="html/79a95f5a-0449-330e-0075-41b6454d6861.htm" />
+  <HelpKINode Title="Page.GetTriggerDescription method" Url="html/de88be48-3ca9-256f-6c76-994ea52e3830.htm" />
   <HelpKINode Title="Page.GetTriggerDescriptions method" Url="html/6178d8a2-adb0-99c8-b84f-5b86f9156fef.htm" />
   <HelpKINode Title="Page.GetVariable method" Url="html/29c2de06-00a7-83fc-b8fe-37ed6ddd07b9.htm" />
+  <HelpKINode Title="Page.handlers field" Url="html/1b18507d-e184-9b74-47d3-47cdbbdc5adf.htm" />
   <HelpKINode Title="Page.HasVariable method" Url="html/df22e504-51bd-8578-ba84-3fd536ec945b.htm" />
   <HelpKINode Title="Page.Initiate method" Url="html/803d6695-0a01-a0d3-a0d3-ae0b14bbde1b.htm" />
   <HelpKINode Title="Page.Initiating event" Url="html/58ab5345-6cf9-f0cf-2f8e-c2d58e343335.htm" />
@@ -765,13 +910,14 @@
   <HelpKINode Title="Page.RemoveLibrary(Of T) method" Url="html/cace6deb-90f2-e3e3-1038-8e7d7acd57de.htm" />
   <HelpKINode Title="Page.RemoveLibrary&lt;T&gt; method" Url="html/cace6deb-90f2-e3e3-1038-8e7d7acd57de.htm" />
   <HelpKINode Title="Page.RemoveTriggerHandler method" Url="html/1bae9156-7a1f-111b-7a60-e396d07532ca.htm" />
-  <HelpKINode Title="Page.RemoveVariable method" Url="html/1dc046c9-5e82-ffbf-0581-13ceb76db3c7.htm" />
+  <HelpKINode Title="Page.RemoveVariable method" Url="html/88d15cd0-021a-54b5-cece-2e79048c04f6.htm" />
   <HelpKINode Title="Page.Reset method" Url="html/5e96c3d0-8222-514c-15eb-e282e96c0ae3.htm" />
   <HelpKINode Title="Page.Resetting event" Url="html/a6ad4a18-0ca2-d629-6fa8-344e3e2d6b16.htm" />
+  <HelpKINode Title="Page.scope field" Url="html/80f0a272-216c-4240-b163-9b1c7dcb2418.htm" />
   <HelpKINode Title="Page.Scope property" Url="html/8a02cc0b-d292-aa7b-6d73-67af745325b9.htm" />
   <HelpKINode Title="Page.SetTriggerHandler method" Url="html/dc1ffbdd-f6cb-5304-cf41-99a45fb1998b.htm" />
   <HelpKINode Title="Page.SetVariable method" Url="html/34a66ca6-fbe1-6a55-ebf6-b95a9f2a6668.htm" />
-  <HelpKINode Title="Page.SetVariableList method" Url="html/fcb78fb0-1aa3-b83a-be10-b6fb9f5b09bc.htm" />
+  <HelpKINode Title="Page.SetVariableTable method" Url="html/cb71a4c0-478e-8d4f-5b34-3ab55d945b74.htm" />
   <HelpKINode Title="Page.Size property" Url="html/52b72708-175e-285e-78dc-e3db8341e551.htm" />
   <HelpKINode Title="Page.syncObj field" Url="html/f7a45462-0d90-4fac-f07a-44e9cbf832bb.htm" />
   <HelpKINode Title="Page.TriggerAdded event" Url="html/6564dc3b-2ea3-d600-43f2-15a6c9aa39ba.htm" />
@@ -797,7 +943,7 @@
   <HelpKINode Title="PeekNumber method" Url="html/aa89b61e-e2ee-87a6-4dea-7e79dbc3d70a.htm" />
   <HelpKINode Title="PeekString method" Url="html/f7524ebe-f8fc-547a-1738-ea284684fd88.htm" />
   <HelpKINode Title="PeekVariable method" Url="html/5e3ce5b6-adea-e400-2b95-9b2518c667d2.htm" />
-  <HelpKINode Title="PeekVariableList method" Url="html/a7a4f826-698f-d12d-ac93-e5bb0bae68a6.htm" />
+  <HelpKINode Title="PeekVariableTable method" Url="html/b6bb8802-4264-2ead-0150-f5dd4ac37ad8.htm" />
   <HelpKINode Title="PLUS enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="Position property">
     <HelpKINode Title="Expression.Position Property " Url="html/a255c4dc-118a-f673-fbee-1e73c223b82c.htm" />
@@ -807,9 +953,10 @@
   </HelpKINode>
   <HelpKINode Title="POWER enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="PrintToConsole method" Url="html/4c395ce3-d359-5edf-5c9d-de92c6e607b5.htm" />
+  <HelpKINode Title="PutNumIntoTable method" Url="html/3be0b986-9127-1b67-99c0-10679fd13acf.htm" />
+  <HelpKINode Title="PutStringIntoTable method" Url="html/21a8f7b8-732f-8ffc-5391-b938f751d88a.htm" />
   <HelpKINode Title="PutWordCountIntoVariable method" Url="html/a83a5817-2702-1563-4671-10e255c29e3d.htm" />
-  <HelpKINode Title="queue field" Url="html/07bfd784-8ff2-ed45-ddb8-9beb4439338d.htm" />
-  <HelpKINode Title="RaiseAnError method" Url="html/f4b86b8f-db0b-6786-3da0-3e68591cda2a.htm" />
+  <HelpKINode Title="queue field" Url="html/70f0ba1c-4505-ca3b-a7b5-df0eee2f7a0e.htm" />
   <HelpKINode Title="RaiseError method" Url="html/1c7fb74d-f6ad-b198-80a2-f329b5f1ff6f.htm" />
   <HelpKINode Title="RandomValueToVar method" Url="html/8d65a837-7678-e83c-c775-b30b5bee4f55.htm" />
   <HelpKINode Title="RawPosition property" Url="html/5166b3ff-bb82-f55e-c07f-8e7ea4c37973.htm" />
@@ -826,54 +973,53 @@
   <HelpKINode Title="ReadNumber method" Url="html/e46da010-b95f-7c90-2058-a7e8e834634c.htm" />
   <HelpKINode Title="ReadString method" Url="html/2c989366-bfb5-c502-9fc2-067f57f4970d.htm" />
   <HelpKINode Title="ReadVariable method" Url="html/8f4b5f9d-a90e-810c-8d25-bf14ba4f786e.htm" />
-  <HelpKINode Title="ReadVariableList method" Url="html/679fa1bc-3a63-d611-e617-2eb42fa81343.htm" />
+  <HelpKINode Title="ReadVariableOrNumber method" Url="html/8b65d7ed-f56c-6acf-c5b8-c7d5215f2066.htm" />
+  <HelpKINode Title="ReadVariableTable method" Url="html/8f56c103-4314-20ab-1567-1c878604edd1.htm" />
   <HelpKINode Title="ReadVersion1 method" Url="html/c5fa86bc-ebfa-ab0f-e2bb-0adc1a778775.htm" />
   <HelpKINode Title="ReadVersion6_5 method" Url="html/659c6637-2e2b-6df9-5c42-7227886b076b.htm" />
   <HelpKINode Title="REFERENCE enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="ReflectionHelper class">
-    <HelpKINode Title="ReflectionHelper Class" Url="html/a0c52496-051f-e6f9-32ca-4123e546ff49.htm" />
-    <HelpKINode Title="about ReflectionHelper class" Url="html/a0c52496-051f-e6f9-32ca-4123e546ff49.htm" />
-    <HelpKINode Title="constructor" Url="html/8a889a6b-09b5-3941-c316-389e246047fe.htm" />
-    <HelpKINode Title="methods" Url="html/ea710a51-c24e-9967-899e-0999ec6dce38.htm" />
+    <HelpKINode Title="ReflectionHelper Class" Url="html/054ff3a7-48da-729b-9913-04b511ea9964.htm" />
+    <HelpKINode Title="about ReflectionHelper class" Url="html/054ff3a7-48da-729b-9913-04b511ea9964.htm" />
+    <HelpKINode Title="constructor" Url="html/f35973b3-62c3-9879-119d-0a2c8e298c24.htm" />
+    <HelpKINode Title="methods" Url="html/cae5743b-acc0-1f8e-a1b2-ea6f79a33818.htm" />
   </HelpKINode>
-  <HelpKINode Title="ReflectionHelper.GetAllAttributesFromMethod(Of T) method" Url="html/53ece40b-98da-bf4e-af13-1c5abcdbdbfc.htm" />
-  <HelpKINode Title="ReflectionHelper.GetAllAttributesFromMethod&lt;T&gt; method" Url="html/53ece40b-98da-bf4e-af13-1c5abcdbdbfc.htm" />
-  <HelpKINode Title="ReflectionHelper.GetAllMethods method" Url="html/98d02dc9-ec0b-8273-b83a-adde7b9de92e.htm" />
-  <HelpKINode Title="ReflectionHelper.GetAllTypesWithAttributeInMembers(Of T) method" Url="html/93cf2f09-aa65-1149-31fe-a0703f7ba5b1.htm" />
-  <HelpKINode Title="ReflectionHelper.GetAllTypesWithAttributeInMembers&lt;T&gt; method" Url="html/93cf2f09-aa65-1149-31fe-a0703f7ba5b1.htm" />
-  <HelpKINode Title="ReflectionHelper.ReflectionHelper constructor" Url="html/8a889a6b-09b5-3941-c316-389e246047fe.htm" />
-  <HelpKINode Title="ReflectionHelper.TryLoad method" Url="html/601b5366-c9d2-e406-28db-6103ddf1c414.htm" />
+  <HelpKINode Title="ReflectionHelper.GetAllAttributesFromMethod(Of T) method" Url="html/65ebcffa-e1c9-c86f-291a-cca6909b39f7.htm" />
+  <HelpKINode Title="ReflectionHelper.GetAllAttributesFromMethod&lt;T&gt; method" Url="html/65ebcffa-e1c9-c86f-291a-cca6909b39f7.htm" />
+  <HelpKINode Title="ReflectionHelper.GetAllMethods method" Url="html/399abbd3-e280-d911-6105-be76704e4254.htm" />
+  <HelpKINode Title="ReflectionHelper.GetAllTypesWithAttributeInMembers(Of T) method" Url="html/96af270a-694f-7cf5-2ffb-cfa1c351dd7a.htm" />
+  <HelpKINode Title="ReflectionHelper.GetAllTypesWithAttributeInMembers&lt;T&gt; method" Url="html/96af270a-694f-7cf5-2ffb-cfa1c351dd7a.htm" />
+  <HelpKINode Title="ReflectionHelper.GetAllTypesWithBaseClass(Of T) method" Url="html/c2c64fa6-ccfd-ef40-f4a0-0f36d18f37f9.htm" />
+  <HelpKINode Title="ReflectionHelper.GetAllTypesWithBaseClass&lt;T&gt; method" Url="html/c2c64fa6-ccfd-ef40-f4a0-0f36d18f37f9.htm" />
+  <HelpKINode Title="ReflectionHelper.HasNoArgConstructor method" Url="html/3a7ad887-8296-c571-816e-c989c739c4a5.htm" />
+  <HelpKINode Title="ReflectionHelper.ReflectionHelper constructor" Url="html/f35973b3-62c3-9879-119d-0a2c8e298c24.htm" />
+  <HelpKINode Title="ReflectionHelper.TryLoad method" Url="html/00a48550-9add-d72e-108a-01d216af9bc3.htm" />
   <HelpKINode Title="Register method" Url="html/e3bad196-ca16-257d-77cd-9591d20c937e.htm" />
   <HelpKINode Title="RemoveAllTriggerHandlers method" Url="html/b7baec76-395f-db4b-d259-0ce415cb0811.htm" />
   <HelpKINode Title="RemoveLibrary(Of T) method" Url="html/cace6deb-90f2-e3e3-1038-8e7d7acd57de.htm" />
   <HelpKINode Title="RemoveLibrary&lt;T&gt; method" Url="html/cace6deb-90f2-e3e3-1038-8e7d7acd57de.htm" />
   <HelpKINode Title="RemoveTriggerHandler method" Url="html/1bae9156-7a1f-111b-7a60-e396d07532ca.htm" />
-  <HelpKINode Title="RemoveVariable method" Url="html/1dc046c9-5e82-ffbf-0581-13ceb76db3c7.htm" />
+  <HelpKINode Title="RemoveVariable method" Url="html/88d15cd0-021a-54b5-cece-2e79048c04f6.htm" />
   <HelpKINode Title="Reset method">
     <HelpKINode Title="AbstractLexer.Reset Method " Url="html/ec6fd4c6-9133-ca2f-e2de-539723409bce.htm" />
     <HelpKINode Title="Lexer.Reset Method " Url="html/e3aeb4bd-562e-c3a5-8b19-33e08122be26.htm" />
     <HelpKINode Title="Page.Reset Method " Url="html/5e96c3d0-8222-514c-15eb-e282e96c0ae3.htm" />
     <HelpKINode Title="TriggerReader.Reset Method " Url="html/0d65452f-4377-e0fa-8ce6-334e2d993d69.htm" />
   </HelpKINode>
+  <HelpKINode Title="ResetIndex method" Url="html/2e9cc90c-817f-01cd-05b7-4e9d5f786c9a.htm" />
   <HelpKINode Title="Resetting event">
     <HelpKINode Title="MonkeyspeakEngine.Resetting Event" Url="html/6c84411c-d97f-24d8-add4-9a5b6ce65ce0.htm" />
     <HelpKINode Title="Page.Resetting Event" Url="html/a6ad4a18-0ca2-d629-6fa8-344e3e2d6b16.htm" />
   </HelpKINode>
   <HelpKINode Title="RPAREN enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
+  <HelpKINode Title="scope field" Url="html/80f0a272-216c-4240-b163-9b1c7dcb2418.htm" />
   <HelpKINode Title="Scope property" Url="html/8a02cc0b-d292-aa7b-6d73-67af745325b9.htm" />
   <HelpKINode Title="SetTriggerHandler method" Url="html/dc1ffbdd-f6cb-5304-cf41-99a45fb1998b.htm" />
   <HelpKINode Title="SetValue method" Url="html/f4d081e4-fc0e-b5f5-7c51-8709c1877046.htm" />
   <HelpKINode Title="SetVariable method" Url="html/34a66ca6-fbe1-6a55-ebf6-b95a9f2a6668.htm" />
-  <HelpKINode Title="SetVariableList method" Url="html/fcb78fb0-1aa3-b83a-be10-b6fb9f5b09bc.htm" />
+  <HelpKINode Title="SetVariableTable method" Url="html/cb71a4c0-478e-8d4f-5b34-3ab55d945b74.htm" />
   <HelpKINode Title="SetVariableToNumberOrVariable method" Url="html/67721ab3-403b-eb41-9fc1-cbd8cad71375.htm" />
   <HelpKINode Title="SetVariableToString method" Url="html/ff1ea6d4-7409-eb5b-0f36-3e8f89dd1c93.htm" />
-  <HelpKINode Title="Shared.Core.Logging namespace" Url="html/51d6354d-d777-5c71-954d-d1e9039226b6.htm" />
-  <HelpKINode Title="Shared.Core.Logging.ConsoleLogOutput class" Url="html/1ad4093a-6970-0c09-c8b6-e614684f889e.htm" />
-  <HelpKINode Title="Shared.Core.Logging.DebuggerLogOutput class" Url="html/e9f1b4e3-3606-460f-cf35-3b20f40e5918.htm" />
-  <HelpKINode Title="Shared.Core.Logging.ILogOutput interface" Url="html/36a8efb0-5da1-7f73-8f7e-3ee26365066a.htm" />
-  <HelpKINode Title="Shared.Core.Logging.Level enumeration" Url="html/18b04b4c-b212-82f9-abc2-0bef2b31a43e.htm" />
-  <HelpKINode Title="Shared.Core.Logging.Logger class" Url="html/27636736-6235-c160-cb48-c37ccdc195af.htm" />
-  <HelpKINode Title="Shared.Core.Logging.LogMessage structure" Url="html/d17acaa9-6643-8c86-9a87-acaaf5c4858a.htm" />
   <HelpKINode Title="Size property" Url="html/52b72708-175e-285e-78dc-e3db8341e551.htm" />
   <HelpKINode Title="SkipBlockComment method" Url="html/bf10701b-bd25-2346-dd77-d9c6959ddf1a.htm" />
   <HelpKINode Title="SkipLineComment method" Url="html/20c27239-56dd-e4c8-4e18-06c26505149a.htm" />
@@ -903,6 +1049,10 @@
   <HelpKINode Title="SStreamReader.ReadLine method" Url="html/ae6e22de-fe3c-3fc9-85f8-b329178a009b.htm" />
   <HelpKINode Title="SStreamReader.SStreamReader constructor" Url="html/0146d81e-4558-d057-d8cd-b9c68f692f79.htm" />
   <HelpKINode Title="Start method" Url="html/34c58009-8506-7e68-6fee-49327dc8f54f.htm" />
+  <HelpKINode Title="StartCharacter property">
+    <HelpKINode Title="ITokenDefinition.StartCharacter Property " Url="html/0ed4574d-ae02-9bf6-d900-bf743d407f19.htm" />
+    <HelpKINode Title="VariableDefinition.StartCharacter Property " Url="html/ec2a415f-2a74-b07a-389e-f73cc7199f6c.htm" />
+  </HelpKINode>
   <HelpKINode Title="Stop method" Url="html/728956d3-01dc-1d73-e825-2567671f6864.htm" />
   <HelpKINode Title="StopTimer method" Url="html/de77bf76-eb94-a179-0751-01b6b1e3479b.htm" />
   <HelpKINode Title="StringBeginSymbol property" Url="html/f19f77cc-5fae-09b1-30c5-54db0722d25d.htm" />
@@ -915,6 +1065,12 @@
     <HelpKINode Title="properties" Url="html/eed0f3ec-56e6-73fd-239a-4c949fc87399.htm" />
   </HelpKINode>
   <HelpKINode Title="StringExpression.StringExpression constructor" Url="html/b90ff52c-a0e8-c384-249f-5b8475905f00.htm" />
+  <HelpKINode Title="StringExtensions class">
+    <HelpKINode Title="StringExtensions Class" Url="html/3678bf04-e2a8-20b9-e3e7-97baf883fcf2.htm" />
+    <HelpKINode Title="about StringExtensions class" Url="html/3678bf04-e2a8-20b9-e3e7-97baf883fcf2.htm" />
+    <HelpKINode Title="methods" Url="html/f2845e6e-848d-7461-71b1-cd9a78f66a05.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringExtensions.EscapeForCSharp method" Url="html/03033dc1-1ec1-e85b-b564-577f55893cff.htm" />
   <HelpKINode Title="StringLengthLimit property" Url="html/667b35b1-5a5e-7f7e-a3ea-f0c8b276688f.htm" />
   <HelpKINode Title="StringOperations class">
     <HelpKINode Title="StringOperations Class" Url="html/ac738172-587c-e132-63b1-ce549013152f.htm" />
@@ -922,9 +1078,11 @@
     <HelpKINode Title="constructor" Url="html/55205566-3513-4283-23e8-5aebe8e41dfb.htm" />
     <HelpKINode Title="fields" Url="html/2bd565ec-bd42-79e3-e1e6-b07c81dd8ba8.htm" />
     <HelpKINode Title="methods" Url="html/607a8b0d-c484-a23b-5469-63cbb1b9b104.htm" />
+    <HelpKINode Title="properties" Url="html/09cdc088-fed6-7f83-c123-702259df136e.htm" />
   </HelpKINode>
   <HelpKINode Title="StringOperations.AddStringToVar method" Url="html/e0c846af-ccec-80ff-ab14-833639f975e9.htm" />
   <HelpKINode Title="StringOperations.IndexOfStringToVar method" Url="html/81621d7f-4e34-813a-b3e3-1d91e78c397d.htm" />
+  <HelpKINode Title="StringOperations.Initialize method" Url="html/4314477d-d1a3-0852-38be-688011b003c2.htm" />
   <HelpKINode Title="StringOperations.PutWordCountIntoVariable method" Url="html/a83a5817-2702-1563-4671-10e255c29e3d.htm" />
   <HelpKINode Title="StringOperations.StringOperations constructor" Url="html/55205566-3513-4283-23e8-5aebe8e41dfb.htm" />
   <HelpKINode Title="StringOperations.SubStringToVar method" Url="html/ffb7a64f-9a28-7825-d04e-d2c9853ff49c.htm" />
@@ -933,7 +1091,7 @@
   <HelpKINode Title="SubStringToVar method" Url="html/ffb7a64f-9a28-7825-d04e-d2c9853ff49c.htm" />
   <HelpKINode Title="SubtractFromVariable method" Url="html/1e9dec3d-6c38-7a7c-04c0-50a8a50c32a7.htm" />
   <HelpKINode Title="Subtraction operator" Url="html/67c6c1c2-b0d2-63f8-bad0-3ae8871a67a4.htm" />
-  <HelpKINode Title="SuppressSpam property" Url="html/fc36e3eb-f87d-7739-cb49-afe8f1d8cd1b.htm" />
+  <HelpKINode Title="SuppressSpam property" Url="html/d3910947-310a-66f4-1437-a4566d0af89d.htm" />
   <HelpKINode Title="syncObj field" Url="html/f7a45462-0d90-4fac-f07a-44e9cbf832bb.htm" />
   <HelpKINode Title="Sys class">
     <HelpKINode Title="Sys Class" Url="html/75de3ab9-d402-b38c-17aa-ce62eb9e70dd.htm" />
@@ -941,10 +1099,12 @@
     <HelpKINode Title="constructor" Url="html/be0c4d6a-1e17-3e2e-1c96-51cb1acfb86c.htm" />
     <HelpKINode Title="fields" Url="html/9ade6924-1a16-9e25-be2b-b6f02046e2fb.htm" />
     <HelpKINode Title="methods" Url="html/6ddae5fc-6e82-2665-fa7e-be484d6af513.htm" />
+    <HelpKINode Title="properties" Url="html/0ba455d4-2595-ab0f-26b1-1790d9b2aa3b.htm" />
   </HelpKINode>
   <HelpKINode Title="Sys.CallJob method" Url="html/58d67e74-2014-778f-06ba-c9b680c9de81.htm" />
   <HelpKINode Title="Sys.DeleteVariable method" Url="html/79e3a53f-cf4f-cd09-cd29-5ff918e2f38a.htm" />
   <HelpKINode Title="Sys.GetEnvVariable method" Url="html/11163a67-a22b-fe82-5df1-4047fb7da6c2.htm" />
+  <HelpKINode Title="Sys.Initialize method" Url="html/1622eb9b-8a53-37af-1bbb-3bba5ac488b2.htm" />
   <HelpKINode Title="Sys.IsVariableDefined method" Url="html/453cfa94-2d69-c6fd-9ea9-a2636e7c6cfa.htm" />
   <HelpKINode Title="Sys.IsVariableEqualToNumberOrVar method" Url="html/637a595a-7eea-9924-cce0-73c0f72109eb.htm" />
   <HelpKINode Title="Sys.IsVariableEqualToString method" Url="html/2ccb9789-3e3b-3af3-0db5-865c78f1fc4c.htm" />
@@ -954,7 +1114,6 @@
   <HelpKINode Title="Sys.JobCalled method" Url="html/0fa16d73-67aa-8ec2-97d6-f93e0fe14725.htm" />
   <HelpKINode Title="Sys.LoadLibraryFromFile method" Url="html/04f6a9a3-3e3f-9b06-32bc-46c12351bafc.htm" />
   <HelpKINode Title="Sys.PrintToConsole method" Url="html/4c395ce3-d359-5edf-5c9d-de92c6e607b5.htm" />
-  <HelpKINode Title="Sys.RaiseAnError method" Url="html/f4b86b8f-db0b-6786-3da0-3e68591cda2a.htm" />
   <HelpKINode Title="Sys.RandomValueToVar method" Url="html/8d65a837-7678-e83c-c775-b30b5bee4f55.htm" />
   <HelpKINode Title="Sys.SetVariableToNumberOrVariable method" Url="html/67721ab3-403b-eb41-9fc1-cbd8cad71375.htm" />
   <HelpKINode Title="Sys.SetVariableToString method" Url="html/ff1ea6d4-7409-eb5b-0f36-3e8f89dd1c93.htm" />
@@ -962,6 +1121,26 @@
   <HelpKINode Title="Sys.Unload method" Url="html/ce53f527-85b1-5fe8-faa1-1a994481ccf6.htm" />
   <HelpKINode Title="Sys.VariableIsConstant method" Url="html/3ccc3a93-8db8-b371-cccf-85972fe58c88.htm" />
   <HelpKINode Title="Sys.VariableIsNotConstant method" Url="html/abc23802-ac4d-81a2-34e0-b392b397e7bd.htm" />
+  <HelpKINode Title="TABLE enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
+  <HelpKINode Title="Tables class">
+    <HelpKINode Title="Tables Class" Url="html/e0affdfe-b866-90cd-c633-90096ba67348.htm" />
+    <HelpKINode Title="about Tables class" Url="html/e0affdfe-b866-90cd-c633-90096ba67348.htm" />
+    <HelpKINode Title="constructor" Url="html/a8fd3123-3750-64fc-e6ac-54bc3cf9b026.htm" />
+    <HelpKINode Title="fields" Url="html/71a9acdf-a1fe-8929-37a1-e48341a2bba3.htm" />
+    <HelpKINode Title="methods" Url="html/8ea91c74-fa31-bb27-6ce3-53a308cd9072.htm" />
+    <HelpKINode Title="properties" Url="html/37142bab-dd26-72df-8671-af74d7281b89.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tables.BaseId property" Url="html/4ed38d6c-6e6b-5218-e4dd-52adcea89de0.htm" />
+  <HelpKINode Title="Tables.CreateTable method" Url="html/bb8841f8-f72e-aeb0-5a2e-aaf7167d8f41.htm" />
+  <HelpKINode Title="Tables.ForEntryInTable method" Url="html/8310cb01-ebd2-afdd-e224-20c6d66b9128.htm" />
+  <HelpKINode Title="Tables.GetTableKeyIntoVar method" Url="html/b5025d52-7c03-8536-e226-08906578b00e.htm" />
+  <HelpKINode Title="Tables.Initialize method" Url="html/4988112a-c644-fab7-8e29-c595777b9a8c.htm" />
+  <HelpKINode Title="Tables.PutNumIntoTable method" Url="html/3be0b986-9127-1b67-99c0-10679fd13acf.htm" />
+  <HelpKINode Title="Tables.PutStringIntoTable method" Url="html/21a8f7b8-732f-8ffc-5391-b938f751d88a.htm" />
+  <HelpKINode Title="Tables.Tables constructor" Url="html/a8fd3123-3750-64fc-e6ac-54bc3cf9b026.htm" />
+  <HelpKINode Title="Tables.Unload method" Url="html/2da96271-12e0-9584-6318-32a19195a07f.htm" />
+  <HelpKINode Title="Tables.VariableIsNotTable method" Url="html/2b560e5c-6702-5248-515d-6c36494a3c6c.htm" />
+  <HelpKINode Title="Tables.VariableIsTable method" Url="html/4564a0cd-6930-e9d9-672f-05922c37a0d1.htm" />
   <HelpKINode Title="Timer property" Url="html/cc05b8f7-0e86-b219-0407-f23c0feec2a9.htm" />
   <HelpKINode Title="Timers class">
     <HelpKINode Title="Timers Class" Url="html/f228e447-db0e-b00f-355c-d1c2e1b2008d.htm" />
@@ -970,6 +1149,7 @@
     <HelpKINode Title="constructor" Url="html/db79e587-c9d3-2533-48e2-acc99775ed6b.htm" />
     <HelpKINode Title="fields" Url="html/6d4b2393-c663-4684-591d-2e0a49191418.htm" />
     <HelpKINode Title="methods" Url="html/4507d2ee-1e15-d8a9-106c-cff393511631.htm" />
+    <HelpKINode Title="properties" Url="html/72de8e29-8b9d-f39c-87d6-50cf8ec3900b.htm" />
   </HelpKINode>
   <HelpKINode Title="Timers.AndTimerIsNotRunning method" Url="html/1e938dac-946f-371d-e58d-71d0b20aad4b.htm" />
   <HelpKINode Title="Timers.AndTimerIsRunning method" Url="html/50a1352d-a732-1322-71a6-250b9082d416.htm" />
@@ -984,6 +1164,7 @@
   <HelpKINode Title="Timers.GetCurrentTimerIntoVar method" Url="html/884baef4-5909-34bd-d0eb-90a62e6de6bd.htm" />
   <HelpKINode Title="Timers.GetCurrentUpTimeIntoVar method" Url="html/1a16c54e-feb0-7dab-444e-dbb3239192fb.htm" />
   <HelpKINode Title="Timers.GetCurrentYearIntoVar method" Url="html/b3e68e1a-2117-950b-d25a-f68a3ee165e1.htm" />
+  <HelpKINode Title="Timers.Initialize method" Url="html/a635aff8-f353-a417-e7e1-d4748ed3f3a3.htm" />
   <HelpKINode Title="Timers.PauseScriptExecution method" Url="html/43480d9f-0c29-c5bb-eed1-1638c291290e.htm" />
   <HelpKINode Title="Timers.StopTimer method" Url="html/de77bf76-eb94-a179-0751-01b6b1e3479b.htm" />
   <HelpKINode Title="Timers.Timers constructor">
@@ -1015,7 +1196,9 @@
   <HelpKINode Title="Token structure">
     <HelpKINode Title="Token Structure" Url="html/42d23601-a01f-ddcb-3b47-9aa79fdbb0ad.htm" />
     <HelpKINode Title="about Token structure" Url="html/42d23601-a01f-ddcb-3b47-9aa79fdbb0ad.htm" />
+    <HelpKINode Title="constructor" Url="html/11dc9609-8b7f-ed2b-1c17-4025f3f65f51.htm" />
     <HelpKINode Title="constructor" Url="html/0f5669ba-4301-f3cd-cd11-5b528d85f0ec.htm" />
+    <HelpKINode Title="fields" Url="html/89777bde-cc00-3f0e-9ba4-1f541dc0f3a0.htm" />
     <HelpKINode Title="methods" Url="html/bdea7d38-08fa-fdd3-ef1d-15ef842bbcd3.htm" />
     <HelpKINode Title="operators" Url="html/ad07bbb4-256a-66e0-f38d-90a04735ef88.htm" />
     <HelpKINode Title="properties" Url="html/f564ee09-774a-b571-4d54-e7c06db21005.htm" />
@@ -1024,22 +1207,30 @@
   <HelpKINode Title="Token.GetValue method" Url="html/9e4d4941-1fa9-aff3-0b3c-bb82be8409bd.htm" />
   <HelpKINode Title="Token.Inequality operator" Url="html/1479cebf-0888-d522-2fcf-bc3c076535a0.htm" />
   <HelpKINode Title="Token.Length property" Url="html/f5254083-fb24-15fb-9472-826916db0e1e.htm" />
+  <HelpKINode Title="Token.None field" Url="html/976bf0e6-e6d8-fbd8-3cbf-3e99276e3086.htm" />
   <HelpKINode Title="Token.Position property" Url="html/96c9bcc7-40da-5f53-c13c-f78236aa086b.htm" />
-  <HelpKINode Title="Token.Token constructor" Url="html/0f5669ba-4301-f3cd-cd11-5b528d85f0ec.htm" />
+  <HelpKINode Title="Token.Token constructor">
+    <HelpKINode Title="Token Constructor " Url="html/11dc9609-8b7f-ed2b-1c17-4025f3f65f51.htm" />
+    <HelpKINode Title="Token Constructor " Url="html/0f5669ba-4301-f3cd-cd11-5b528d85f0ec.htm" />
+  </HelpKINode>
   <HelpKINode Title="Token.ToString method" Url="html/0fe1bfaa-5486-06f9-a139-cba12183b19b.htm" />
   <HelpKINode Title="Token.Type property" Url="html/50895abc-e461-1976-3720-a8bc49aac206.htm" />
   <HelpKINode Title="Token.ValueStartPosition property" Url="html/ab6b52b1-b682-3475-774b-df9d8467e8f9.htm" />
   <HelpKINode Title="TokenType enumeration" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="TokenVisitorHandler delegate" Url="html/2cefb5fb-e517-ee8f-8046-584a50a1b9fc.htm" />
   <HelpKINode Title="ToString method">
+    <HelpKINode Title="ArrayExtensions.ToString Method " Url="html/6dcbd889-4146-4b56-9d94-085d741b8883.htm" />
     <HelpKINode Title="BaseLibrary.ToString Method " Url="html/3f87cf1f-6b29-b84c-94b0-4842eccba27d.htm" />
     <HelpKINode Title="ConstantVariable.ToString Method " Url="html/f497a2ba-1181-04f1-2014-13d4ad7c822b.htm" />
+    <HelpKINode Title="Expression(T).ToString Method " Url="html/1be88544-aaf8-0a42-8b00-acad8a014114.htm" />
     <HelpKINode Title="Expression.ToString Method " Url="html/74c6e8a8-c9f5-3467-aee0-ab3f0eb200a1.htm" />
-    <HelpKINode Title="LogMessage.ToString Method " Url="html/d43aa734-c27f-1e06-8ad8-0c78604fbf02.htm" />
+    <HelpKINode Title="LogMessage.ToString Method " Url="html/4553488b-10e2-79e7-c8d1-c8f471ae9873.htm" />
     <HelpKINode Title="SourcePosition.ToString Method " Url="html/ace27d62-806c-ebd7-7d3f-a3c7cacdc484.htm" />
     <HelpKINode Title="Token.ToString Method " Url="html/0fe1bfaa-5486-06f9-a139-cba12183b19b.htm" />
     <HelpKINode Title="Trigger.ToString Method " Url="html/ded26e2a-b0dd-d83d-c8ab-13afabaf613a.htm" />
+    <HelpKINode Title="TriggerBlock.ToString Method " Url="html/fb2bd942-dd62-c6a8-d082-bdfd12be8a7d.htm" />
     <HelpKINode Title="Variable.ToString Method " Url="html/6db22582-1a5c-4cba-bffe-200c4b4865cf.htm" />
+    <HelpKINode Title="VariableTable.ToString Method " Url="html/9f52dae3-5c3f-f7a9-e4df-7bdc276d6c2e.htm" />
   </HelpKINode>
   <HelpKINode Title="TRIGGER enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
   <HelpKINode Title="Trigger property" Url="html/c5dcc893-615b-752f-d86c-931ff6fe330c.htm" />
@@ -1064,8 +1255,8 @@
   <HelpKINode Title="Trigger.Inequality operator" Url="html/d98b4c46-9c2e-27d1-ef59-fa129418ac31.htm" />
   <HelpKINode Title="Trigger.ToString method" Url="html/ded26e2a-b0dd-d83d-c8ab-13afabaf613a.htm" />
   <HelpKINode Title="Trigger.Trigger constructor">
-    <HelpKINode Title="Trigger Constructor " Url="html/5c6285a5-039b-4e87-ea62-354e8a07d435.htm" />
     <HelpKINode Title="Trigger Constructor " Url="html/7dfafdc9-375f-86fa-0c0e-280275b71b64.htm" />
+    <HelpKINode Title="Trigger Constructor " Url="html/5c6285a5-039b-4e87-ea62-354e8a07d435.htm" />
   </HelpKINode>
   <HelpKINode Title="Trigger.Undefined field" Url="html/2c364826-40ae-683d-6011-4889ccebe373.htm" />
   <HelpKINode Title="TriggerAdded event" Url="html/6564dc3b-2ea3-d600-43f2-15a6c9aa39ba.htm" />
@@ -1077,7 +1268,9 @@
     <HelpKINode Title="methods" Url="html/19303802-534b-b215-fe95-4434acc3303b.htm" />
   </HelpKINode>
   <HelpKINode Title="TriggerBlock.ContainsTrigger method" Url="html/6349c49d-1abd-26fa-e952-3a6575f38b72.htm" />
+  <HelpKINode Title="TriggerBlock.GetSubBlock method" Url="html/0e62a2cd-ac6c-ace7-34bd-d8120eed8550.htm" />
   <HelpKINode Title="TriggerBlock.IndexOfTrigger method" Url="html/f01ea1c4-88ee-fd1c-97e8-0285a6fbbe9b.htm" />
+  <HelpKINode Title="TriggerBlock.ToString method" Url="html/fb2bd942-dd62-c6a8-d082-bdfd12be8a7d.htm" />
   <HelpKINode Title="TriggerBlock.TriggerBlock constructor" Url="html/fe0a5ef6-5922-64ac-fb27-eba8c2ffc0f0.htm" />
   <HelpKINode Title="TriggerCategory enumeration" Url="html/74963bc8-b3f1-6b4b-b4a5-b7a6f6c34c27.htm" />
   <HelpKINode Title="TriggerCategory property">
@@ -1101,8 +1294,8 @@
   <HelpKINode Title="TriggerHandlerAttribute.TriggerHandlerAttribute constructor" Url="html/4ae8d843-795a-cc7f-4085-234de8c92af8.htm" />
   <HelpKINode Title="TriggerHandlerAttribute.TriggerID property" Url="html/99d12b5e-3696-96fa-a1f5-7e1f48683d68.htm" />
   <HelpKINode Title="TriggerHandlerErrorEvent delegate" Url="html/b915791e-0bef-7273-7fdc-1ca59e83a6ab.htm" />
-  <HelpKINode Title="TriggerId property" Url="html/bffe9be4-490b-dc0b-4a33-79895b84bad8.htm" />
   <HelpKINode Title="TriggerID property" Url="html/99d12b5e-3696-96fa-a1f5-7e1f48683d68.htm" />
+  <HelpKINode Title="TriggerId property" Url="html/bffe9be4-490b-dc0b-4a33-79895b84bad8.htm" />
   <HelpKINode Title="TriggerIntegrityUpdater class">
     <HelpKINode Title="TriggerIntegrityUpdater Class" Url="html/fcd4e64c-34cf-4f49-a36d-048c3f403f5e.htm" />
     <HelpKINode Title="about TriggerIntegrityUpdater class" Url="html/fcd4e64c-34cf-4f49-a36d-048c3f403f5e.htm" />
@@ -1121,6 +1314,7 @@
   </HelpKINode>
   <HelpKINode Title="TriggerReader.CurrentBlock property" Url="html/c824db16-ba28-45c3-2657-0e9696ec4dd6.htm" />
   <HelpKINode Title="TriggerReader.CurrentBlockIndex property" Url="html/51163ce8-37a6-3630-bd35-336d5810900b.htm" />
+  <HelpKINode Title="TriggerReader.Engine property" Url="html/dcbfefad-ca2d-acb7-252b-e3d45977f31a.htm" />
   <HelpKINode Title="TriggerReader.GetParameter(Of T) method" Url="html/c3f8b9f9-c3c9-655b-b5ca-b105e580544f.htm" />
   <HelpKINode Title="TriggerReader.GetParameter&lt;T&gt; method" Url="html/c3f8b9f9-c3c9-655b-b5ca-b105e580544f.htm" />
   <HelpKINode Title="TriggerReader.Page property" Url="html/659bee97-a7b4-4832-bac7-d8a1bfa1d547.htm" />
@@ -1128,11 +1322,12 @@
   <HelpKINode Title="TriggerReader.PeekNumber method" Url="html/aa89b61e-e2ee-87a6-4dea-7e79dbc3d70a.htm" />
   <HelpKINode Title="TriggerReader.PeekString method" Url="html/f7524ebe-f8fc-547a-1738-ea284684fd88.htm" />
   <HelpKINode Title="TriggerReader.PeekVariable method" Url="html/5e3ce5b6-adea-e400-2b95-9b2518c667d2.htm" />
-  <HelpKINode Title="TriggerReader.PeekVariableList method" Url="html/a7a4f826-698f-d12d-ac93-e5bb0bae68a6.htm" />
+  <HelpKINode Title="TriggerReader.PeekVariableTable method" Url="html/b6bb8802-4264-2ead-0150-f5dd4ac37ad8.htm" />
   <HelpKINode Title="TriggerReader.ReadNumber method" Url="html/e46da010-b95f-7c90-2058-a7e8e834634c.htm" />
   <HelpKINode Title="TriggerReader.ReadString method" Url="html/2c989366-bfb5-c502-9fc2-067f57f4970d.htm" />
   <HelpKINode Title="TriggerReader.ReadVariable method" Url="html/8f4b5f9d-a90e-810c-8d25-bf14ba4f786e.htm" />
-  <HelpKINode Title="TriggerReader.ReadVariableList method" Url="html/679fa1bc-3a63-d611-e617-2eb42fa81343.htm" />
+  <HelpKINode Title="TriggerReader.ReadVariableOrNumber method" Url="html/8b65d7ed-f56c-6acf-c5b8-c7d5215f2066.htm" />
+  <HelpKINode Title="TriggerReader.ReadVariableTable method" Url="html/8f56c103-4314-20ab-1567-1c878604edd1.htm" />
   <HelpKINode Title="TriggerReader.Reset method" Url="html/0d65452f-4377-e0fa-8ce6-334e2d993d69.htm" />
   <HelpKINode Title="TriggerReader.Trigger property" Url="html/c5dcc893-615b-752f-d86c-931ff6fe330c.htm" />
   <HelpKINode Title="TriggerReader.TriggerCategory property" Url="html/ade9070e-cb35-b126-f14c-0faedf16cb4f.htm" />
@@ -1155,13 +1350,14 @@
   <HelpKINode Title="TryGetParameter(Of T) method" Url="html/d80f3306-ecd9-2274-9604-0de9b9d3f9ff.htm" />
   <HelpKINode Title="TryGetParameter&lt;T&gt; method" Url="html/d80f3306-ecd9-2274-9604-0de9b9d3f9ff.htm" />
   <HelpKINode Title="TryGetTimerFrom method" Url="html/3cdc0017-4c0b-c31f-9b3c-42ff40cd6042.htm" />
-  <HelpKINode Title="TryLoad method" Url="html/601b5366-c9d2-e406-28db-6103ddf1c414.htm" />
+  <HelpKINode Title="TryLoad method" Url="html/00a48550-9add-d72e-108a-01d216af9bc3.htm" />
   <HelpKINode Title="TryReadNumber method" Url="html/aa6535da-c84f-ae80-a885-8c7cc31ba204.htm" />
   <HelpKINode Title="TryReadString method" Url="html/0128d2f4-d93b-51aa-d6f1-f34a2f540a85.htm" />
   <HelpKINode Title="TryReadVariable method" Url="html/c34492bb-3e93-e365-c344-37753b768747.htm" />
   <HelpKINode Title="Type property">
     <HelpKINode Title="ITokenDefinition.Type Property " Url="html/74536c8f-4d04-72d0-cff5-bb63bc90ced1.htm" />
     <HelpKINode Title="Token.Type Property " Url="html/50895abc-e461-1976-3720-a8bc49aac206.htm" />
+    <HelpKINode Title="VariableDefinition.Type Property " Url="html/05383500-7500-00a8-4efa-d292cc4b4bf8.htm" />
   </HelpKINode>
   <HelpKINode Title="TypeNotSupportedException class">
     <HelpKINode Title="TypeNotSupportedException Class" Url="html/368b2b69-ed0f-5d2e-a42d-213d8faf6817.htm" />
@@ -1177,9 +1373,11 @@
     <HelpKINode Title="BaseLibrary.Unload Method " Url="html/94a4a571-de39-1413-ca78-bd7c9d93ea84.htm" />
     <HelpKINode Title="Debug.Unload Method " Url="html/972b7fc9-b065-f6ad-d446-746d807e714a.htm" />
     <HelpKINode Title="IO.Unload Method " Url="html/c9504223-0304-1321-d604-1e12715a70af.htm" />
+    <HelpKINode Title="Loops.Unload Method " Url="html/bc80d9b3-4cd3-def2-69c2-3178e9251b8c.htm" />
     <HelpKINode Title="Math.Unload Method " Url="html/29d4d230-d5b0-ab87-fa50-8a7f4c9f5615.htm" />
     <HelpKINode Title="StringOperations.Unload Method " Url="html/fbd08e87-8a35-e408-9baf-b36b66a69d9b.htm" />
     <HelpKINode Title="Sys.Unload Method " Url="html/ce53f527-85b1-5fe8-faa1-1a994481ccf6.htm" />
+    <HelpKINode Title="Tables.Unload Method " Url="html/2da96271-12e0-9584-6318-32a19195a07f.htm" />
     <HelpKINode Title="Timers.Unload Method " Url="html/e0fbba91-9b49-2729-0bf0-6093b24419ee.htm" />
   </HelpKINode>
   <HelpKINode Title="UpdateTriggers method" Url="html/4f97450c-d832-07aa-ad38-d299a7f58b4d.htm" />
@@ -1189,14 +1387,15 @@
     <HelpKINode Title="Expression.Value Property " Url="html/2d8b9cbc-e631-cd16-1ad5-8451803834cd.htm" />
     <HelpKINode Title="IVariable.Value Property " Url="html/b81bd172-d649-f6d6-6140-ee73a4c78c9e.htm" />
     <HelpKINode Title="Variable.Value Property " Url="html/af8b04de-217a-bb53-6b95-3d42846db643.htm" />
-    <HelpKINode Title="VariableList.Value Property " Url="html/89576741-11eb-3903-b4d1-1b96b559a7e9.htm" />
+    <HelpKINode Title="VariableTable.Value Property " Url="html/372d02a1-3cad-1394-cb67-c54230bb1bd4.htm" />
   </HelpKINode>
+  <HelpKINode Title="values field" Url="html/67825730-3d8b-9bb5-673c-7262e4d67fbd.htm" />
   <HelpKINode Title="ValueStartPosition property" Url="html/ab6b52b1-b682-3475-774b-df9d8467e8f9.htm" />
   <HelpKINode Title="Variable class">
     <HelpKINode Title="Variable Class" Url="html/be56b42f-0044-e7c0-6857-dd782233246a.htm" />
     <HelpKINode Title="about Variable class" Url="html/be56b42f-0044-e7c0-6857-dd782233246a.htm" />
-    <HelpKINode Title="constructor" Url="html/200ff8a5-1573-8a7b-178d-df11d461f760.htm" />
     <HelpKINode Title="constructor" Url="html/bc2a5ebd-c35f-8748-4879-746513a291f4.htm" />
+    <HelpKINode Title="constructor" Url="html/200ff8a5-1573-8a7b-178d-df11d461f760.htm" />
     <HelpKINode Title="fields" Url="html/9f2cbdcd-53bf-ec05-b174-8c80fa8fedf7.htm" />
     <HelpKINode Title="methods" Url="html/fca640ae-c9fd-92da-10f2-94c54bc44b74.htm" />
     <HelpKINode Title="operators and type conversions" Url="html/02372d1d-3b81-7f4c-ad4a-69426597e5d6.htm" />
@@ -1226,6 +1425,17 @@
   </HelpKINode>
   <HelpKINode Title="VariableCountLimit property" Url="html/d25c54b3-34ec-f907-82b4-34b7843d1c88.htm" />
   <HelpKINode Title="VariableDeclarationSymbol property" Url="html/174293fb-cec2-cb80-1fc0-a8b5e1d1e28a.htm" />
+  <HelpKINode Title="VariableDefinition class">
+    <HelpKINode Title="VariableDefinition Class" Url="html/4e79c741-a883-7513-6cb7-e401f9f95143.htm" />
+    <HelpKINode Title="about VariableDefinition class" Url="html/4e79c741-a883-7513-6cb7-e401f9f95143.htm" />
+    <HelpKINode Title="constructor" Url="html/58bc6a86-2d66-d0da-c93d-b93cc7134d8a.htm" />
+    <HelpKINode Title="methods" Url="html/5164973a-dddc-424a-41e2-1996feb8ca2d.htm" />
+    <HelpKINode Title="properties" Url="html/8da1e695-bd86-d75f-0446-51fbf609d58a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VariableDefinition.Create method" Url="html/82979995-95a1-2144-f2f1-0953f0fd5e2f.htm" />
+  <HelpKINode Title="VariableDefinition.StartCharacter property" Url="html/ec2a415f-2a74-b07a-389e-f73cc7199f6c.htm" />
+  <HelpKINode Title="VariableDefinition.Type property" Url="html/05383500-7500-00a8-4efa-d292cc4b4bf8.htm" />
+  <HelpKINode Title="VariableDefinition.VariableDefinition constructor" Url="html/58bc6a86-2d66-d0da-c93d-b93cc7134d8a.htm" />
   <HelpKINode Title="VariableEqualityComparer class">
     <HelpKINode Title="VariableEqualityComparer Class" Url="html/580c7aa2-b443-59fe-d5c9-4d3107529651.htm" />
     <HelpKINode Title="about VariableEqualityComparer class" Url="html/580c7aa2-b443-59fe-d5c9-4d3107529651.htm" />
@@ -1254,23 +1464,59 @@
   </HelpKINode>
   <HelpKINode Title="VariableIsConstantException.VariableIsConstantException constructor" Url="html/2246386b-f907-b397-5830-6f279e8d00ca.htm" />
   <HelpKINode Title="VariableIsNotConstant method" Url="html/abc23802-ac4d-81a2-34e0-b392b397e7bd.htm" />
+  <HelpKINode Title="VariableIsNotTable method" Url="html/2b560e5c-6702-5248-515d-6c36494a3c6c.htm" />
+  <HelpKINode Title="VariableIsTable method" Url="html/4564a0cd-6930-e9d9-672f-05922c37a0d1.htm" />
   <HelpKINode Title="VariableLessThan method" Url="html/ed35c70f-7367-38d0-c2ac-f6e5d0bc26b2.htm" />
   <HelpKINode Title="VariableLessThanOrEqual method" Url="html/a8b1a57f-56ef-0379-7db5-c2772e067026.htm" />
-  <HelpKINode Title="VariableList class">
-    <HelpKINode Title="VariableList Class" Url="html/ca476d42-12bf-ebec-a6c3-35f14cda98af.htm" />
-    <HelpKINode Title="about VariableList class" Url="html/ca476d42-12bf-ebec-a6c3-35f14cda98af.htm" />
-    <HelpKINode Title="constructor" Url="html/b0d4afcf-9a45-f9ea-5e1d-6a2267daabb0.htm" />
-    <HelpKINode Title="methods" Url="html/542e6ad3-80a3-7ff8-b82e-b32b5d306a6b.htm" />
-    <HelpKINode Title="properties" Url="html/a478b53f-3820-29cb-82db-e50b01dbdf3a.htm" />
+  <HelpKINode Title="VariablesExtension class">
+    <HelpKINode Title="VariablesExtension Class" Url="html/e8b189cf-f23a-9c12-13b4-f8317b8c7d0b.htm" />
+    <HelpKINode Title="about VariablesExtension class" Url="html/e8b189cf-f23a-9c12-13b4-f8317b8c7d0b.htm" />
+    <HelpKINode Title="methods" Url="html/e0d14bd5-f16b-2f77-54ae-07f46f88e748.htm" />
   </HelpKINode>
-  <HelpKINode Title="VariableList.Count property" Url="html/3b527120-b614-036d-b707-c0b4cb034ed5.htm" />
-  <HelpKINode Title="VariableList.Equals method" Url="html/98e40db4-1900-df45-8e65-5ec3a8ef1715.htm" />
-  <HelpKINode Title="VariableList.GetHashCode method" Url="html/e3ca03f9-7158-613d-a265-ef7783960ed9.htm" />
-  <HelpKINode Title="VariableList.IsConstant property" Url="html/e4a2222e-43ec-90f5-3088-1b0776588b41.htm" />
-  <HelpKINode Title="VariableList.Item property" Url="html/ec8c9e0d-91a4-fa8a-f2fd-7fe8414d32ca.htm" />
-  <HelpKINode Title="VariableList.Name property" Url="html/cdd909a3-cb41-0909-adaf-1962f3ff22d8.htm" />
-  <HelpKINode Title="VariableList.Value property" Url="html/89576741-11eb-3903-b4d1-1b96b559a7e9.htm" />
-  <HelpKINode Title="VariableList.VariableList constructor" Url="html/b0d4afcf-9a45-f9ea-5e1d-6a2267daabb0.htm" />
+  <HelpKINode Title="VariablesExtension.ConvertToTable method" Url="html/d40537d4-369d-deb1-fc85-fcb739b9c196.htm" />
+  <HelpKINode Title="VariableTable class">
+    <HelpKINode Title="VariableTable Class" Url="html/0ab1b876-a836-07e8-ea5d-65c09510e76a.htm" />
+    <HelpKINode Title="about VariableTable class" Url="html/0ab1b876-a836-07e8-ea5d-65c09510e76a.htm" />
+    <HelpKINode Title="constructor" Url="html/8204cd25-a071-54db-9941-661d60252550.htm" />
+    <HelpKINode Title="constructor" Url="html/870f50f6-0223-2857-d30f-1020ef34547d.htm" />
+    <HelpKINode Title="fields" Url="html/6f7ce2da-f74e-8dba-044d-4cb35a8a3bec.htm" />
+    <HelpKINode Title="methods" Url="html/244b9761-618e-15c8-ded1-a905d00c6a0f.htm" />
+    <HelpKINode Title="properties" Url="html/23f0e588-b555-0830-8f15-0ffd7edff3f9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VariableTable.ActiveIndexer property" Url="html/b24c4357-af66-fbfe-bd8d-09bfa04f3fa9.htm" />
+  <HelpKINode Title="VariableTable.Add method" Url="html/eae5ed20-7603-2935-2b2f-c1cdc72686d4.htm" />
+  <HelpKINode Title="VariableTable.At method" Url="html/eed5655b-a9f7-60aa-d2bc-f8e065ff0ae5.htm" />
+  <HelpKINode Title="VariableTable.CheckType method" Url="html/03149807-4c7c-8dfc-c450-29bc41fcbaae.htm" />
+  <HelpKINode Title="VariableTable.Contains method" Url="html/9f7700d9-9025-d8d7-6fd8-229516774e00.htm" />
+  <HelpKINode Title="VariableTable.Contents property" Url="html/14106628-73f0-2e9f-8d22-e935b9104c65.htm" />
+  <HelpKINode Title="VariableTable.Count property" Url="html/b101c6c4-f727-1b6a-cdf0-1c6f76110416.htm" />
+  <HelpKINode Title="VariableTable.CurrentElementIndex property" Url="html/2cead654-1509-c0c8-7e81-7e3594763b6d.htm" />
+  <HelpKINode Title="VariableTable.Equals method" Url="html/fb379a3c-1300-0fe0-9032-c4fe2e57782d.htm" />
+  <HelpKINode Title="VariableTable.GetHashCode method" Url="html/e060a0d5-188b-bbad-c23f-b60b678ae110.htm" />
+  <HelpKINode Title="VariableTable.IsConstant property" Url="html/902259ec-a7ea-32d7-97ae-482577b827b0.htm" />
+  <HelpKINode Title="VariableTable.Item property" Url="html/49a7c840-4c06-2d96-c693-4bc30e25b1ea.htm" />
+  <HelpKINode Title="VariableTable.Limit property" Url="html/953e4094-9243-6d12-feb5-45b5ab1d397e.htm" />
+  <HelpKINode Title="VariableTable.Name property" Url="html/b954a6af-2a01-db0f-1a27-a9ffaf5e51b5.htm" />
+  <HelpKINode Title="VariableTable.Next method" Url="html/6648c738-e533-07b8-92c7-36b88cb92e73.htm" />
+  <HelpKINode Title="VariableTable.ResetIndex method" Url="html/2e9cc90c-817f-01cd-05b7-4e9d5f786c9a.htm" />
+  <HelpKINode Title="VariableTable.ToString method" Url="html/9f52dae3-5c3f-f7a9-e4df-7bdc276d6c2e.htm" />
+  <HelpKINode Title="VariableTable.Value property" Url="html/372d02a1-3cad-1394-cb67-c54230bb1bd4.htm" />
+  <HelpKINode Title="VariableTable.values field" Url="html/67825730-3d8b-9bb5-673c-7262e4d67fbd.htm" />
+  <HelpKINode Title="VariableTable.VariableTable constructor">
+    <HelpKINode Title="VariableTable Constructor " Url="html/8204cd25-a071-54db-9941-661d60252550.htm" />
+    <HelpKINode Title="VariableTable Constructor " Url="html/870f50f6-0223-2857-d30f-1020ef34547d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VariableTableCountLimit property" Url="html/78806ce0-88fd-e297-6fa4-361c8e19722a.htm" />
+  <HelpKINode Title="VariableTableExpression class">
+    <HelpKINode Title="VariableTableExpression Class" Url="html/37febb34-6ff1-268e-cfe4-6ff0c1bc2a90.htm" />
+    <HelpKINode Title="about VariableTableExpression class" Url="html/37febb34-6ff1-268e-cfe4-6ff0c1bc2a90.htm" />
+    <HelpKINode Title="constructor" Url="html/7e18c392-8235-2141-6229-dd54ce3e86cd.htm" />
+    <HelpKINode Title="methods" Url="html/97507a74-c518-e38f-f649-91955185518c.htm" />
+    <HelpKINode Title="properties" Url="html/19bae6c1-45b4-0a0d-4c6b-840f9c39f78a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VariableTableExpression.HasIndex property" Url="html/4aabdc64-6c2e-81d2-ca4e-3b151f015179.htm" />
+  <HelpKINode Title="VariableTableExpression.Indexer property" Url="html/ee56543c-11d8-6faf-8793-bcfb45b9ca0a.htm" />
+  <HelpKINode Title="VariableTableExpression.VariableTableExpression constructor" Url="html/7e18c392-8235-2141-6229-dd54ce3e86cd.htm" />
   <HelpKINode Title="version">
     <HelpKINode Title="1.0.0.0" Url="html/5749a8f1-6f96-43e4-92d4-9010acf9434c.htm" />
     <HelpKINode Title="history" Url="html/4340cd61-7802-4111-a144-fc835a39faf6.htm" />
@@ -1282,12 +1528,16 @@
   <HelpKINode Title="VisitingToken field" Url="html/d1bf2102-e780-d230-46a1-71b4ac0c1717.htm" />
   <HelpKINode Title="VisitToken field" Url="html/846a67b4-81f4-6c39-9e7a-a02bc9e05bb7.htm" />
   <HelpKINode Title="VisitTokens field" Url="html/fbc5ead8-c774-8571-e769-0bb2619b9f5d.htm" />
-  <HelpKINode Title="Warn method" Url="html/154fc252-7370-cc56-13cc-f371cabe403f.htm" />
-  <HelpKINode Title="WarnFormat method" Url="html/6a7297ee-1760-8715-21d4-010d0768b8c7.htm" />
-  <HelpKINode Title="Warning enumeration member" Url="html/18b04b4c-b212-82f9-abc2-0bef2b31a43e.htm" />
-  <HelpKINode Title="WarningEnabled property" Url="html/5b4299e8-536f-dde1-5db4-9e45c3da881f.htm" />
+  <HelpKINode Title="Warn method" Url="html/9f166032-7f67-99bd-cac8-38f517b1bbeb.htm" />
+  <HelpKINode Title="WarnFormat method" Url="html/f4b8160f-080b-8a4d-bd75-4fc629f3f697.htm" />
+  <HelpKINode Title="Warning enumeration member" Url="html/78b5a090-9618-8a97-fa78-1c430c6857e4.htm" />
+  <HelpKINode Title="WarningEnabled property" Url="html/d35088e4-3bdf-a890-b844-715678f1cea3.htm" />
   <HelpKINode Title="Welcome" Url="html/8d0a663e-8095-408a-b860-f55d2fc3ccbe.htm" />
   <HelpKINode Title="WhenBreakpointHit method" Url="html/0a656dae-7806-36ad-8853-28a580a90566.htm" />
   <HelpKINode Title="WhenTimerGoesOff method" Url="html/74ba9d75-90af-4346-e96e-e58888fbce3f.htm" />
+  <HelpKINode Title="WhileVarIsNotString method" Url="html/d59da7fc-0a1d-3d84-0e81-62ff2ba17e70.htm" />
+  <HelpKINode Title="WhileVarIsNotValue method" Url="html/1370fe84-219a-8be4-3876-ad6df50ff284.htm" />
+  <HelpKINode Title="WhileVarIsString method" Url="html/1912deb1-a3d2-fa2f-5e8b-86a3bd4492db.htm" />
+  <HelpKINode Title="WhileVarIsValue method" Url="html/a262f85e-c288-d847-c000-c60704eadcda.htm" />
   <HelpKINode Title="WORD enumeration member" Url="html/2ddea496-380b-7946-7eb6-6e1c4aa6fc1d.htm" />
 </HelpKI>
