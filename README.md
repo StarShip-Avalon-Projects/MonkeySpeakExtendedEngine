@@ -1,17 +1,91 @@
-# Monkey Speak Extended Script Engine
-This is a fork of Squizles [Monkeyspeak](https://github.com/captkirk88/monkeyspeak)
+![Monkeyspeak Hero](https://i.pinimg.com/736x/2f/f0/87/2ff087415a5009984739aa8fde5d5d4a--cartoon-monkeys-monkey-cartoon.jpg)
+# Monkeyspeak
+Linux/Mono | Windows
+------------ | ---------
+[![Build Status](https://travis-ci.org/captkirk88/monkeyspeak.svg?branch=master)](https://travis-ci.org/captkirk88/monkeyspeak) | <--- Passes
 
-## Description
-MonkeySpeakEx is a dragonspeak-like interpreter written in C# 4.5. MonkeySpeakEx has a light footprint, less than 100kb size. Runtime memory usage is small making it very friendly in mobile environments.
+Monkeyspeak aims to give the end-user a very easy to use scripting language.  
 
-## What is Monkey Speak?
-Monkey Speak is a script language based on natural speech resembling [Furcadia&copy; Dragon Speak](http://www.furcadia.com/beekins/masons/knowledgebase/tds.html). It consists of causes, conditions and effects. 
+### Progress v7.0
 
-``` Monkey Speak
+```
+'+' = Complete
+'-' = Incomplete
+'!' = In progress
+```
+
+```diff
++ [Triggers] (the core construct of Monkeyspeak)
++ Causes `(0:0) when something happens,
++ Conditions `(1:0) and it really did happen,
++ Effects `(5:0) do something about it.
++ Flow `(6:0) while it still is happening,
+
++ [Variables] %myVariable or %myTable[myKey]
++ Double (with -+ and exponent support)
++ Strings (Unicode)
++ Tables (Dictionary objects with a configurable limit)
+
+- [Core Library]
+! Sys (triggers that support core Monkeyspeak tasks like setting variables)
+! Math (very basic math operations + - / *)
+! StringOperations (very basic string operations)
+! IO (basic file operations)
+! Timers (basic timer support with optional delay)
+! Tables (supports the for each trigger)
+! Loops (supports while loop and possibly more in the future)
+```
+
+### Basics
+A Trigger may optionally be wrapped in parenthesis but must alway begin with a number 
+from 0-9 and a colon in the middle to seperate the trigger's category, which is the 
+first number, and the trigger's id, which is the last group of numbers.
+
+Triggers are grouped into "blocks".  Blocks start with a Cause (see below) trigger 
+and usually end with a Effect (see below) trigger.
+##### Trigger Explanation:
+
+See [Triggers](wiki/Triggers.md#break-down).
+
+#### Basic Usage
+For simplicity sake, in this example, we will assume trigger (0:0) has already been given a handler.
+
+Let's say you had a Monkeyspeak script like this:
+```
+(0:0) when the script is started,
+        (5:100) set %hello to {Hello World}.
+        (5:101) set %num to 5.1212E+003.
+        (5:102) print {num = %num} to the console.
+        (5:102) print {%hello} to the console.
+```
+You would load and execute it using a few methods:
+```csharp
+using Monkeyspeak;
+
+var engine = new MonkeyspeakEngine();
+
+Page page = engine.LoadFromString(testScript);
+
+page.LoadAllLibraries();
+
+page.Execute(); // optionally provide the trigger Id of 0 to execute (0:0)
+```
+Output:
+```
+num = 5121.2
+Hello World
+```
+
+> :bulb: Try to run the above snippet and experiment with it.
+
+#### Advanced Usage
+
+Here is a example of using Flow triggers
+
+```
 (0:0) when the script is started,
     (5:250) create a table as %myTable.
     (5:100) set %hello to {hi}
-    (5:101) set %i to 0
     (5:252) with table %myTable put {%hello} in it at key {myKey1}.
     (5:252) with table %myTable put {%hello} in it at key {myKey2}.
     (5:252) with table %myTable put {%hello} in it at key {myKey3}.
@@ -24,7 +98,10 @@ Monkey Speak is a script language based on natural speech resembling [Furcadia&c
         (5:150) take variable %i and add 1 to it.
         (5:102) print {%i} to the console.
     (6:454) after the loop is done,
-        (5:102) print {I'm Mr. Meeseeks, look at me!} to the console.
+        (5:102) print {I'm done!} to the console.
+        (1:108) and variable %myTable is table,
+            (5:101) set %myTable[myKey1] to 123
+            (5:102) print {%myTable[myKey1]} to the console.
 
 (0:0) when the script is started,
     (5:101) set %answer to 0
@@ -34,34 +111,22 @@ Monkey Speak is a script language based on natural speech resembling [Furcadia&c
         (1:102) and variable %answer equals 21,
             (5:450) exit the current loop.
     (6:454) after the loop is done,
-        (5:102) print {I'm Mr. Meeseeks, look at me!} to the console.
+        (5:102) print {We may never know the answer...} to the console.
 ```
+The above script creates a table in the first Trigger block, iterates over 
+that table with Flow trigger (6:250) and after it prints "I'm done!" to the 
+console.  The last Trigger block attempts to answer that very important 
+universal question but fails because we may never know the answer...
 
-The Engine loads the script into a new Page that contains the Triggers. Triggers can be compared to functions since they are used to perform a function in MonkeySpeakEx. Triggers are assigned specific TriggerHandlers (delegates) that are executed whenever the engine detects that trigger. Only one TriggerHandler delegate is assigned per Trigger.
+To execute the [Advanced Usage](#advanced-usage) example, it is no different 
+than [Basic Usage](#basic-usage)'s execution example.
 
-## Features
+#### Guides
 
-* Native supported data types (string, double) 
-* Local variable scope per Page 
-* Multiple conditional statements using (1:##) triggers 
-* [Default libraries](https://starship-avalon-projects.github.io/MonkeySpeakExtendedEngine/html/f0801825-eba4-44b1-4629-82ca22d81e8a.htm) Sys, IO, Math, Debug, Timers 
-* Easy to extend by extending [AbstractBaseLibrary](https://starship-avalon-projects.github.io/MonkeySpeakExtendedEngine/html/16b41a55-314a-c426-9aaf-22da47e8e065.htm) or attaching TriggerHandlerAttribute to a method 
-* Compilable scripts for faster loading or sending over the network 
-* Thread safe, can execute multiple pages asynchronously. (beta) 
-* EXE compiler (beta)
-* Loops
-* Tables
+> :book: [Triggers](wiki/Triggers.md)
 
-## Examples
-The Red-Laser eyed [Furcadia&copy;](http://cms.furcadia.com) bot,
+> :book: [Variables](wiki/Variables.md)
 
-[Silver Monkey](http://silvermonkey.tsprojects.org)
+> :book: [Strings](wiki/Strings.md)
 
-## Apache License
-Version 2.0, January 2004
-http://www.apache.org/licenses/
-
-## Disclaimer
-The project "MonkeySpeakEx" and it's development team is in no way affiliated with Dragon's Eye Productions or [Catnip Studios](https://www.catnipstudios.com/). MonkeySpeakEx is free for life. Free as in FREE BEER!!
-
-_Important:_ MonkeySpeakEx's compiled file format is not compatible with Dragon Speak's compiled file format.
+> :book: [Libraries](wiki/Libraries.md)
